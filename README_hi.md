@@ -42,34 +42,34 @@
 
 ## परिचय
 
-Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
+कंप्यूटर विज्ञान कंप्यूटर और गणना और उनके सैद्धांतिक और व्यावहारिक अनुप्रयोगों का अध्ययन है। कंप्यूटर विज्ञान गणित, इंजीनियरिंग और तर्क के सिद्धांतों को समस्याओं की एक विस्तृत श्रृंखला में लागू करता है। इनमें एल्गोरिदम निर्माण, सॉफ़्टवेयर/हार्डवेयर विकास और कृत्रिम बुद्धिमत्ता शामिल हैं।
 
 
 ## [इलेक्ट्रॉनिक कंप्यूटर](Electronic%20Computer/readme.md)
-A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
+एक उपकरण जो गणना करता है, विशेष रूप से एक प्रोग्रामेबल इलेक्ट्रॉनिक मशीन जो उच्च गति के गणितीय या तार्किक ऑपरेशन करता है या जानकारी को एकत्र करता है, संग्रहीत करता है, सहसंबंधित करता है या अन्यथा संसाधित करता है।
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
-Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
+बुलियन तर्क गणित की एक शाखा है जो सत्य और असत्य के मूल्यों से संबंधित है। यह एक ऐसी तर्क प्रणाली है जो केवल दो मानों, 0 और 1 का उपयोग करके, क्रमशः असत्य और सत्य का प्रतिनिधित्व करती है। इसे बूलियन बीजगणित के रूप में भी जाना जाता है, जिसका नाम जॉर्ज बोले के नाम पर रखा गया है, जिन्होंने इसे पहली बार 1854 में वर्णित किया था।
 
-### Common Boolean Operators
-| Operator | Name |               Description               |
+### सामान्य बूलियन ऑपरेटर
+| ऑपरेटर | नाम |               विवरण               |
 | :------: | :--: | :-------------------------------------: |
-|    !     | NOT  |    Negates the value of the operand.    |
-|    &&    | AND  | Returns **true** if both operands are true. |
-|   \|\|   |  OR  | Returns **true** if one or all operands are true. |
+|    !     | NOT  |    ऑपरेंड के मान को नकारता है।    |
+|    &&    | AND  | यदि दोनों ऑपरेंड सत्य हैं तो true रिटर्न करता है। |
+|   \|\|   |  OR  | यदि एक या सभी ऑपरेंड सत्य हैं तो true रिटर्न करता है। |
 
-### Nice to know Boolean Operators
-| Operator | Name |               Description               |
+### बूलियन ऑपरेटर जिन्हें जानना अच्छा है
+| ऑपरेटर | नाम |               विवरण                |
 | :------: | :--: | :-------------------------------------: |
-|    ()    | Parentheses     |   Allows you to group keywords and control the order in which the terms will be searched.    |
-|    “”    | Quotation marks | Provides results with the exact phrase. |
-|   *      |  Asterisk       | Provides results containing a keyword variation. |
-|   ⊕     |  XOR            | Returns **true** if the operands are different |
-|   ⊽      |  NOR            | Returns **true** if all operands are false. |
-|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true.
+|    ()    | कोष्ठक     |   कीवर्ड को समूहित करने और उन शब्दों को खोजने के क्रम को नियंत्रित करने की अनुमति देता है    |
+|    “”    | उद्धरण चिह्न | सटीक वाक्यांश के साथ परिणाम प्रदान करता है. |
+|   *      |  तारांकन       | कीवर्ड परिवर्तन वाले परिणाम प्रदान करता है |
+|   ⊕     |  XOR            | ऑपरेंड्स अलग होने पर **true** देता है |
+|   ⊽      |  NOR            | सभी ऑपरेंड्स गलत होने पर **true** देता है |
+|   ⊼      |  NAND           | केवल तभी **false** देता है जब उसके दो इनपुट के दोनों मान सही हों
 
 ## [Number Systems](Number%20System/readme.md#number-systems)
-Number systems are mathematical systems for expressing numbers. A number system consists of a set of symbols that are used to represent numbers and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
+संख्या प्रणाली गणितीय प्रणालियाँ हैं संख्याओं को व्यक्त करने के लिए। संख्या प्रणाली में संख्याओं का प्रतिनिधित्व करने के लिए उपयोग किए जाने वाले प्रतीकों का एक सेट और उन प्रतीकों को संभालने के लिए नियमों का एक सेट शामिल होता है। संख्या प्रणाली में उपयोग किए जाने वाले प्रतीकों को अंक कहा जाता है।
 
 ### [Types of Number Systems](Number%20System/readme.md#types-of-number-systems)
 - [Positional Numeral System](Number%20System/readme.md#positional-numeral-system)
@@ -83,21 +83,22 @@ Number systems are mathematical systems for expressing numbers. A number system 
 
 
 ### Importance Of Binary
-Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
+बाइनरी एक आधार-2 संख्या प्रणाली है जिसे गॉटफ्रीड लीबनिज़ द्वारा आविष्कार किया गया था, जिसमें केवल दो संख्याएँ या अंक होते हैं: 0 (शून्य) और 1 (एक)। यह संख्या प्रणाली सभी बाइनरी कोड का आधार है, जिसका उपयोग कंप्यूटर प्रोसेसर निर्देशों जैसे डिजिटल डेटा लिखने के लिए किया जाता है जो हर दिन उपयोग किए जाते हैं। बाइनरी में 0 और 1 क्रमशः ऑफ या ऑन का प्रतिनिधित्व करते हैं। एक ट्रांजिस्टर में, एक "0" बिजली के प्रवाह की अनुपस्थिति का प्रतिनिधित्व करता है, और एक "1" बिजली के प्रवाह की अनुमति देता है। इस तरह, संख्याएँ कंप्यूटिंग डिवाइस के अंदर भौतिक रूप से दर्शाई जाती हैं, जिससे गणना की अनुमति मिलती है।
 
  
-Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
+बाइनरी अभी भी कंप्यूटरों के लिए प्राथमिक भाषा है और इलेक्ट्रॉनिक्स और कंप्यूटर हार्डवेयर के साथ निम्नलिखित कारणों से उपयोग किया जाता है:
 
-- It is a simple and elegant design.
-- Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
-- Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
-- The positive and negative poles of magnetic media are quickly translated to binary.
-- Binary is the most efficient way to control logic circuits.
+- यह एक सरल और सुंदर डिज़ाइन है।
+- बाइनरी का 0 और 1 तरीका एक विद्युत सिग्नल के बंद (झूठा) या चालू (सच्चा) राज्य का पता लगाने में तेज़ है।
+- विद्युत सिग्नल में दो राज्यों को बहुत दूर रखने से यह विद्युत हस्तक्षेप के प्रति कम संवेदनशील हो जाता है।
+- चुंबकीय मीडिया के धनात्मक और ऋणात्मक ध्रुवों को जल्दी से बाइनरी में अनुवादित किया जाता है।
+- बाइनरी तर्क सर्किट को नियंत्रित करने का सबसे कुशल तरीका है।
 
 
 
 ## [Central Processing Unit (CPU)](CPU/readme.md#central-processing-unitcpu)
-A Central Processing Unit (CPU) is the most important part of any computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body. The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called "cores". A CPU with four cores may process four programs at once. The CPU itself is made of three main components. They are:
+केंद्रीय प्रसंस्करण इकाई (CPU) किसी भी कंप्यूटर का सबसे महत्वपूर्ण हिस्सा है। CPU अन्य कंप्यूटर भागों को नियंत्रित करने के लिए सिग्नल भेजता है, ठीक उसी तरह जैसे मस्तिष्क शरीर को नियंत्रित करता है। CPU एक इलेक्ट्रॉनिक मशीन है जो निर्देशों के एक सूची पर काम करती है, जिसे निर्देश कहा जाता है। यह निर्देशों की सूची को पढ़ता है और प्रत्येक को क्रम में चलाता है (निष्पादित करता है)। CPU द्वारा चलाए जा सकने वाले निर्देशों की एक सूची एक कंप्यूटर प्रोग्राम है। CPU एक समय में एक से अधिक निर्देशों को "कोर" नामक खंडों पर संसाधित कर सकता है। चार कोर वाला CPU एक साथ चार प्रोग्रामों को संसाधित कर सकता है। CPU स्वयं तीन मुख्य घटकों से बना है। 
+CPU के तीन मुख्य घटक हैं:
 1. [Memory or storage Unit](CPU/readme.md#memory-or-storage-unit)
 2. [Control Unit](CPU/readme.md#control-unit)
 3. [Arithmetic and Logic unit (ALU)](CPU/readme.md#arithmetic-and-logic-unit-alu)
@@ -106,55 +107,57 @@ A Central Processing Unit (CPU) is the most important part of any computer. The 
 ## [Registers, Cache and RAM](/Registers%20Cache%20and%20RAM)
 
 ### [Register](/Registers%20Cache%20and%20RAM/readme.md#register)
-Registers are small amounts of high-speed memory contained within the CPU. Registers are a collection of "flip-flops" (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called "cores". Register also helps in arithmetic and logic operations. 
+रजिस्टर CPU के भीतर निहित उच्च गति वाली मेमोरी की छोटी मात्रा होती है। रजिस्टर "फ्लिप-फ्लॉप्स" (1 बिट मेमोरी को संग्रहीत करने के लिए उपयोग किया जाने वाला सर्किट) का एक संग्रह है। वे प्रोसेसर द्वारा प्रसंस्करण के दौरान आवश्यक छोटी मात्रा में डेटा को संग्रहीत करने के लिए उपयोग किए जाते हैं। CPU में कई सेट रजिस्टर हो सकते हैं जिन्हें "कोर" कहा जाता है। रजिस्टर अंकगणित और तार्किक क्रियाओं में भी मदद करता है।
 
-Arithmetic operations are mathematical calculations performed by the CPU on numerical data stored in registers. These operations include addition, subtraction, multiplication, and division. Logic operations are Boolean calculations performed by the CPU on binary data stored in registers. These operations include comparisons (e.g. testing if two values are equal) and logical operations (e.g. AND, OR, NOT).
+अंकगणितीय क्रियाएं संख्यात्मक डेटा पर गणितीय गणनाएं हैं जो CPU द्वारा रजिस्टरों में संग्रहीत की जाती हैं। इन क्रियाओं में योग, घटाव, गुणा और भाग शामिल हैं। तार्किक क्रियाएं बाइनरी डेटा पर बूलियन गणनाएं हैं जो CPU द्वारा रजिस्टरों में संग्रहीत की जाती हैं। इन क्रियाओं में तुलनाएं (उदाहरण के लिए, यह परीक्षण करना कि दो मान बराबर हैं) और तार्किक क्रियाएं (उदाहरण के लिए, AND, OR, NOT) शामिल हैं।
 
-Registers are essential for performing these operations because they allow the CPU to quickly access and manipulate small amounts of data. By storing frequently accessed data in registers, the CPU can avoid the slower process of retrieving data from memory.
+रजिस्टर इन क्रियाओं को करने के लिए आवश्यक हैं क्योंकि वे CPU को छोटे डेटा की मात्रा को जल्दी से एक्सेस और मैनिपुलेट करने की अनुमति देते हैं। बार-बार एक्सेस किए जाने वाले डेटा को रजिस्टरों में संग्रहीत करके, CPU मेमोरी से डेटा प्राप्त करने की धीमी प्रक्रिया से बच सकता है।
 
-Larger amounts of data may be stored in Cache (pronounced as "cash"), a very fast memory located on the same integrated circuit as the registers. Cache is used for data frequently accessed as the program runs. Even larger amounts of data may be stored in RAM. RAM stands for random-access memory, which is a type of memory that holds data and instructions that have been moved from disk storage until the processor needs it.
+बड़े डेटा की मात्रा को कैश (cash) में संग्रहीत किया जा सकता है, जो रजिस्टरों के समान एकीकृत सर्किट पर स्थित एक बहुत तेज मेमोरी है। कैश का उपयोग प्रोग्राम के चलने के दौरान बार-बार एक्सेस किए जाने वाले डेटा के लिए किया जाता है। RAM में भी बड़े डेटा की मात्रा को संग्रहीत किया जा सकता है। RAM का अर्थ है रैंडम-एक्सेस मेमोरी, जो एक प्रकार की मेमोरी है जो डेटा और निर्देशों को डिस्क स्टोरेज से तब तक रखती है जब तक कि प्रोसेसर को इसकी आवश्यकता नहीं होती है।
 
 ### [Cache](/Registers%20Cache%20and%20RAM/readme.md#cache)
-Cache memory is a chip-based computer component that makes retrieving data from the computer's memory more efficient. It acts as a temporary storage area so the computer's processor can retrieve data easily. This temporary storage area, known as a cache, is more readily available to the processor than the computer's main memory source, typically some form of DRAM.
+कैश मेमोरी एक चिप-आधारित कंप्यूटर घटक है जो कंप्यूटर की मेमोरी से डेटा को पुनर्प्राप्त करने को अधिक कुशल बनाता है। यह एक अस्थायी भंडारण क्षेत्र के रूप में कार्य करता है ताकि कंप्यूटर के प्रोसेसर डेटा को आसानी से पुनर्प्राप्त कर सकें। यह अस्थायी भंडारण क्षेत्र, जिसे कैश के रूप में जाना जाता है, कंप्यूटर की मुख्य मेमोरी स्रोत, आमतौर पर कुछ प्रकार के DRAM की तुलना में प्रोसेसर के लिए अधिक आसानी से उपलब्ध होता है।
 
-Cache memory is sometimes called CPU (central processing unit) memory because it is typically integrated directly into the CPU chip or placed on a separate chip that has a separate bus interconnect with the CPU. Therefore, it is more accessible to the processor and able to increase efficiency because it's physically close to the processor.
+कैश मेमोरी को कभी-कभी CPU (केंद्रीय प्रसंस्करण इकाई) मेमोरी भी कहा जाता है क्योंकि यह आमतौर पर सीधे CPU चिप में एकीकृत होता है या एक अलग चिप पर रखा जाता है जिसमें CPU के साथ एक अलग बस इंटरकनेक्ट होता है। इसलिए, यह प्रोसेसर के लिए अधिक सुलभ है और दक्षता में वृद्धि करने में सक्षम है क्योंकि यह भौतिक रूप से प्रोसेसर के पास है।
 
-To be close to the processor, cache memory needs to be much smaller than the main memory. Consequently, it has less storage space. It is also more expensive than the main memory, as it is a more complex chip that yields higher performance.
+प्रोसेसर के पास होने के लिए, कैश मेमोरी मुख्य मेमोरी की तुलना में बहुत छोटी होनी चाहिए। परिणामस्वरूप, इसमें कम भंडारण स्थान है। यह मुख्य मेमोरी की तुलना में अधिक महंगा भी है, क्योंकि यह एक अधिक जटिल चिप है जो उच्च प्रदर्शन प्रदान करती है।
 
-What it sacrifices in size and price, it makes up for in speed. Cache memory operates 10 to 100 times faster than RAM, requiring only a few nanoseconds to respond to a CPU request.
+जिस चीज को यह आकार और कीमत में बलिदान करता है, वह इसे गति में बना देता है। कैश मेमोरी RAM की तुलना में 10 से 100 गुना तेजी से काम करती है, और CPU अनुरोध का जवाब देने के लिए केवल कुछ नैनोसेकंड का समय लेती है।
 
-The name of the actual hardware that is used for cache memory is high-speed static random access memory (SRAM). The name of the hardware that is used in a computer's main memory is dynamic random-access memory (DRAM).
+कैश मेमोरी के लिए उपयोग किए जाने वाले वास्तविक हार्डवेयर का नाम हाई-स्पीड स्टेटिक रैंडम एक्सेस मेमोरी (SRAM) है। कंप्यूटर की मुख्य मेमोरी में उपयोग किए जाने वाले हार्डवेयर का नाम गतिशील रैंडम एक्सेस मेमोरी (DRAM) है।
 
-Cache memory is not to be confused with the broader term cache. Caches are temporary data stores that can exist in both hardware and software. Cache memory refers to the specific hardware component that allows computers to create caches at various levels of the network. A cache is a hardware or software that is used to store something, typically data, temporarily in a computing environment.
+कैश मेमोरी को व्यापक शब्द कैश के साथ भ्रमित नहीं किया जाना चाहिए। कैश अस्थायी डेटा भंडार हैं जो हार्डवेयर और सॉफ़्टवेयर दोनों में मौजूद हो सकते हैं। कैश मेमोरी उस विशिष्ट हार्डवेयर घटक को संदर्भित करता है जो कंप्यूटरों को नेटवर्क के विभिन्न स्तरों पर कैश बनाने की अनुमति देता है। एक कैश एक हार्डवेयर या सॉफ़्टवेयर है जिसका उपयोग किसी चीज़ को, आमतौर पर डेटा को, कंप्यूटिंग वातावरण में अस्थायी रूप से संग्रहीत करने के लिए किया जाता है।
 
 
 ### [RAM](/Registers%20Cache%20and%20RAM/readme.md#ram)
-RAM (Random Access Memory) is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code. A random access memory device allows data items
-to be read or written in almost the same amount of time regardless of the physical location of data inside the memory, in contrast with other direct-access data storage media (such as hard disks, CD-RWS,
-DVD-RWs and the older magnetic tapes and drum memory), where the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement.
+RAM (रैंडम एक्सेस मेमोरी) कंप्यूटर मेमोरी का एक रूप है जिसे किसी भी क्रम में पढ़ा और बदला जा सकता है, आमतौर पर काम करने वाले डेटा और मशीन कोड को स्टोर करने के लिए उपयोग किया जाता है। एक रैंडम एक्सेस मेमोरी डिवाइस डेटा आइटम्स को मेमोरी के अंदर भौतिक स्थान की परवाह किए बिना लगभग समान समय में पढ़ा या लिखा सकता है, जबकि अन्य प्रत्यक्ष-पहुंच डेटा संग्रहण माध्यमों (जैसे हार्ड डिस्क, सीडी-RW, डीवीडी-RW और पुराने चुंबकीय टेप और ड्रम मेमोरी) में, डेटा आइटम्स को पढ़ने और लिखने में लगने वाला समय उनकी भौतिक स्थिति के आधार पर काफी भिन्न होता है। रिकॉर्डिंग माध्यम पर, यांत्रिक सीमाओं के कारण जैसे मीडिया रोटेशन स्पीड और आर्म मूवमेंट।
 
 
 ## [Instructions and Program](Not-Added)
-In computer science, an instruction is a single operation of a processor defined by the processor instruction set. A computer program is a list of instructions that tell a computer what to do. Everything a computer does is accomplished by using a computer program. Programs that are stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
+कंप्यूटर विज्ञान में, एक निर्देश प्रोसेसर का एक एकल ऑपरेशन है जो प्रोसेसर निर्देश सेट द्वारा परिभाषित किया गया है। एक कंप्यूटर प्रोग्राम निर्देशों की एक सूची है जो कंप्यूटर को क्या करना है, यह बताता है। एक कंप्यूटर जो कुछ भी करता है, वह कंप्यूटर प्रोग्राम का उपयोग करके पूरा किया जाता है। कंप्यूटर की मेमोरी में संग्रहीत प्रोग्राम ("आंतरिक प्रोग्रामिंग") कंप्यूटर को एक के बाद एक काम करने देते हैं, यहां तक ​​कि बीच में ब्रेक के साथ भी।
 
 ## [Programming Languages](/Programming_Languages/readme.md)
-A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language used in computer programming to implement algorithms.
 
-Programming languages are often divided into two broad categories: 
-1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java and Python are some examples of high-level programming languages. These are usually slower than Low-level, but it comes with being easier.
-2. Low-level programming languages work more closely with the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language. These are usually faster than High-level, but it comes at the cost of very great difficulty and lack of readability.
+एक प्रोग्रामिंग भाषा नियमों का एक समूह है जो स्ट्रिंग्स, या दृश्य प्रोग्रामिंग भाषाओं के मामले में ग्राफिकल प्रोग्राम तत्वों को विभिन्न प्रकार के मशीन कोड आउटपुट में परिवर्तित करता है। प्रोग्रामिंग भाषाएं कंप्यूटर प्रोग्रामिंग में एल्गोरिदम को लागू करने के लिए उपयोग की जाने वाली एक प्रकार की कंप्यूटर भाषा हैं।
+
+प्रोग्रामिंग भाषाओं को अक्सर दो व्यापक श्रेणियों में विभाजित किया जाता है:
+
+1. उच्च-स्तरीय भाषा अंग्रेजी भाषा के समान एक सिंटैक्स का उपयोग करती है। स्रोत कोड को एक कंपाइलर या एक दुभाषिया का उपयोग करके मशीन द्वारा समझने योग्य मशीन कोड में परिवर्तित किया जाता है। जावा और पायथन उच्च-स्तरीय प्रोग्रामिंग भाषाओं के कुछ उदाहरण हैं। ये आमतौर पर निम्न-स्तरीय भाषाओं की तुलना में धीमे होते हैं, लेकिन ये आसान होते हैं।
+2. निम्न-स्तरीय प्रोग्रामिंग भाषाएं हार्डवेयर के साथ अधिक निकटता से काम करती हैं और उस पर अधिक नियंत्रण रखती हैं। वे सीधे हार्डवेयर के साथ बातचीत करते हैं। मशीन भाषा और असेंबली भाषा निम्न-स्तरीय भाषाओं के दो सामान्य उदाहरण हैं। ये आमतौर पर उच्च-स्तरीय भाषाओं की तुलना में तेज होते हैं, लेकिन इसकी कीमत बहुत बड़ी कठिनाई और पठनीयता की कमी के रूप में होती है।
+
+उदाहरण के लिए, मशीन भाषा सीधे कंप्यूटर के हार्डवेयर को निर्देश देती है कि क्या करना है, जबकि उच्च-स्तरीय भाषा जैसे जावा प्रोग्राम को मशीन कोड में परिवर्तित करने के लिए एक कंपाइलर का उपयोग करती है।
 
 ### [Programming Paradigms](/Programming_Languages/readme.md#Programming+Paradigms)
-There are also several different *programming paradigms*. Programming paradigms are different ways or styles in which a given program or programming language can be organized. Each paradigm consists of certain structures, features, and opinions about how common programming problems should be addressed. 
+कई अलग-अलग *प्रोग्रामिंग प्रतिमान* भी हैं। प्रोग्रामिंग प्रतिमान विभिन्न तरीके या शैलियाँ हैं जिनमें किसी दिए गए प्रोग्राम या प्रोग्रामिंग भाषा को व्यवस्थित किया जा सकता है। प्रत्येक प्रतिमान में कुछ संरचनाएँ, विशेषताएँ और राय शामिल होती हैं कि सामान्य प्रोग्रामिंग समस्याओं को कैसे संबोधित किया जाना चाहिए।
 
-Programming paradigms are *not* languages or tools. You can't "build" anything with a paradigm. They are more like a set of ideals and guidelines that many people have agreed on, followed, and expanded upon. Programming languages aren't always tied to a particular paradigm. There *are* languages that have been built with a certain paradigm in mind and have features that facilitate that kind of programming more than others (Haskell and functional programming is a good example). But there are also "multi-paradigm" languages in which you can adapt your code to fit a certain paradigm or other (JavaScript and Python are good examples).
+प्रोग्रामिंग प्रतिमान भाषाएं या उपकरण *नहीं* हैं। आप किसी प्रतिमान के साथ कुछ भी "निर्माण" नहीं कर सकते। वे आदर्शों और दिशानिर्देशों के एक समूह की तरह हैं जिन पर कई लोग सहमत हुए हैं, उनका पालन किया है और उनका विस्तार किया है। प्रोग्रामिंग भाषाएं हमेशा किसी विशेष प्रतिमान से बंधी नहीं होती हैं। ऐसी *भाषाएँ* हैं जो एक निश्चित प्रतिमान को ध्यान में रखकर बनाई गई हैं और उनमें ऐसी विशेषताएं हैं जो दूसरों की तुलना में उस तरह की प्रोग्रामिंग को अधिक सुविधाजनक बनाती हैं (हास्केल और कार्यात्मक प्रोग्रामिंग एक अच्छा उदाहरण है)। लेकिन ऐसी "बहु-प्रतिमान" भाषाएं भी हैं जिनमें आप अपने कोड को एक निश्चित प्रतिमान या अन्य में फिट करने के लिए अनुकूलित कर सकते हैं (जावास्क्रिप्ट और पायथन अच्छे उदाहरण हैं)।
 
 
 ## [Data Types](Data%20Types/readme.md#data-types)
-A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational, or logical operations can be applied to it without causing an error.
+प्रोग्रामिंग में डेटा प्रकार, एक वर्गीकरण है जो निर्दिष्ट करता है कि एक चर का किस प्रकार का मान है और बिना किसी त्रुटि के किस प्रकार के गणितीय, संबंधपरक या तार्किक संचालन को उस पर लागू किया जा सकता है।
 
 ### [Primitive Data Types](Data%20Types/readme.md#primitive-data-types)
-Primitive data types are the most basic data types in a programming language. They are the building blocks of more complex data types. Primitive data types are predefined by the programming language and are named by a reserved keyword.
+किसी प्रोग्रामिंग भाषा में आदिम डेटा प्रकार सबसे बुनियादी डेटा प्रकार हैं। वे अधिक जटिल डेटा प्रकारों के निर्माण खंड हैं। आदिम डेटा प्रकार प्रोग्रामिंग भाषा द्वारा पूर्वनिर्धारित होते हैं और एक आरक्षित कीवर्ड द्वारा नामित होते हैं।
 
 ### [Common Primitive Data Types](Data%20Types/readme.md#common-primitive-data-types)
 - [Integer](Data%20Types/readme.md#integer)
@@ -164,7 +167,7 @@ Primitive data types are the most basic data types in a programming language. Th
 - [String](Data%20Types/readme.md#string)
 
 ### [Non-Primitive Data Types](Data%20Types/readme.md#non-primitive-data-types)
-Non-primitive data types are also known as reference data types. They are created by the programmer and are not defined by the programming language. Non-primitive data types are also called composite data types because they are composed of other types.
+गैर-आदिम डेटा प्रकारों को संदर्भ डेटा प्रकार के रूप में भी जाना जाता है। वे प्रोग्रामर द्वारा बनाए जाते हैं और प्रोग्रामिंग भाषा द्वारा परिभाषित नहीं होते हैं। गैर-आदिम डेटा प्रकारों को समग्र डेटा प्रकार भी कहा जाता है क्योंकि वे अन्य प्रकारों से बने होते हैं।
 
 ### [Common Non-Primitive Data Types](Data%20Types/readme.md#common-non-primitive-data-types)
 - [Array](Data%20Types/readme.md#array)
@@ -175,36 +178,36 @@ Non-primitive data types are also known as reference data types. They are create
 - [Class](Data%20Types/readme.md#class)
 
 ## [Statements and Functions](Statements%20and%20Functions/readme.md)
-In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
-There are two main types of statements in any programming language that is necessary to build the logic of a code.
+कंप्यूटर प्रोग्रामिंग में, एक स्टेटमेंट एक अनिवार्य प्रोग्रामिंग भाषा की एक वाक्यात्मक इकाई है जो किए जाने वाले कुछ कार्यों को व्यक्त करती है। ऐसी भाषा में लिखा गया प्रोग्राम एक या अधिक कथनों के अनुक्रम से बनता है। किसी कथन में आंतरिक घटक (जैसे, अभिव्यक्ति) हो सकते हैं।
+किसी भी प्रोग्रामिंग भाषा में दो मुख्य प्रकार के कथन होते हैं जो किसी कोड का तर्क बनाने के लिए आवश्यक होते हैं।
 
 1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
 
-There are two types of conditional statements mainly:
-- if
-- if-else
-- switch case
+सशर्त कथन मुख्यतः दो प्रकार के होते हैं:
+- का
+- यदि नहीं तो
+- स्विच केस
 
 
 2. [Loops](Statements%20and%20Functions/readme.md#loops)
 
-There are three types of conditional statements mainly:
-- for loop
-- while loop
-- do - while loop (a variation of while loop)
-- do - Until loop
+सशर्त कथन मुख्यतः तीन प्रकार के होते हैं:
+- पाश के लिए
+- घुमाव के दौरान
+- करो - जबकि लूप (व्हाइल लूप का एक रूपांतर)
+- करो - लूप तक
 
 ------------
 
-A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result or execute it. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily without having to repeat the same code.
+फ़ंक्शन कथनों का एक ब्लॉक है जो एक विशिष्ट कार्य करता है। फ़ंक्शंस डेटा स्वीकार करते हैं, इसे संसाधित करते हैं, और परिणाम लौटाते हैं या इसे निष्पादित करते हैं। फ़ंक्शंस मुख्य रूप से पुन: प्रयोज्य की अवधारणा का समर्थन करने के लिए लिखे गए हैं। एक बार जब कोई फ़ंक्शन लिखा जाता है, तो उसे उसी कोड को दोहराए बिना आसानी से कॉल किया जा सकता है।
 
-Different functional languages use different syntaxes to write functions.
+विभिन्न कार्यात्मक भाषाएँ फ़ंक्शन लिखने के लिए विभिन्न वाक्यविन्यास का उपयोग करती हैं।
 
 Read more about functions [here](Statements%20and%20Functions/readme.md#functions)
 
 
 ## [Data Structures](Data%20Structures/readme.md)
-In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
+कंप्यूटर विज्ञान में, डेटा संरचना एक डेटा संगठन, प्रबंधन और भंडारण प्रारूप है जो कुशल पहुंच और संशोधन को सक्षम बनाता है। अधिक सटीक रूप से, एक डेटा संरचना डेटा मानों, उनके बीच संबंधों और उन कार्यों या संचालन का एक संग्रह है जिन्हें डेटा पर लागू किया जा सकता है।
 
 ### Types of Data Structures
 - [Array](Data%20Structures/readme.md#array)
@@ -217,57 +220,59 @@ In computer science, a data structure is a data organization, management, and st
 - [Graph](Data%20Structures/readme.md#graph)
 
 ## [Algorithms](Algorithms/readme.md)
-Algorithms are the sets of steps necessary to complete computation. They are at the heart of what our devices do, and this isn’t a new concept. Since the development of math itself, algorithms have been needed to help us complete tasks more efficiently, but today we’re going to take a look at a couple of modern computing problems like sorting and graph search and show how we’ve made them more efficient so you can more easily find cheap airfare or map directions to Winterfell or a restaurant or something.
+एल्गोरिदम गणना पूरी करने के लिए आवश्यक चरणों का समूह है। हमारे उपकरण जो करते हैं उसके केंद्र में वे हैं, और यह कोई नई अवधारणा नहीं है। गणित के विकास के बाद से, हमें कार्यों को अधिक कुशलता से पूरा करने में मदद करने के लिए एल्गोरिदम की आवश्यकता रही है, लेकिन आज हम सॉर्टिंग और ग्राफ़ खोज जैसी कुछ आधुनिक कंप्यूटिंग समस्याओं पर एक नज़र डालने जा रहे हैं और दिखाएंगे कि हमने उन्हें और अधिक कैसे बनाया है कुशल ताकि आप अधिक आसानी से विंटरफ़ेल या किसी रेस्तरां या किसी चीज़ के लिए सस्ता हवाई किराया या मानचित्र दिशा-निर्देश पा सकें।
 
 ### [Time Complexity](Algorithms/Time%20Complexity/readme.md)
-The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent efficiency as a function whose parameter is the input size. By calculating the time complexity, we can determine whether the algorithm is fast enough without implementing it.
+एल्गोरिदम की समय जटिलता यह अनुमान लगाती है कि एल्गोरिदम कुछ इनपुट के लिए कितना समय उपयोग करेगा। विचार दक्षता को एक फ़ंक्शन के रूप में प्रस्तुत करना है जिसका पैरामीटर इनपुट आकार है। समय जटिलता की गणना करके, हम यह निर्धारित कर सकते हैं कि एल्गोरिदम इसे लागू किए बिना पर्याप्त तेज़ है या नहीं।
 
 ### [Space Complexity](Algorithms/Space%20Complexity/readme.md)
-Space complexity refers to the total amount of memory space an algorithm/program uses, including the space of input values for execution. Calculate the space occupied by variables in an algorithm/program to determine space complexity.
+स्पेस जटिलता एक एल्गोरिदम/प्रोग्राम द्वारा उपयोग की जाने वाली मेमोरी स्पेस की कुल मात्रा को संदर्भित करती है, जिसमें निष्पादन के लिए इनपुट मानों का स्थान भी शामिल है। स्थान की जटिलता निर्धारित करने के लिए एल्गोरिदम/प्रोग्राम में चरों द्वारा घेरे गए स्थान की गणना करें।
 
 ### [Sorting](Algorithms/Sorting/readme.md)
-Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Alternatively, if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
+सॉर्टिंग वस्तुओं की सूची को एक विशेष क्रम में व्यवस्थित करने की प्रक्रिया है। उदाहरण के लिए, यदि आपके पास नामों की सूची है, तो हो सकता है कि आप उन्हें वर्णानुक्रम में क्रमबद्ध करना चाहें। वैकल्पिक रूप से, यदि आपके पास संख्याओं की एक सूची है, तो आप उन्हें सबसे छोटे से सबसे बड़े क्रम में रखना चाहेंगे। क्रमबद्ध करना एक सामान्य कार्य है, और इसे हम कई अलग-अलग तरीकों से कर सकते हैं।
 
 ### [Searching](Algorithms/Searching/readme.md)
-Searching is an algorithm for finding a certain target element inside a container. Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
+खोज एक कंटेनर के अंदर एक निश्चित लक्ष्य तत्व को खोजने के लिए एक एल्गोरिदम है। खोज एल्गोरिदम को किसी तत्व की जांच करने या किसी भी डेटा संरचना से एक तत्व पुनर्प्राप्त करने के लिए डिज़ाइन किया गया है जहां यह संग्रहीत है।
 
 
 ### [Graph Search](Algorithms/Graph/readme.md)
-Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph, and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices, and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modeled as a graph in which the computers are the vertices, and the links between computers are the edges. Graphs are also used on social networks like LinkedIn and Facebook. Graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
+ग्राफ़ खोज किसी विशेष नोड को खोजने के लिए ग्राफ़ के माध्यम से खोज करने की प्रक्रिया है। ग्राफ़ एक डेटा संरचना है जिसमें शीर्षों या नोड्स या बिंदुओं का एक परिमित (और संभवतः परिवर्तनशील) सेट होता है, साथ में एक अप्रत्यक्ष ग्राफ़ के लिए इन शीर्षों के अनियंत्रित जोड़े का एक सेट या एक निर्देशित ग्राफ़ के लिए आदेशित जोड़े का एक सेट होता है। इन जोड़ियों को अप्रत्यक्ष ग्राफ़ के लिए किनारों, चापों या रेखाओं के रूप में जाना जाता है, और निर्देशित ग्राफ़ के लिए तीर, निर्देशित किनारों, निर्देशित चापों या निर्देशित रेखाओं के रूप में जाना जाता है। शीर्ष ग्राफ़ संरचना का हिस्सा हो सकते हैं या पूर्णांक सूचकांकों या संदर्भों द्वारा दर्शाई गई बाहरी इकाइयाँ हो सकते हैं। वास्तविक दुनिया के कई अनुप्रयोगों के लिए ग्राफ़ सबसे उपयोगी डेटा संरचनाओं में से एक हैं। ग्राफ़ का उपयोग वस्तुओं के बीच जोड़ीवार संबंधों को मॉडल करने के लिए किया जाता है। उदाहरण के लिए, एयरलाइन मार्ग नेटवर्क एक ग्राफ़ है जिसमें शहर शीर्ष हैं, और उड़ान मार्ग किनारे हैं। ग्राफ़ का उपयोग नेटवर्क को दर्शाने के लिए भी किया जाता है। इंटरनेट को एक ग्राफ़ के रूप में तैयार किया जा सकता है जिसमें कंप्यूटर शीर्ष हैं, और कंप्यूटर के बीच के लिंक किनारे हैं। लिंक्डइन और फेसबुक जैसे सोशल नेटवर्क पर भी ग्राफ़ का उपयोग किया जाता है। ग्राफ़ का उपयोग वास्तविक दुनिया के कई अनुप्रयोगों को दर्शाने के लिए किया जाता है: कंप्यूटर नेटवर्क, सर्किट डिज़ाइन, और वैमानिकी शेड्यूलिंग, बस कुछ ही नाम हैं।
 
 
 
 ### [Dynamic Programming](Algorithms/Dynamic%20Programming/README.md)
-Dynamic programming is both a mathematical optimization method and a computer programming method. Richard Bellman developed the method in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts, it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have an optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".
+डायनेमिक प्रोग्रामिंग एक गणितीय अनुकूलन विधि और एक कंप्यूटर प्रोग्रामिंग विधि दोनों है। रिचर्ड बेलमैन ने 1950 के दशक में इस पद्धति को विकसित किया और एयरोस्पेस इंजीनियरिंग से लेकर अर्थशास्त्र तक कई क्षेत्रों में इसका अनुप्रयोग पाया। दोनों संदर्भों में, यह एक जटिल समस्या को पुनरावर्ती तरीके से सरल उप-समस्याओं में तोड़कर सरल बनाने को संदर्भित करता है। हालाँकि कुछ निर्णय समस्याओं को इस तरह से अलग नहीं किया जा सकता है, समय में कई बिंदुओं पर फैले निर्णय अक्सर पुनरावर्ती रूप से अलग हो जाते हैं। इसी तरह, कंप्यूटर विज्ञान में, यदि किसी समस्या को उप-समस्याओं में तोड़कर और फिर उप-समस्याओं का पुनरावर्ती रूप से इष्टतम समाधान ढूंढकर इष्टतम ढंग से हल किया जा सकता है, तो इसे एक इष्टतम उपसंरचना कहा जाता है। डायनेमिक प्रोग्रामिंग इन गुणों के साथ समस्याओं को हल करने का एक तरीका है। किसी जटिल समस्या को सरल उप-समस्याओं में तोड़ने की प्रक्रिया को "फूट डालो और राज करो" कहा जाता है।
 
 
 
 ### [Greedy Algorithms](Algorithms/Greedy%20Algorithm/readme.md)
-Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because, at each step, they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution to the complete problem.
+लालची एल्गोरिदम एल्गोरिदम का एक सरल, सहज वर्ग है जिसका उपयोग कुछ अनुकूलन समस्याओं का इष्टतम समाधान खोजने के लिए किया जा सकता है। उन्हें लालची कहा जाता है क्योंकि, प्रत्येक कदम पर, वे वही विकल्प चुनते हैं जो उस समय सबसे अच्छा लगता है। इसका मतलब यह है कि लालची एल्गोरिदम विश्व स्तर पर इष्टतम समाधान लौटाने की गारंटी नहीं देते हैं, बल्कि वैश्विक इष्टतम खोजने की उम्मीद में स्थानीय रूप से इष्टतम विकल्प बनाते हैं। अनुकूलन समस्याओं के लिए लालची एल्गोरिदम का उपयोग किया जाता है। एक अनुकूलन समस्या को Greedy का उपयोग करके हल किया जा सकता है यदि समस्या में निम्नलिखित गुण हैं: हर कदम पर, हम एक विकल्प चुन सकते हैं जो इस समय सबसे अच्छा लगता है, और हमें पूरी समस्या का इष्टतम समाधान मिलता है।
 
 
 ### [Backtracking](Algorithms/Backtracking/README.md)
-Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point in time (by time, here, is referred to the time elapsed till reaching any level of the search tree).
+बैकट्रैकिंग एक एल्गोरिथम तकनीक है जो समस्याओं को पुनरावर्ती रूप से हल करने के लिए एक समय में एक टुकड़े से एक समाधान बनाने की कोशिश करती है, उन समाधानों को हटा देती है जो किसी भी समय समस्या की बाधाओं को पूरा करने में विफल रहते हैं (समय के अनुसार, यहां, इसे संदर्भित किया जाता है) खोज वृक्ष के किसी भी स्तर तक पहुँचने तक बीता हुआ समय)।
 
 
 ### [Branch and Bound](Algorithms/Branch%20and%20Bound/README.md)
-Branch and bound is a general technique for solving combinatorial optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal.
+ब्रांच और बाउंड कॉम्बिनेटरियल ऑप्टिमाइज़ेशन समस्याओं को हल करने की एक सामान्य तकनीक है। यह एक व्यवस्थित गणना तकनीक है जो उम्मीदवार समाधानों को खत्म करने के लिए समस्या की संरचना का उपयोग करके उम्मीदवार समाधानों की संख्या को कम करती है जो संभवतः इष्टतम नहीं हो सकते हैं।
 
 
 ### [Time Complexity and Space Complexity of Different Searching and Sorting Algorithms](Not-Added)
-**Time Complexity**: It is defined as the number of times a particular instruction set is expected to be executed rather than the total time taken. Since time is a dependent phenomenon, time complexity may vary on some external factors like processor speed, the compiler used, etc.
+**Time Complexity**: इसे कुल समय के बजाय किसी विशेष निर्देश सेट के निष्पादित होने की अपेक्षित संख्या के रूप में परिभाषित किया गया है। चूँकि समय एक निर्भर घटना है, समय की जटिलता कुछ बाहरी कारकों जैसे प्रोसेसर की गति, प्रयुक्त कंपाइलर आदि पर भिन्न हो सकती है।
 
-**Space Complexity**: It is the total memory space consumed by the program for its execution.
+**Space Complexity**: यह प्रोग्राम द्वारा अपने निष्पादन के लिए उपयोग की गई कुल मेमोरी स्पेस है।
 
-Both are calculated as the function of input size(n). The time complexity of an algorithm is expressed in big O notation.
+दोनों की गणना इनपुट आकार (एन) के फ़ंक्शन के रूप में की जाती है। किसी एल्गोरिदम की समय जटिलता को बड़े O नोटेशन में व्यक्त किया जाता है।
 
-The efficiency of an algorithm depends on these two parameters.
+किसी एल्गोरिदम की दक्षता इन दो मापदंडों पर निर्भर करती है।
 
-Types Of Time Complexity :
+समय जटिलता के प्रकार:
 
-- *Best Time Complexity*: The input for which the algorithm takes less time or minimum time. In the best case, we calculate the lower bound time complexity of an algorithm. For example: if the data to be searched is present at the first location of a large data array in a linear search, then the best case occurs.
-- *Average Time Complexity*: We take all random inputs and calculate the computation time for all inputs. And then, we divide it by the total number of inputs.
-- *Worst Time Complexity*: Define the input for which algorithm takes a long time or maximum time. In the worst case, we calculate the upper bound of an algorithm. Example: If the data to be searched is present at the last location of a large data array in a linear search algorithm, then the worst case occurs.
+- *सर्वोत्तम समय जटिलता*: वह इनपुट जिसके लिए एल्गोरिदम कम समय या न्यूनतम समय लेता है। सबसे अच्छे मामले में, हम एक एल्गोरिदम की निचली सीमा वाली समय जटिलता की गणना करते हैं। उदाहरण के लिए: यदि खोजा जाने वाला डेटा एक रैखिक खोज में बड़े डेटा सरणी के पहले स्थान पर मौजूद है, तो सबसे अच्छा मामला होता है।
+- 
+- *औसत समय जटिलता*: हम सभी यादृच्छिक इनपुट लेते हैं और सभी इनपुट के लिए गणना समय की गणना करते हैं। और फिर, हम इसे इनपुट की कुल संख्या से विभाजित करते हैं।
+- 
+- *सबसे खराब समय जटिलता*: उस इनपुट को परिभाषित करें जिसके लिए एल्गोरिदम को लंबा समय या अधिकतम समय लगता है। सबसे खराब स्थिति में, हम एल्गोरिदम की ऊपरी सीमा की गणना करते हैं। उदाहरण: यदि खोजा जाने वाला डेटा एक रैखिक खोज एल्गोरिदम में बड़े डेटा सरणी के अंतिम स्थान पर मौजूद है, तो सबसे खराब स्थिति होती है।
 
 Some common time complexities are :
 
