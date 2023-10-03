@@ -1,4 +1,4 @@
-# [Electronic Computer](#electronic-computer)
+# [इलेक्ट्रॉनिक कंप्यूटर](#इलेक्ट्रॉनिक कंप्यूटर)
 
 The electronic computer is a marvel of human ingenuity that has fundamentally transformed the way we process information, solve problems, and communicate.
 
