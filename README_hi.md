@@ -40,12 +40,12 @@
 - [संगणना सिद्धांत](#संगणना सिद्धांत)
 
 
-## Introduction
+## परिचय
 
 Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
 
 
-## [Electronic Computer](Electronic%20Computer/readme.md)
+## [इलेक्ट्रॉनिक कंप्यूटर](Electronic%20Computer/readme.md)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
