@@ -274,115 +274,115 @@ Read more about functions [here](Statements%20and%20Functions/readme.md#function
 - 
 - *सबसे खराब समय जटिलता*: उस इनपुट को परिभाषित करें जिसके लिए एल्गोरिदम को लंबा समय या अधिकतम समय लगता है। सबसे खराब स्थिति में, हम एल्गोरिदम की ऊपरी सीमा की गणना करते हैं। उदाहरण: यदि खोजा जाने वाला डेटा एक रैखिक खोज एल्गोरिदम में बड़े डेटा सरणी के अंतिम स्थान पर मौजूद है, तो सबसे खराब स्थिति होती है।
 
-Some common time complexities are :
+कुछ सामान्य समय जटिलताएँ हैं:
 
-- **O(1)**: This denotes the constant time. O(1) usually means that an algorithm will have a constant time regardless of the input size. Hash Maps are perfect examples of constant time.
+- **O(1)**: यह स्थिर समय को दर्शाता है. O(1) का आम तौर पर मतलब यह है कि इनपुट आकार की परवाह किए बिना एक एल्गोरिदम में एक स्थिर समय होगा। हैश मैप्स स्थिर समय के आदर्श उदाहरण हैं।
 
-- **O(log n)**: This denotes logarithmic time. O(log n) means to decrease with each instance for the operations. Searching for elements in Binary Search Trees (BSTs) is a good example of logarithmic time.
+- **O(log n)**: यह लघुगणकीय समय को दर्शाता है। O(log n) का अर्थ संचालन के लिए प्रत्येक उदाहरण के साथ कमी करना है। बाइनरी सर्च ट्रीज़ (बीएसटी) में तत्वों की खोज लघुगणक समय का एक अच्छा उदाहरण है।
 
-- **O(n)**: This denotes linear time. O(n) means that the performance is directly proportional to the size of the input. In simple terms, the number of inputs and the time taken to execute those inputs will be proportional. Linear search in arrays is a great example of linear time complexity.
+- **O(n)**: यह रैखिक समय को दर्शाता है। O(n) का अर्थ है कि प्रदर्शन सीधे इनपुट के आकार के समानुपाती होता है। सरल शब्दों में, इनपुट की संख्या और उन इनपुट को निष्पादित करने में लगने वाला समय आनुपातिक होगा। सरणियों में रैखिक खोज रैखिक समय जटिलता का एक बेहतरीन उदाहरण है।
 
-- **O(n*n)**: This denotes quadratic time. O(n^2) means that the performance is directly proportional to the square of the input taken. In simple, the time taken for execution will roughly take square times the input size. Nested loops are perfect examples of quadratic time complexity.
+- **O(n*n)**: यह द्विघात समय को दर्शाता है। O(n^2) का अर्थ है कि प्रदर्शन लिए गए इनपुट के वर्ग के सीधे आनुपातिक है। सरल शब्दों में, निष्पादन में लगने वाला समय लगभग इनपुट आकार का वर्ग गुना होगा। नेस्टेड लूप द्विघात समय जटिलता के आदर्श उदाहरण हैं।
 
-- **O(n log n)**: This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), (which is the worst-case complexity). A good example would be divided and conquer algorithms such as merge sort. This algorithm first divides the set, which takes O(log n) time, then conquers and sorts through the set, which takes O(n) time- therefore, Merge sort takes O(n log n) time.
+- **O(n log n)**: यह बहुपद समय जटिलता को दर्शाता है। O(n log n) का अर्थ है कि प्रदर्शन O(log n) का n गुना है, (जो सबसे खराब स्थिति वाली जटिलता है)। एक अच्छा उदाहरण मर्ज सॉर्ट जैसे विभाजित और जीत एल्गोरिदम होगा। यह एल्गोरिदम पहले सेट को विभाजित करता है, जिसमें O(लॉग एन) समय लगता है, फिर सेट को जीतता है और सॉर्ट करता है, जिसमें ओ(एन) समय लगता है- इसलिए, मर्ज सॉर्ट में ओ(एन लॉग एन) समय लगता है।
 
-| Algorithm	     |             |  Time Complexity|	       | Space Complexity |
+| एल्गोरिथम	     |             |  समय जटिलता|	       | अंतरिक्ष जटिलता |
 |   :---:        |  :---:      |  :---: 	   |   :---: 	   |   :---:          |
-|  	             | Best	       | Average	   |  Worst	     |  Worst           |
-| Selection Sort | Ω(n^2)	     | θ(n^2)	     | O(n^2)	     | O(1)             |
-| Bubble Sort	 | Ω(n)	         | θ(n^2)	     | O(n^2)	     | O(1)             |
-| Insertion Sort | Ω(n)	       | θ(n^2)	     | O(n^2)	     | O(1)             |
-| Heap Sort	     | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(1)             |
-| Quick Sort	   | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(n)             |
-| Merge Sort	   | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(n)             |
-| Bucket Sort    | Ω(n +k)	   | θ(n +k)	   | O(n^2)	     | O(n)             |
-| Radix Sort  	 | Ω(nk)	     | θ(nk)	     | O(nk)	     | O(n + k)         |
-| Count Sort  	 | Ω(n +k)	   | θ(n +k)	   | O(n +k)	   | O(k)             |
-| Shell Sort  	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(1)             |
-| Tim Sort	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
-| Tree Sort   	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(n)             |
-| Cube Sort	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
+|  	             | सर्वोत्तम	       | औसत	   | सबसे ख़राब	     |  बहुत बुरा           |
+| चयन छांटना | Ω(n^2)	     | θ(n^2)	     | O(n^2)	     | O(1)             |
+| बुलबुले की तरह	 | Ω(n)	         | θ(n^2)	     | O(n^2)	     | O(1)             |
+| प्रविष्टि क्रम | Ω(n)	       | θ(n^2)	     | O(n^2)	     | O(1)             |
+| ढेर क्रम	     | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(1)             |
+| त्वरित छँटाई	   | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(n)             |
+| मर्ज सॉर्ट	   | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(n)             |
+| बकेट सॉर्ट    | Ω(n +k)	   | θ(n +k)	   | O(n^2)	     | O(n)             |
+| मूलांक क्रमबद्ध 	 | Ω(nk)	     | θ(nk)	     | O(nk)	     | O(n + k)         |
+| गिनती क्रमबद्ध करें 	 | Ω(n +k)	   | θ(n +k)	   | O(n +k)	   | O(k)             |
+| शैल सॉर्ट 	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(1)             |
+| टिम सॉर्ट	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
+| वृक्ष वर्गीकरण  	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(n)             |
+| घन सॉर्ट	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
 
-| Algorithm	     |             |  Time Complexity|	     |
+| एल्गोरिथम	     |             |  समय जटिलता|	     |
 |   :---:        |  :---:      |  :---: 	 |   :---: 	   |  
-|  	             | Best	       | Average	 |  Worst	     |
-| Linear Search  | O(1)	       | O(N)	     | O(N)	       | O(1)  |
-| Binary Search	 | O(1)	       | O(logN)   | O(logN)	   |
+|  	             | सर्वोत्तम       | औसत	 |  सबसे ख़राब	     |
+| रैखिक खोज  | O(1)	       | O(N)	     | O(N)	       | O(1)  |
+| बाइनरी खोज	 | O(1)	       | O(logN)   | O(logN)	   |
 
 
 
 ## [Alan Turing](Not-Added)
-Alan Turing (born June 23, 1912, London, Eng.—died June 7, 1954, Wilmslow, Cheshire) was an English mathematician and logician. He studied at the University of Cambridge and Princeton's Institute for Advanced Study. In his seminal 1936 paper "On Computable Numbers," he proved that there could not exist any universal algorithmic method of determining the truth in mathematics and that mathematics will always contain undecidable (as opposed to unknown) propositions. That paper also introduced the Turing machine. He believed that computers eventually would be capable of thought indistinguishable from that of a human and proposed a simple test (see Turing test) to assess this capability. His papers on the subject are widely acknowledged as the foundation of research in artificial intelligence. He did valuable work in cryptography during World War II, playing an important role in breaking the Enigma code used by Germany for radio communications. After the war, he taught at the University of Manchester and began work on what is now known as artificial intelligence. Amid this groundbreaking work, Turing was found dead in his bed, poisoned by cyanide. His death followed his arrest for a homosexual act (then a crime) and sentence of 12 months of hormone therapy.
+एलन ट्यूरिंग (जन्म 23 जून, 1912, लंदन, इंजी.-मृत्यु 7 जून, 1954, विल्म्सलो, चेशायर) एक अंग्रेजी गणितज्ञ और तर्कशास्त्री थे। उन्होंने कैम्ब्रिज विश्वविद्यालय और प्रिंसटन के इंस्टीट्यूट फॉर एडवांस्ड स्टडी में अध्ययन किया। 1936 के अपने मौलिक पेपर "ऑन कंप्यूटेबल नंबर्स" में उन्होंने साबित किया कि गणित में सत्य का निर्धारण करने के लिए कोई सार्वभौमिक एल्गोरिथम विधि मौजूद नहीं हो सकती है और गणित में हमेशा अनिर्णीत (अज्ञात के विपरीत) प्रस्ताव शामिल होंगे। उस पेपर में ट्यूरिंग मशीन का भी परिचय दिया गया। उनका मानना था कि कंप्यूटर अंततः मानव से अप्रभेद्य विचार करने में सक्षम होंगे और उन्होंने इस क्षमता का आकलन करने के लिए एक सरल परीक्षण (ट्यूरिंग टेस्ट देखें) का प्रस्ताव रखा। इस विषय पर उनके शोधपत्रों को कृत्रिम बुद्धिमत्ता में अनुसंधान की नींव के रूप में व्यापक रूप से स्वीकार किया जाता है। उन्होंने द्वितीय विश्व युद्ध के दौरान क्रिप्टोग्राफी में बहुमूल्य काम किया और रेडियो संचार के लिए जर्मनी द्वारा उपयोग किए जाने वाले एनिग्मा कोड को तोड़ने में महत्वपूर्ण भूमिका निभाई। युद्ध के बाद, उन्होंने मैनचेस्टर विश्वविद्यालय में पढ़ाया और उस पर काम शुरू किया जिसे अब कृत्रिम बुद्धिमत्ता के रूप में जाना जाता है। इस अभूतपूर्व कार्य के दौरान, ट्यूरिंग अपने बिस्तर पर साइनाइड जहर के कारण मृत पाए गए। उनकी मृत्यु समलैंगिक कृत्य (तब एक अपराध) के लिए उनकी गिरफ्तारी और 12 महीने की हार्मोन थेरेपी की सजा के बाद हुई।
 
 
-Following a public campaign in 2009, British Prime Minister Gordon Brown made an official public apology on behalf of the British government for the appalling way Turing was treated. Queen Elizabeth II granted a posthumous pardon in 2013. The term "Alan Turing law" is now used informally to refer to a 2017 law in the United Kingdom that retroactively pardoned men cautioned or convicted under historical legislation that outlawed homosexual acts.
+2009 में एक सार्वजनिक अभियान के बाद, ब्रिटिश प्रधान मंत्री गॉर्डन ब्राउन ने ट्यूरिंग के साथ किए गए भयावह व्यवहार के लिए ब्रिटिश सरकार की ओर से आधिकारिक सार्वजनिक माफी मांगी। महारानी एलिजाबेथ द्वितीय ने 2013 में मरणोपरांत क्षमादान दिया। "एलन ट्यूरिंग कानून" शब्द का उपयोग अब अनौपचारिक रूप से यूनाइटेड किंगडम में 2017 के कानून को संदर्भित करने के लिए किया जाता है, जो समलैंगिक कृत्यों को गैरकानूनी घोषित करने वाले ऐतिहासिक कानून के तहत चेतावनी दिए गए या दोषी ठहराए गए पुरुषों को पूर्वव्यापी रूप से माफ कर देता है।
 
-Turing has an extensive legacy with statues of him and many things named after him, including an annual award for computer science innovations. He appears on the current Bank of England £50 note, which was released on June 23, 2021, to coincide with his birthday. A 2019 BBC series, as voted by the audience, named him the greatest person of the 20th century.
+ट्यूरिंग के पास उनकी मूर्तियों और उनके नाम पर रखी गई कई चीज़ों की एक व्यापक विरासत है, जिसमें कंप्यूटर विज्ञान नवाचारों के लिए एक वार्षिक पुरस्कार भी शामिल है। वह बैंक ऑफ इंग्लैंड के मौजूदा £50 नोट पर दिखाई देते हैं, जो उनके जन्मदिन के अवसर पर 23 जून, 2021 को जारी किया गया था। दर्शकों द्वारा वोट किए गए 2019 बीबीसी सीरीज़ में उन्हें 20वीं सदी का सबसे महान व्यक्ति बताया गया।
 
 
 ## [Software Engineering](Software%20Engineering/readme.md)
-Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users.
+सॉफ्टवेयर इंजीनियरिंग कंप्यूटर विज्ञान की वह शाखा है जो सॉफ्टवेयर अनुप्रयोगों के डिजाइन, विकास, परीक्षण और रखरखाव से संबंधित है। सॉफ्टवेयर इंजीनियर अंतिम उपयोगकर्ताओं के लिए सॉफ्टवेयर समाधान बनाने के लिए इंजीनियरिंग सिद्धांतों और प्रोग्रामिंग भाषाओं के ज्ञान को लागू करते हैं।
 
-Let's look at the various definitions of software engineering:
+आइए सॉफ्टवेयर इंजीनियरिंग की विभिन्न परिभाषाओं पर नजर डालें:
 
-- IEEE, in its standard 610.12-1990, defines software engineering as the application of a systematic, disciplined, which is a computable approach for the development, operation, and maintenance of software.
-- Fritz Bauer defined it as 'the establishment and used standard engineering principles. It helps you to obtain economical software that is reliable and works efficiently on real machines.
-- Boehm defines software engineering as involving 'the practical application of scientific knowledge to the creative design and building of computer programs. It also includes associated documentation needed for developing, operating, and maintaining them.'
+- आईईईई, अपने मानक 610.12-1990 में, सॉफ्टवेयर इंजीनियरिंग को एक व्यवस्थित, अनुशासित अनुप्रयोग के रूप में परिभाषित करता है, जो सॉफ्टवेयर के विकास, संचालन और रखरखाव के लिए एक गणना योग्य दृष्टिकोण है।
+- फ्रिट्ज़ बाउर ने इसे 'प्रतिष्ठान' के रूप में परिभाषित किया और मानक इंजीनियरिंग सिद्धांतों का इस्तेमाल किया। यह आपको किफायती सॉफ़्टवेयर प्राप्त करने में मदद करता है जो विश्वसनीय है और वास्तविक मशीनों पर कुशलतापूर्वक काम करता है।
+- बोहेम सॉफ्टवेयर इंजीनियरिंग को 'कंप्यूटर प्रोग्रामों के रचनात्मक डिजाइन और निर्माण के लिए वैज्ञानिक ज्ञान के व्यावहारिक अनुप्रयोग' के रूप में परिभाषित करता है। इसमें उनके विकास, संचालन और रखरखाव के लिए आवश्यक संबंधित दस्तावेज भी शामिल हैं।'
 
 ### Software engineer tasks and responsibilities
-Successful engineers know how to use the right programming languages, platforms, and architectures to develop everything from computer games to network control systems. In addition to building their systems, software engineers also test, improve, and maintain software built by other engineers.
+सफल इंजीनियर जानते हैं कि कंप्यूटर गेम से लेकर नेटवर्क नियंत्रण प्रणाली तक सब कुछ विकसित करने के लिए सही प्रोग्रामिंग भाषाओं, प्लेटफार्मों और आर्किटेक्चर का उपयोग कैसे किया जाए। अपने सिस्टम के निर्माण के अलावा, सॉफ्टवेयर इंजीनियर अन्य इंजीनियरों द्वारा निर्मित सॉफ्टवेयर का परीक्षण, सुधार और रखरखाव भी करते हैं।
 
-In this role, your day-to-day tasks might include the following:
+इस भूमिका में, आपके दैनिक कार्यों में निम्नलिखित शामिल हो सकते हैं:
 
-- Designing and maintaining software systems
-- Evaluating and testing new software programs
-- Optimizing software for speed and scalability
-- Writing and testing code
-- Consulting with clients, engineers, security specialists, and other stakeholders
-- Presenting new features to stakeholders and internal customers
+- सॉफ्टवेयर सिस्टम को डिजाइन करना और उसका रखरखाव करना
+- नए सॉफ्टवेयर प्रोग्राम का मूल्यांकन और परीक्षण करना
+- गति और मापनीयता के लिए सॉफ्टवेयर का अनुकूलन
+- कोड लिखना और परीक्षण करना
+- ग्राहकों, इंजीनियरों, सुरक्षा विशेषज्ञों और अन्य हितधारकों के साथ परामर्श करना
+- हितधारकों और आंतरिक ग्राहकों के लिए नई सुविधाएँ प्रस्तुत करना
 
 ### Phases of Software Engineering
-The software engineering process involves several phases, including requirements gathering, design, implementation, testing, and maintenance. By following a disciplined approach to software development, software engineers can create high-quality software that meets the needs of its users.
+सॉफ़्टवेयर इंजीनियरिंग प्रक्रिया में कई चरण शामिल होते हैं, जिनमें आवश्यकताएँ एकत्र करना, डिज़ाइन, कार्यान्वयन, परीक्षण और रखरखाव शामिल हैं। सॉफ्टवेयर विकास के लिए एक अनुशासित दृष्टिकोण का पालन करके, सॉफ्टवेयर इंजीनियर उच्च गुणवत्ता वाले सॉफ्टवेयर बना सकते हैं जो अपने उपयोगकर्ताओं की जरूरतों को पूरा करते हैं।
 
-- The first phase of software engineering is requirements gathering. In this phase, the software engineer works with the client to determine the software's functional and non-functional requirements. Functional requirements describe what the software should do, while non-functional requirements describe how well it should do it. Requirements gathering is a critical phase, as it lays the foundation for the entire software development process.
+- सॉफ्टवेयर इंजीनियरिंग का पहला चरण आवश्यकताओं को एकत्रित करना है। इस चरण में, सॉफ़्टवेयर इंजीनियर सॉफ़्टवेयर की कार्यात्मक और गैर-कार्यात्मक आवश्यकताओं को निर्धारित करने के लिए क्लाइंट के साथ काम करता है। कार्यात्मक आवश्यकताएँ बताती हैं कि सॉफ़्टवेयर को क्या करना चाहिए, जबकि गैर-कार्यात्मक आवश्यकताएँ बताती हैं कि उसे यह कितनी अच्छी तरह करना चाहिए। आवश्यकताएँ एकत्र करना एक महत्वपूर्ण चरण है, क्योंकि यह संपूर्ण सॉफ़्टवेयर विकास प्रक्रिया की नींव रखता है।
 
-- After the requirements are gathered, the next phase is design. In this phase, the software engineer creates a detailed plan for the software's architecture and functionality. This plan includes a software design document that specifies the software's structure, behavior, and interactions with other systems. The software design document is essential as it serves as a blueprint for the implementation phase.
+- आवश्यकताएँ एकत्रित होने के बाद, अगला चरण डिज़ाइन है। इस चरण में, सॉफ्टवेयर इंजीनियर सॉफ्टवेयर की वास्तुकला और कार्यक्षमता के लिए एक विस्तृत योजना बनाता है। इस योजना में एक सॉफ़्टवेयर डिज़ाइन दस्तावेज़ शामिल है जो सॉफ़्टवेयर की संरचना, व्यवहार और अन्य प्रणालियों के साथ इंटरैक्शन को निर्दिष्ट करता है। सॉफ़्टवेयर डिज़ाइन दस्तावेज़ आवश्यक है क्योंकि यह कार्यान्वयन चरण के लिए ब्लूप्रिंट के रूप में कार्य करता है।
 
-- The implementation phase is where the software engineer creates the actual code for the software. This is where the design document is transformed into working software. The implementation phase involves writing code, compiling it, and testing it to ensure that it meets the requirements specified in the design document.
+- कार्यान्वयन चरण वह है जहां सॉफ्टवेयर इंजीनियर सॉफ्टवेयर के लिए वास्तविक कोड बनाता है। यहीं पर डिज़ाइन दस्तावेज़ को कार्यशील सॉफ़्टवेयर में बदल दिया जाता है। कार्यान्वयन चरण में कोड लिखना, उसे संकलित करना और यह सुनिश्चित करने के लिए उसका परीक्षण करना शामिल है कि यह डिज़ाइन दस्तावेज़ में निर्दिष्ट आवश्यकताओं को पूरा करता है।
 
-- Testing is a critical phase in software engineering. In this phase, the software engineer checks to ensure that the software functions correctly, is reliable and is easy to use. This involves several types of testing, including unit testing, integration testing, and system testing. Testing ensures that the software meets the requirements and functions as expected.
+- सॉफ्टवेयर इंजीनियरिंग में परीक्षण एक महत्वपूर्ण चरण है। इस चरण में, सॉफ्टवेयर इंजीनियर यह सुनिश्चित करने के लिए जांच करता है कि सॉफ्टवेयर सही ढंग से काम करता है, विश्वसनीय है और उपयोग में आसान है। इसमें कई प्रकार के परीक्षण शामिल हैं, जिनमें यूनिट परीक्षण, एकीकरण परीक्षण और सिस्टम परीक्षण शामिल हैं। परीक्षण यह सुनिश्चित करता है कि सॉफ़्टवेयर अपेक्षा के अनुरूप आवश्यकताओं और कार्यों को पूरा करता है।
 
-- The final phase of software engineering is maintenance. In this phase, the software engineer makes changes to the software to correct errors, add new features, or improve its performance. Maintenance is an ongoing process that continues throughout the software's lifetime.
+- सॉफ्टवेयर इंजीनियरिंग का अंतिम चरण रखरखाव है। इस चरण में, सॉफ़्टवेयर इंजीनियर त्रुटियों को ठीक करने, नई सुविधाएँ जोड़ने या उसके प्रदर्शन में सुधार करने के लिए सॉफ़्टवेयर में परिवर्तन करता है। रखरखाव एक सतत प्रक्रिया है जो सॉफ़्टवेयर के पूरे जीवनकाल में जारी रहती है।
 
 
 ### Why is Software Engineering Popular?
 
-- Computer Science: Gives the scientific foundation for the software as electrical engineering mainly depends on physics.
-- Management Science: Software engineering is labor-intensive and demands technical and managerial control. Therefore, it is widely used in management science.
-- Economics: In this sector, software engineering helps you estimate resources and control costs. A computing system must be developed, and data should be maintained regularly within a given budget.
-- System Engineering: Most software is a component of a much larger system. For example, the software in an Industry monitoring system or the flight software on an airplane. Software engineering methods should be applied to the study of this type of system.
+- कंप्यूटर विज्ञान: सॉफ्टवेयर के लिए वैज्ञानिक आधार देता है क्योंकि इलेक्ट्रिकल इंजीनियरिंग मुख्य रूप से भौतिकी पर निर्भर करती है।
+- प्रबंधन विज्ञान: सॉफ्टवेयर इंजीनियरिंग श्रम-केंद्रित है और तकनीकी और प्रबंधकीय नियंत्रण की मांग करती है। इसलिए, प्रबंधन विज्ञान में इसका व्यापक रूप से उपयोग किया जाता है।
+- अर्थशास्त्र: इस क्षेत्र में, सॉफ्टवेयर इंजीनियरिंग आपको संसाधनों का अनुमान लगाने और लागतों को नियंत्रित करने में मदद करती है। एक कंप्यूटिंग प्रणाली विकसित की जानी चाहिए, और दिए गए बजट के भीतर डेटा को नियमित रूप से बनाए रखा जाना चाहिए।
+- सिस्टम इंजीनियरिंग: अधिकांश सॉफ्टवेयर एक बहुत बड़े सिस्टम का एक घटक है। उदाहरण के लिए, उद्योग निगरानी प्रणाली में सॉफ़्टवेयर या हवाई जहाज़ पर उड़ान सॉफ़्टवेयर। इस प्रकार की प्रणाली के अध्ययन के लिए सॉफ्टवेयर इंजीनियरिंग विधियों को लागू किया जाना चाहिए।
 
 
 ## [Integrated Circuits](Integrated%20Circuits/readme.md)
-An integrated circuit or monolithic integrated circuit (also referred to as an IC, a chip, or a microchip) is a set of electronic circuits on one small flat piece (or "chip") of semiconductor material, usually silicon. Many tiny MOSFETs (metal–oxide–semiconductor field-effect transistors) integrate into a small chip. This results in circuits that are orders of magnitude smaller, faster, and less expensive than those constructed of discrete electronic components. The IC's mass production capability, reliability, and building-block approach to integrated circuit design have ensured the rapid adoption of standardized ICs in place of discrete transistors. ICs are now used in virtually all electronic equipment and have revolutionized the world of electronics. Computers, mobile phones, and other home appliances are now inextricable parts of the structure of modern societies, made possible by the small size and low cost of ICs such as modern computer processors and microcontrollers.
+एक एकीकृत सर्किट या मोनोलिथिक इंटीग्रेटेड सर्किट (जिसे आईसी, चिप या माइक्रोचिप भी कहा जाता है) अर्धचालक सामग्री, आमतौर पर सिलिकॉन के एक छोटे फ्लैट टुकड़े (या "चिप") पर इलेक्ट्रॉनिक सर्किट का एक सेट है। कई छोटे MOSFETs (धातु-ऑक्साइड-अर्धचालक क्षेत्र-प्रभाव ट्रांजिस्टर) एक छोटी चिप में एकीकृत होते हैं। इसके परिणामस्वरूप ऐसे सर्किट बनते हैं जो अलग-अलग इलेक्ट्रॉनिक घटकों से निर्मित सर्किट की तुलना में छोटे, तेज़ और कम महंगे होते हैं। आईसी की बड़े पैमाने पर उत्पादन क्षमता, विश्वसनीयता और एकीकृत सर्किट डिजाइन के लिए बिल्डिंग-ब्लॉक दृष्टिकोण ने असतत ट्रांजिस्टर के स्थान पर मानकीकृत आईसी को तेजी से अपनाना सुनिश्चित किया है। आईसी का उपयोग अब लगभग सभी इलेक्ट्रॉनिक उपकरणों में किया जाता है और इसने इलेक्ट्रॉनिक्स की दुनिया में क्रांति ला दी है। कंप्यूटर, मोबाइल फोन और अन्य घरेलू उपकरण अब आधुनिक समाज की संरचना का अभिन्न अंग हैं, जो आधुनिक कंप्यूटर प्रोसेसर और माइक्रोकंट्रोलर जैसे आईसी के छोटे आकार और कम लागत के कारण संभव हुआ है।
 
-Very-large-scale integration was made practical by technological advancements in metal–oxide–silicon (MOS) semiconductor device fabrication. Since their origins in the 1960s, the size, speed, and capacity of chips have progressed enormously, driven by technical advances that fit more and more MOS transistors on chips of the same size – a modern chip may have many billions of MOS transistors in an area the size of a human fingernail. These advances, roughly following Moore's law, make today's computer chips possess millions of times the capacity and thousands of times the speed of the computer chips of the early 1970s.
+धातु-ऑक्साइड-सिलिकॉन (एमओएस) सेमीकंडक्टर डिवाइस निर्माण में तकनीकी प्रगति द्वारा बहुत बड़े पैमाने पर एकीकरण को व्यावहारिक बनाया गया था। 1960 के दशक में अपनी उत्पत्ति के बाद से, चिप्स के आकार, गति और क्षमता में काफी प्रगति हुई है, जो तकनीकी प्रगति से प्रेरित है जो एक ही आकार के चिप्स पर अधिक से अधिक एमओएस ट्रांजिस्टर फिट करते हैं - एक आधुनिक चिप में कई अरब एमओएस ट्रांजिस्टर हो सकते हैं क्षेत्रफल मनुष्य के नाखून के बराबर है। ये प्रगति, मोटे तौर पर मूर के नियम का पालन करते हुए, आज के कंप्यूटर चिप्स को 1970 के दशक की शुरुआत के कंप्यूटर चिप्स की तुलना में लाखों गुना अधिक क्षमता और हजारों गुना अधिक गति प्रदान करती है।
 
-ICs have two main advantages over discrete circuits: cost and performance. The cost is low because the chips, with all their components, are printed as a unit by photolithography rather than being constructed one transistor at a time. Furthermore, packaged ICs use much less material than discrete circuits. Performance is high because the IC's components switch quickly and consume comparatively little power because of their small size and proximity. The main disadvantage of ICs is the high cost of designing them and fabricating the required photomasks. This high initial cost means ICs are only commercially viable when high production volumes are anticipated.
+अलग-अलग सर्किट की तुलना में आईसी के दो मुख्य फायदे हैं: लागत और प्रदर्शन। लागत कम है क्योंकि चिप्स, उनके सभी घटकों के साथ, एक समय में एक ट्रांजिस्टर के बजाय फोटोलिथोग्राफी द्वारा एक इकाई के रूप में मुद्रित होते हैं। इसके अलावा, पैकेज्ड आईसी अलग-अलग सर्किट की तुलना में बहुत कम सामग्री का उपयोग करते हैं। प्रदर्शन उच्च है क्योंकि आईसी के घटक तेजी से स्विच करते हैं और अपने छोटे आकार और निकटता के कारण तुलनात्मक रूप से कम बिजली की खपत करते हैं। आईसी का मुख्य नुकसान उन्हें डिजाइन करने और आवश्यक फोटोमास्क बनाने की उच्च लागत है। इस उच्च प्रारंभिक लागत का मतलब है कि आईसी केवल तभी व्यावसायिक रूप से व्यवहार्य हैं जब उच्च उत्पादन मात्रा का अनुमान हो।
 
 ### Types
-Modern electronic component distributors often further sub-categorize integrated circuits:
+आधुनिक इलेक्ट्रॉनिक घटक वितरक अक्सर एकीकृत सर्किट को आगे उप-वर्गीकृत करते हैं:
 
-- Digital ICs are categorized as logic ICs (such as microprocessors and microcontrollers), memory chips (such as MOS memory and floating-gate memory), interface ICs (level shifters, serializer/deserializer, etc.), power management ICs, and programmable devices.
-- Analog ICs are categorized as linear integrated circuits and RF circuits (radio frequency circuits).
-- Mixed-signal integrated circuits are categorized as data acquisition ICs (A/D converters, D/A converters, and digital potentiometers), clock/timing ICs, switched capacitor (SC) circuits, and RF CMOS circuits.
-- Three-dimensional integrated circuits (3D ICs) are categorized into through-silicon via (TSV) ICs and Cu-Cu connection ICs.
+- डिजिटल आईसी को लॉजिक आईसी (जैसे माइक्रोप्रोसेसर और माइक्रोकंट्रोलर), मेमोरी चिप्स (जैसे एमओएस मेमोरी और फ्लोटिंग-गेट मेमोरी), इंटरफ़ेस आईसी (लेवल शिफ्टर्स, सीरियलाइज़र/डीसेरिएलाइज़र, आदि), पावर मैनेजमेंट आईसी और प्रोग्रामेबल के रूप में वर्गीकृत किया गया है। उपकरण।
+- एनालॉग आईसी को रैखिक एकीकृत सर्किट और आरएफ सर्किट (रेडियो फ्रीक्वेंसी सर्किट) के रूप में वर्गीकृत किया गया है।
+- मिश्रित-सिग्नल एकीकृत सर्किट को डेटा अधिग्रहण आईसी (ए/डी कनवर्टर्स, डी/ए कनवर्टर्स, और डिजिटल पोटेंशियोमीटर), क्लॉक/टाइमिंग आईसी, स्विच्ड कैपेसिटर (एससी) सर्किट और आरएफ सीएमओएस सर्किट के रूप में वर्गीकृत किया गया है।
+- त्रि-आयामी एकीकृत सर्किट (3डी आईसी) को थ्रू-सिलिकॉन वाया (टीएसवी) आईसी और सीयू-सीयू कनेक्शन आईसी में वर्गीकृत किया गया है।
 
 
 ## [Object Oriented Programming](Object%20Oriented%20Programming/readme.md)
-Object Oriented Programming is a fundamental programming paradigm that is based on the concepts of objects and data.
+ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग एक मौलिक प्रोग्रामिंग प्रतिमान है जो ऑब्जेक्ट और डेटा की अवधारणाओं पर आधारित है।
 
-It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
+यह कोड का मानक तरीका है जिसका पालन प्रत्येक प्रोग्रामर को कोड की बेहतर पठनीयता और पुन: प्रयोज्य के लिए करना होता है। 
 
 ### * There are four basic concepts of Object Oriented Programming:
 - Abstraction
