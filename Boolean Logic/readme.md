@@ -1,56 +1,56 @@
-# Boolean Logic
+# बुलियन तर्क
 
-Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
+बूलियन तर्कशास्त्र गणित की एक शाखा है जो सत्य और असत्य के मूल्यों से संबंधित है। यह तर्क की एक प्रणाली है जो क्रमशः असत्य और सत्य का प्रतिनिधित्व करने के लिए केवल दो मानों, 0 और 1 का उपयोग करती है। इसे बूलियन बीजगणित के रूप में भी जाना जाता है, जिसका नाम जॉर्ज बूले के नाम पर रखा गया है, जिन्होंने पहली बार 1854 में इसका वर्णन किया था।
 
-Programs use simple comparisons to help make decisions. Boolean logic is a form of algebra where all values are either True or False. These values of true and false are used to test the conditions that selection and iteration are based around.
+निर्णय लेने में सहायता के लिए प्रोग्राम सरल तुलनाओं का उपयोग करते हैं। बूलियन तर्क बीजगणित का एक रूप है जहां सभी मान या तो सत्य या गलत होते हैं। सत्य और असत्य के इन मूल्यों का उपयोग उन स्थितियों का परीक्षण करने के लिए किया जाता है जिनके आधार पर चयन और पुनरावृत्ति आधारित होती है।
 
-## Common Boolean Operators
+## सामान्य बूलियन ऑपरेटर्स
 
-| Operator | Name |               Description               |
+| ऑपरेटर | नाम |               विवरण               |
 | :------: | :--: | :-------------------------------------: |
-|    !     | NOT  |    Negates the value of the operand.    |
-|    &&    | AND  | Returns true if both operands are true. |
-|   \|\|   |  OR  | Returns true if either operand is true. |
+|    !     | नहीं  |    ऑपरेंड के मूल्य को नकारता है।    |
+|    &&    | तथा  | यदि दोनों ऑपरेंड सत्य हैं तो सत्य लौटाता है। |
+|   \|\|   |  या  | यदि कोई भी ऑपरेंड सत्य है तो सत्य लौटाता है। |
 
-## Boolean Algebra
+## बूलियन बीजगणित
 
-Boolean algebra is a branch of algebra in which the values of the variables are the truth values true and false, usually denoted 1 and 0 respectively. Instead of elementary algebra where the values of the variables are numbers and the main operations are addition and multiplication, the main operations of Boolean algebra are the conjunction (denoted ∧), the disjunction (denoted ∨), and the negation (denoted ¬). These operations are also known as logical AND, logical OR, and logical NOT, respectively.
+बूलियन बीजगणित बीजगणित की एक शाखा है जिसमें चर के मान सत्य मान सत्य और असत्य होते हैं, जिन्हें आमतौर पर क्रमशः 1 और 0 दर्शाया जाता है। प्रारंभिक बीजगणित के बजाय जहां चर के मान संख्याएं हैं और मुख्य संक्रियाएं जोड़ और गुणा हैं, बूलियन बीजगणित की मुख्य संक्रियाएं संयोजन (निरूपित ∧), विच्छेदन (निरूपित ∨), और निषेध (निरूपित ¬) हैं। इन ऑपरेशनों को क्रमशः तार्किक AND, तार्किक OR और तार्किक NOT के रूप में भी जाना जाता है।
 
-### Algebraic Laws
+### बीजगणितीय नियम
 
-Boolean algebra has the following laws:
+बूलियन बीजगणित के निम्नलिखित नियम हैं:
 
-- Commutative law: a ∧ b = b ∧ a and a ∨ b = b ∨ a
-- Associative law: (a ∧ b) ∧ c = a ∧ (b ∧ c) and (a ∨ b) ∨ c = a ∨ (b ∨ c)
-- Distributive law: a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c) and a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c)
-- Identity law: a ∧ 1 = a and a ∨ 0 = a
-- Domination law: a ∧ 0 = 0 and a ∨ 1 = 1
-- Double negation law: ¬¬a = a
-- Idempotent law: a ∧ a = a and a ∨ a = a
-- Absorption law: a ∨ (a ∧ b) = a and a ∧ (a ∨ b) = a
+- क्रमविनिमेय नियम: a ∧ b = b ∧ a और a ∨ b = b ∨ a
+- सहयोगी कानून: (ए ∧ बी) ∧ सी = ए ∧ (बी ∧ सी) और (ए ∨ बी) ∨ सी = ए ∨ (बी ∨ सी)
+- वितरणात्मक कानून: a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c) और a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c)
+- पहचान कानून: a ∧ 1 = a और a ∨ 0 = a
+- प्रभुत्व नियम: a ∧ 0 = 0 और a ∨ 1 = 1
+- दोहरा निषेध नियम: ¬¬a = a
+- निष्प्रभावी कानून: a ∧ a = a और a ∨ a = a
+- अवशोषण नियम: a ∨ (a ∧ b) = a और a ∧ (a ∨ b) = a
 
-### De Morgan's Laws
-In propositional logic and Boolean algebra, De Morgan's laws are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
+### डी मॉर्गन के नियम
+प्रस्तावात्मक तर्क और बूलियन बीजगणित में, डी मॉर्गन के नियम परिवर्तन नियमों की एक जोड़ी हैं जो अनुमान के दोनों वैध नियम हैं। नियम संयोजन और विच्छेद की अभिव्यक्ति को विशुद्ध रूप से निषेध के माध्यम से एक दूसरे के संदर्भ में करने की अनुमति देते हैं।
 
-The rules can be expressed in English as:
-- not (a or b) = (not a) and (not b)
-- not (a and b) = (not a) or (not b)
+नियमों को अंग्रेजी में इस प्रकार व्यक्त किया जा सकता है:
+- नहीं (a या b) = (नहीं a) और (नहीं b)
+- नहीं (a और b) = (नहीं a) or (नहीं b)
 
-In set theory and Boolean algebra, these are written formally as:
+सेट सिद्धांत और बूलियन बीजगणित में, इन्हें औपचारिक रूप से इस प्रकार लिखा जाता है:
 - ¬(a ∨ b) = (¬a) ∧ (¬b)
 - ¬(a ∧ b) = (¬a) ∨ (¬b)
 
-Note : Here '^' is used to denote the logical AND operation and 'v' is used to denote the logical OR operation.
+नोट: यहां '^' का उपयोग तार्किक AND ऑपरेशन को दर्शाने के लिए किया जाता है और 'v' का उपयोग तार्किक OR ऑपरेशन को दर्शाने के लिए किया जाता है।
 
-## Boolean Operators
+## बूलियन ऑपरेटर्स
 
-Boolean is a set of commands that can be used in almost every search engine, database, or online catalogue.  The most popular Boolean commands are AND, OR, and NOT. Boolean operators are used to combine two or more expressions to form a more complex expression. The result of a Boolean operator is always a Boolean value, either true or false. The following table lists the Boolean operators in JavaScript.
+बूलियन कमांड का एक सेट है जिसका उपयोग लगभग हर खोज इंजन, डेटाबेस या ऑनलाइन कैटलॉग में किया जा सकता है। सबसे लोकप्रिय बूलियन कमांड हैं AND, OR, और NOT। बूलियन ऑपरेटरों का उपयोग अधिक जटिल अभिव्यक्ति बनाने के लिए दो या दो से अधिक अभिव्यक्तियों को संयोजित करने के लिए किया जाता है। बूलियन ऑपरेटर का परिणाम हमेशा बूलियन मान होता है, या तो सही या गलत। निम्न तालिका जावास्क्रिप्ट में बूलियन ऑपरेटरों को सूचीबद्ध करती है।
 
-| Operator | Description |
+| ऑपरेटर | विवरण |
 | -------- | ----------- |
-| &&       | Logical AND |
-| \|\|     | Logical OR  |
-| !        | Logical NOT |
+| && | तार्किक और |
+| \|\| | तार्किक या |
+| ! | तार्किक नहीं |
 
 ### Truth Table
 
