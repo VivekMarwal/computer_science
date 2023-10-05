@@ -384,23 +384,23 @@ Read more about functions [here](Statements%20and%20Functions/readme.md#function
 
 यह कोड का मानक तरीका है जिसका पालन प्रत्येक प्रोग्रामर को कोड की बेहतर पठनीयता और पुन: प्रयोज्य के लिए करना होता है। 
 
-### * There are four basic concepts of Object Oriented Programming:
-- Abstraction
-- Encapsulation
-- Inheritance
-- Polymorphism 
+### * ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग की चार बुनियादी अवधारणाएँ हैं:
+- अमूर्तन
+- एनकैप्सुलेशन
+- विरासत
+- बहुरूपता
 
 Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
 
 ## [Functional Programming](Functional%20Programming/readme.md)
 
-In computer science, functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.
+कंप्यूटर विज्ञान में, कार्यात्मक प्रोग्रामिंग एक प्रोग्रामिंग प्रतिमान है जहां कार्यों को लागू करने और रचना करके प्रोग्राम का निर्माण किया जाता है। यह एक घोषणात्मक प्रोग्रामिंग प्रतिमान है जिसमें फ़ंक्शन परिभाषाएँ अभिव्यक्ति के पेड़ हैं जो प्रोग्राम की चल रही स्थिति को अद्यतन करने वाले अनिवार्य कथनों के अनुक्रम के बजाय मूल्यों को अन्य मानों पर मैप करती हैं।
 
-In functional programming, functions are treated as first-class citizens, meaning that they can be bound to names (including local identifiers), passed as arguments, and returned from other functions, just as any other data type can. This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner.
+कार्यात्मक प्रोग्रामिंग में, फ़ंक्शंस को प्रथम श्रेणी के नागरिकों के रूप में माना जाता है, जिसका अर्थ है कि उन्हें नामों (स्थानीय पहचानकर्ताओं सहित) से बांधा जा सकता है, तर्क के रूप में पारित किया जा सकता है, और अन्य फ़ंक्शंस से लौटाया जा सकता है, जैसे कोई अन्य डेटा प्रकार कर सकता है। यह प्रोग्रामों को घोषणात्मक और रचनायोग्य शैली में लिखने की अनुमति देता है, जहां छोटे कार्यों को मॉड्यूलर तरीके से संयोजित किया जाता है।
 
-Functional programming is sometimes treated as synonymous with purely functional programming, a subset of functional programming which treats all functions as deterministic mathematical functions, or pure functions. When a pure function is called with some given arguments, it will always return the same result, and cannot be affected by any mutable state or other side effects. This is in contrast with impure procedures, common in imperative programming, which can have side effects (such as modifying the program's state or taking input from a user). Proponents of purely functional programming claim that by restricting side effects, programs can have fewer bugs, be easier to debug and test, and be more suited to formal verification procedures.
+कार्यात्मक प्रोग्रामिंग को कभी-कभी पूरी तरह कार्यात्मक प्रोग्रामिंग के पर्याय के रूप में माना जाता है, कार्यात्मक प्रोग्रामिंग का एक उपसमूह जो सभी कार्यों को नियतात्मक गणितीय कार्यों या शुद्ध कार्यों के रूप में मानता है। जब किसी शुद्ध फ़ंक्शन को कुछ दिए गए तर्कों के साथ कॉल किया जाता है, तो यह हमेशा एक ही परिणाम देगा, और किसी भी परिवर्तनशील स्थिति या अन्य दुष्प्रभावों से प्रभावित नहीं हो सकता है। यह अशुद्ध प्रक्रियाओं के विपरीत है, जो अनिवार्य प्रोग्रामिंग में आम है, जिसके दुष्प्रभाव हो सकते हैं (जैसे प्रोग्राम की स्थिति को संशोधित करना या उपयोगकर्ता से इनपुट लेना)। विशुद्ध रूप से कार्यात्मक प्रोग्रामिंग के समर्थकों का दावा है कि साइड इफेक्ट्स को प्रतिबंधित करके, प्रोग्राम में कम बग हो सकते हैं, डिबग और परीक्षण करना आसान हो सकता है, और औपचारिक सत्यापन प्रक्रियाओं के लिए अधिक उपयुक्त हो सकते हैं।
 
-Functional programming has its roots in academia, evolving from the lambda calculus, a formal system of computation based only on functions. Functional programming has historically been less popular than imperative programming, but many functional languages are seeing use today in industry and education. 
+कार्यात्मक प्रोग्रामिंग की जड़ें अकादमिक क्षेत्र में हैं, जो लैम्ब्डा कैलकुलस से विकसित हुई है, जो केवल कार्यों पर आधारित गणना की एक औपचारिक प्रणाली है। कार्यात्मक प्रोग्रामिंग ऐतिहासिक रूप से अनिवार्य प्रोग्रामिंग की तुलना में कम लोकप्रिय रही है, लेकिन आज उद्योग और शिक्षा में कई कार्यात्मक भाषाओं का उपयोग देखा जा रहा है।
 
 Some example of functional programming languages are:
 - <a href="https://lisp-lang.org/"> Common Lisp </a>
@@ -411,326 +411,325 @@ Some example of functional programming languages are:
 - <a href="https://fsharp.org/"> F# </a>
 - <a href="https://cs.lmu.edu/~ray/notes/introml/"> ML </a> 
 
-Functional programming is derived historically from the *lambda calculus*. Lambda calculus is a framework developed by Alonzo Church to study computations with functions. It is often called "the smallest programming language in the world." It provides a defintion of what is computable and what is not. It is equivalaent to a Turing machine in its computational ability and anything computable by the lambda calculus, just like anything computable by a Turing machine, is computable. It provides a theoretical frammework for describing functions and their evaluations.
+कार्यात्मक प्रोग्रामिंग ऐतिहासिक रूप से *लैम्ब्डा कैलकुलस* से ली गई है। लैम्ब्डा कैलकुलस कार्यों के साथ संगणना का अध्ययन करने के लिए अलोंजो चर्च द्वारा विकसित एक रूपरेखा है। इसे अक्सर "दुनिया की सबसे छोटी प्रोग्रामिंग भाषा" कहा जाता है। यह इस बात की परिभाषा प्रदान करता है कि क्या गणना योग्य है और क्या नहीं। यह अपनी कम्प्यूटेशनल क्षमता में ट्यूरिंग मशीन के बराबर है और लैम्ब्डा कैलकुलस द्वारा गणना की जाने वाली कोई भी चीज़, ट्यूरिंग मशीन द्वारा गणना की जाने वाली किसी भी चीज़ की तरह, गणना योग्य है। यह कार्यों और उनके मूल्यांकन का वर्णन करने के लिए एक सैद्धांतिक रूपरेखा प्रदान करता है।
 
-Some essential concepts of functional programming are:
-- Pure functions 
-- Recursion
-- Referential transparancy
-- Functions as first class and higher order functions
-- Variable are immutable.
+कार्यात्मक प्रोग्रामिंग की कुछ आवश्यक अवधारणाएँ हैं:
+- शुद्ध कार्य
+- प्रत्यावर्तन
+- संदर्भात्मक पारदर्शिता
+- प्रथम श्रेणी और उच्च क्रम के कार्यों के रूप में कार्य
+-परिवर्तनीय अपरिवर्तनीय हैं.
 
-**Pure functions**: These functions have two main properties. First, they always produce the same output for the same arguments irrespective of anything else. Secondly, they have no side-effects. i.e. they do not modify any arguments or local/global variable
-or input/output streams. The latter property is called *immutability*. The pure function's only result is the value it returns. They are deterministic. Programs done using functional programming are easy to debug because they have no side-effects or hidden I/O. Pure functions alsoì make it easier to write parralel/concurrent applications. When code is written in this style, a smart compiler can do many things- it can parallelize the instructions, wait to evaluate results until needed and memorize the results since the results never change as long as the input doesn't change. Here is a simple example of a pure funtion in Python:
+**शुद्ध कार्य**: इन कार्यों के दो मुख्य गुण हैं। सबसे पहले, वे किसी भी अन्य चीज़ की परवाह किए बिना हमेशा समान तर्कों के लिए समान आउटपुट उत्पन्न करते हैं। दूसरे, इनका कोई साइड-इफेक्ट नहीं होता. यानी वे किसी भी तर्क या स्थानीय/वैश्विक चर को संशोधित नहीं करते हैं
+या इनपुट/आउटपुट स्ट्रीम। बाद वाली संपत्ति को *अपरिवर्तनीयता* कहा जाता है। शुद्ध फ़ंक्शन का एकमात्र परिणाम वह मान है जो वह लौटाता है। वे नियतिवादी हैं. कार्यात्मक प्रोग्रामिंग का उपयोग करके किए गए प्रोग्राम को डीबग करना आसान होता है क्योंकि उनका कोई साइड-इफेक्ट या छिपा हुआ I/O नहीं होता है। शुद्ध फ़ंक्शन समानांतर/समवर्ती अनुप्रयोगों को लिखना भी आसान बनाते हैं। जब इस शैली में कोड लिखा जाता है, तो एक स्मार्ट कंपाइलर कई काम कर सकता है - यह निर्देशों को समानांतर कर सकता है, आवश्यकता होने तक परिणामों का मूल्यांकन करने के लिए प्रतीक्षा कर सकता है और परिणामों को याद रख सकता है क्योंकि जब तक इनपुट नहीं बदलता है तब तक परिणाम कभी नहीं बदलते हैं। यहां पायथन में शुद्ध फ़ंक्शन का एक सरल उदाहरण दिया गया है:
 
-```python
-def sum(x ,y): # sum is a function taking x and y as arguments
-    return x + y  # returns x + y without changing the value
- ```
+```अजगर
+def sum(x ,y): # sum एक फ़ंक्शन है जो x और y को तर्क के रूप में लेता है
+     रिटर्न x + y # मान बदले बिना x + y लौटाता है
+  ```
 
-**Recursion**: There are no "for" or  "while" loops in pure functional programming languages. Iteration is implemented through recursion. Recursive functions repeatedly call themselves until a base case is reached. Here is a simple example of a recursice
-function in C:
+**प्रत्यावर्तन**: शुद्ध कार्यात्मक प्रोग्रामिंग भाषाओं में कोई "के लिए" या "जबकि" लूप नहीं हैं। पुनरावृत्ति को पुनरावर्तन के माध्यम से कार्यान्वित किया जाता है। पुनरावर्ती फ़ंक्शंस बार-बार स्वयं को तब तक कॉल करते हैं जब तक कि किसी बेस केस तक नहीं पहुंच जाता। यहां रिकर्सिस का एक सरल उदाहरण दिया गया है
+सी में कार्य:
 
-```c
+```सी
 int fib(n) {
-  if(n <= 1)
-    return 1;
-   else
-     return (fib(n-1) + fib(n-2));
+   यदि(एन <= 1)
+     वापसी 1;
+    अन्य
+      वापसी (फाइब(एन-1) + फाइबर(एन-2));
 }
  ```
-**Referential transparency**: In functional programs, variables once defined do not change their value throughout the program.
-Functional programs do not have assignment statements. If we have to store some value, we define a new variable instead. This elimimates any chance of side-effects because any variable can be replaced with its actual value at any point of the execution. The state of any varaible is constant at any instant. Example:
+**संदर्भात्मक पारदर्शिता**: कार्यात्मक कार्यक्रमों में, एक बार परिभाषित चर पूरे कार्यक्रम में अपना मूल्य नहीं बदलते हैं।
+कार्यात्मक कार्यक्रमों में असाइनमेंट स्टेटमेंट नहीं होते हैं। यदि हमें कुछ मान संग्रहीत करना है, तो हम इसके स्थान पर एक नया वेरिएबल परिभाषित करते हैं। इससे दुष्प्रभावों की कोई भी संभावना समाप्त हो जाती है क्योंकि निष्पादन के किसी भी बिंदु पर किसी भी चर को उसके वास्तविक मूल्य से बदला जा सकता है। किसी भी चर की स्थिति किसी भी क्षण स्थिर रहती है। उदाहरण:
  
-```bash
-x = x + 1 # this changed the value assigned to the varable x
-         # therefore, the expression is NOT referentially transparent
+```बैश
+x = x + 1 # इससे वेरिएबल x को निर्दिष्ट मान बदल गया
+          # इसलिए, अभिव्यक्ति संदर्भात्मक रूप से पारदर्शी नहीं है
 ```
 
-**Functions are first-class and can be higher order**: First class functions are treated as first-class variables. The first class variables can be passed to functions as parameters, can be returned from functions or stored in data structures.
+**Functions are first-class and can be higher order**: प्रथम श्रेणी के कार्यों को प्रथम श्रेणी के चर के रूप में माना जाता है। प्रथम श्रेणी के वेरिएबल को फ़ंक्शन में पैरामीटर के रूप में पारित किया जा सकता है, फ़ंक्शन से वापस किया जा सकता है या डेटा संरचनाओं में संग्रहीत किया जा सकता है।
          
-A combination of function applications may be defined using a LISP form called **funcall**, which takes as arguments a function and a series  of arguments and applies that function to those arguments:
+फ़ंक्शन अनुप्रयोगों के संयोजन को एलआईएसपी फॉर्म का उपयोग करके परिभाषित किया जा सकता है जिसे कहा जाता है **funcall**, जो तर्कों के रूप में एक फ़ंक्शन और तर्कों की एक श्रृंखला लेता है और उस फ़ंक्शन को उन तर्कों पर लागू करता है:
 
-```Lisp
-(defun filter (list-of-elements test)
-    (cond ((null list-of-elements) nil)
-          ((funcall test (car list-of-elements))
-            (cons (car list-of-elements)
-                (filter (cdr list-of-elements)
-                      test)))
-           (t (filter (cdr list-of-elements)
-                       test))))
-   ```
-  The function **filter** applies the test to the first element of the list. If the test returns non-nil, it conses the element onto the resul of filter applied to the cdr of the list; otherwise, it just returns the filtered cdr. This function may be used with different predicates passed in as parameters to perform a variety of filtering tasks:
+```लिस्प
+(डिफ़न फ़िल्टर (तत्वों की सूची परीक्षण)
+     (शर्त ((तत्वों की शून्य सूची) शून्य)
+           ((फ़नकॉल परीक्षण (कार सूची-तत्व))
+             (विपक्ष (कार सूची-तत्व)
+                 (फ़िल्टर (सीडीआर तत्वों की सूची)
+                       परीक्षा)))
+            (टी (फ़िल्टर (सीडीआर सूची-तत्व))
+                        परीक्षा))))
+    ```
+फ़ंक्शन **फ़िल्टर** परीक्षण को सूची के पहले तत्व पर लागू करता है। यदि परीक्षण गैर-शून्य लौटाता है, तो यह सूची के सीडीआर पर लागू फ़िल्टर के परिणाम पर तत्व को सम्मिलित करता है; अन्यथा, यह केवल फ़िल्टर की गई सीडीआर लौटाता है। इस फ़ंक्शन का उपयोग विभिन्न प्रकार के फ़िल्टरिंग कार्यों को करने के लिए पैरामीटर के रूप में पारित विभिन्न विधेय के साथ किया जा सकता है:
 
-```Lisp
-    > (filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filter out all negative numbers 
-```    
-    output: (1 3 5 6)
+```लिस्प
+     > (फ़िल्टर '(1 3 -9 5 -2 -7 6) #'प्लसपी); सभी नकारात्मक संख्याओं को फ़िल्टर करें
+```
+     आउटपुट: (1 3 5 6)
 
-```Lisp
-   > (filter '(1 2 3 4 5 6 7 8 9) #'evenp)   ; filter out all odd numbers
-```   
-   output: (2 4 6 8)
+```लिस्प
+    > (फ़िल्टर '(1 2 3 4 5 6 7 8 9) #'evenp); सभी विषम संख्याओं को फ़िल्टर करें
+```
+    आउटपुट: (2 4 6 8)
 
-   and so on.
+    और इसी तरह।
 
-**Variables are immutable**: In functional programming, we can't modify a variable after it's beem initialized.
-We can create new variables- but we can't modify existing variable, and this really helps to maintain state throughout the runtime of a program. Once we create a variable ans set its value, we can have full confidence knowing that the value of that variable will never change.
+**Variables are immutable**: कार्यात्मक प्रोग्रामिंग में, हम किसी वेरिएबल को आरंभ होने के बाद संशोधित नहीं कर सकते हैं।
+हम नए वेरिएबल बना सकते हैं- लेकिन हम मौजूदा वेरिएबल को संशोधित नहीं कर सकते हैं, और यह वास्तव में प्रोग्राम के पूरे रनटाइम के दौरान स्थिति बनाए रखने में मदद करता है। एक बार जब हम एक वेरिएबल बनाते हैं और उसका मान निर्धारित करते हैं, तो हम यह जानकर पूर्ण विश्वास रख सकते हैं कि उस वेरिएबल का मान कभी नहीं बदलेगा।
 
 ## [Operating Systems](Operating%20Systems/readme.md)
-An operating system (or OS for short) acts as an intermediary between a computer user and computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs conveniently and efficiently.
-An operating system is software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
-An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
+एक ऑपरेटिंग सिस्टम (या संक्षेप में OS) कंप्यूटर उपयोगकर्ता और कंप्यूटर हार्डवेयर के बीच मध्यस्थ के रूप में कार्य करता है। ऑपरेटिंग सिस्टम का उद्देश्य एक ऐसा वातावरण प्रदान करना है जिसमें उपयोगकर्ता प्रोग्राम को सुविधाजनक और कुशलता से निष्पादित कर सके।
+ऑपरेटिंग सिस्टम एक सॉफ्टवेयर है जो कंप्यूटर हार्डवेयर का प्रबंधन करता है। कंप्यूटर सिस्टम के सही संचालन को सुनिश्चित करने और उपयोगकर्ता प्रोग्रामों को सिस्टम के उचित संचालन में हस्तक्षेप करने से रोकने के लिए हार्डवेयर को उचित तंत्र प्रदान करना चाहिए।
+इससे भी अधिक सामान्य परिभाषा यह है कि ऑपरेटिंग सिस्टम कंप्यूटर पर हर समय चलने वाला एक प्रोग्राम है (आमतौर पर इसे कर्नेल कहा जाता है), बाकी सभी एप्लिकेशन प्रोग्राम होते हैं।
 
-Operating systems can be viewed from two viewpoints: resource managers and
-extended machines. In the resource-manager view, the operating system's job is to
-manage the different parts of the system efficiently. In the extended-machine view,
-the job of the system is to provide the users with abstractions that are more con-
-convenient to use than the actual machine. These include processes, address spaces,
-and files.
-Operating systems have a long history, from when they replaced the operator to modern multiprogramming systems. 
-Highlights include early batch systems, multiprogramming systems, and personal computer systems.
-Since operating systems interact closely with the hardware, some knowledge
-of computer hardware is useful for understanding them. Computers are built up of
-processors, memories, and I/O devices. These parts are connected by buses.
-The basic concepts on which all operating systems are built are processes,
-memory management, I/O management, the file system, and security. The heart of any operating system is the set of system calls that it can handle.
-These tell what the operating system does.
+ऑपरेटिंग सिस्टम को दो दृष्टिकोणों से देखा जा सकता है: संसाधन प्रबंधक और
+विस्तारित मशीनें. संसाधन-प्रबंधक दृष्टिकोण में, ऑपरेटिंग सिस्टम का कार्य है
+सिस्टम के विभिन्न भागों को कुशलतापूर्वक प्रबंधित करें। विस्तारित-मशीन दृश्य में,
+सिस्टम का काम उपयोगकर्ताओं को ऐसे सार-संक्षेप प्रदान करना है जो अधिक उपयोगी हों-
+वास्तविक मशीन की तुलना में उपयोग में सुविधाजनक। इनमें प्रक्रियाएं, पता स्थान, शामिल हैं
+और फ़ाइलें.
+ऑपरेटिंग सिस्टम का एक लंबा इतिहास है, जब से उन्होंने ऑपरेटर को आधुनिक मल्टीप्रोग्रामिंग सिस्टम में बदल दिया।
+हाइलाइट्स में प्रारंभिक बैच सिस्टम, मल्टीप्रोग्रामिंग सिस्टम और पर्सनल कंप्यूटर सिस्टम शामिल हैं।
+चूंकि ऑपरेटिंग सिस्टम हार्डवेयर के साथ निकटता से इंटरैक्ट करता है, इसलिए कुछ ज्ञान
+कंप्यूटर हार्डवेयर की जानकारी उन्हें समझने के लिए उपयोगी है। कंप्यूटर का निर्माण होता है
+प्रोसेसर, यादें और I/O डिवाइस। ये हिस्से बसों द्वारा जुड़े हुए हैं।
+वे बुनियादी अवधारणाएँ जिन पर सभी ऑपरेटिंग सिस्टम बनाए गए हैं, प्रक्रियाएँ हैं,
+मेमोरी प्रबंधन, I/O प्रबंधन, फ़ाइल सिस्टम और सुरक्षा। किसी भी ऑपरेटिंग सिस्टम का दिल सिस्टम कॉल का सेट होता है जिसे वह संभाल सकता है।
+ये बताते हैं कि ऑपरेटिंग सिस्टम क्या करता है.
 
 ### Operating system as a resource manager
-The operating system manages all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, 
-network interfaces, printers, and a wide variety of other devices. 
-In the bottom-up view, the job of the operating system is to provide for an orderly and controlled allocation of the
-processors, memories, and I/O devices among the various programs wanting them.
-Modern operating systems allow multiple programs to be in memory and run
-simultaneously. Imagine what would happen if three programs running on some
-computer all tried to print their output simultaneously on the same printer.
-The result would be utter chaos. The operating system can bring order to the potential chaos 
-by buffering all the output destined for the printer on the disk. 
-When one program is finished, the operating system can
-then copy its output from the disk file where it has been stored for the printer,
-while at the same time, the other program can continue generating more output,
-oblivious to the fact that the output is not going to the printer (yet).
-When a computer (or network) has more than one user, the need to manage
-and protect the memory, I/O devices, and other resources even more since the
-users might otherwise interfere with one another. In addition, users often need to
-share not only hardware but also information (files, databases, etc.). In short,
-this view of the operating system holds that its primary task is to keep track of
-which programs are using which resource, to grant resource requests, to account
-for usage and to mediate conflicting requests from different programs and users.
+ऑपरेटिंग सिस्टम एक जटिल सिस्टम के सभी हिस्सों का प्रबंधन करता है। आधुनिक कंप्यूटर में प्रोसेसर, मेमोरी, टाइमर, डिस्क, चूहे,
+नेटवर्क इंटरफ़ेस, प्रिंटर, और अन्य उपकरणों की एक विस्तृत विविधता।
+नीचे से ऊपर के दृश्य में, ऑपरेटिंग सिस्टम का काम व्यवस्थित और नियंत्रित आवंटन प्रदान करना है
+विभिन्न कार्यक्रमों के बीच प्रोसेसर, मेमोरी और I/O डिवाइस जो उन्हें चाहते हैं।
+आधुनिक ऑपरेटिंग सिस्टम कई प्रोग्रामों को मेमोरी में रखने और चलाने की अनुमति देते हैं
+इसके साथ ही। कल्पना करें कि यदि किसी पर तीन प्रोग्राम चल रहे हों तो क्या होगा
+सभी कंप्यूटरों ने अपने आउटपुट को एक ही प्रिंटर पर एक साथ प्रिंट करने का प्रयास किया।
+नतीजा पूरी तरह से अराजकता होगा. ऑपरेटिंग सिस्टम संभावित अराजकता को व्यवस्थित कर सकता है
+प्रिंटर के लिए नियत सभी आउटपुट को डिस्क पर बफ़र करके।
+जब एक प्रोग्राम समाप्त हो जाता है, तो ऑपरेटिंग सिस्टम कर सकता है
+फिर इसके आउटपुट को उस डिस्क फ़ाइल से कॉपी करें जहां इसे प्रिंटर के लिए संग्रहीत किया गया है,
+जबकि उसी समय, दूसरा प्रोग्राम अधिक आउटपुट उत्पन्न करना जारी रख सकता है,
+इस तथ्य से बेखबर कि आउटपुट प्रिंटर पर नहीं जा रहा है (अभी तक)।
+जब किसी कंप्यूटर (या नेटवर्क) में एक से अधिक उपयोगकर्ता हों, तो प्रबंधन की आवश्यकता होती है
+और मेमोरी, I/O डिवाइस और अन्य संसाधनों को और भी अधिक सुरक्षित रखें
+उपयोगकर्ता अन्यथा एक दूसरे के साथ हस्तक्षेप कर सकते हैं। इसके अलावा, उपयोगकर्ताओं को अक्सर इसकी आवश्यकता होती है
+न केवल हार्डवेयर बल्कि जानकारी (फ़ाइलें, डेटाबेस आदि) भी साझा करें। संक्षेप में,
+ऑपरेटिंग सिस्टम के बारे में यह दृष्टिकोण मानता है कि इसका प्राथमिक कार्य ट्रैक रखना है
+कौन से प्रोग्राम किस संसाधन का उपयोग कर रहे हैं, संसाधन अनुरोधों को ध्यान में रखते हुए
+उपयोग के लिए और विभिन्न कार्यक्रमों और उपयोगकर्ताओं से परस्पर विरोधी अनुरोधों में मध्यस्थता करने के लिए।
 
 ### Operating system as an extended machine
-The architecture of most computers at the machine-language level is primitive and awkward to
-program, especially for input/output. To make this point more concrete, consider
-modern SATA (Serial ATA) hard disks used on most computers. What a programmer would have to know to use the disk. 
-Since then, the interface has been revised multiple times and is more complicated than it was in
-2007. No sane programmer would want to deal with this disk at the hardware level. 
-Instead, a piece of software called a disk driver deals with the hardware and provides an interface to read and write disk blocks, 
-without getting into the details. 
-Operating systems contain many drivers for controlling I/O devices.
-But even this level is much too low for most applications. For this reason, all
-operating systems provide yet another layer of abstraction for using disks: files.
-Using this abstraction, programs can create, write, and read files without dealing with the messy details of how the hardware works.
-This abstraction is the key to managing all this complexity. Good abstractions
-turn a nearly impossible task into two manageable ones. The first is defining and
-implementing the abstractions. The second is using these abstractions to solve the
-problem at hand.
+मशीन-भाषा स्तर पर अधिकांश कंप्यूटरों की वास्तुकला आदिम और अजीब है
+प्रोग्राम, विशेष रूप से इनपुट/आउटपुट के लिए। इस बात को और पुख्ता करने के लिए विचार करें
+आधुनिक SATA (सीरियल ATA) हार्ड डिस्क अधिकांश कंप्यूटरों पर उपयोग की जाती है। डिस्क का उपयोग करने के लिए एक प्रोग्रामर को क्या जानना होगा।
+तब से, इंटरफ़ेस को कई बार संशोधित किया गया है और यह पहले की तुलना में अधिक जटिल है
+2007. कोई भी समझदार प्रोग्रामर हार्डवेयर स्तर पर इस डिस्क से निपटना नहीं चाहेगा।
+इसके बजाय, सॉफ़्टवेयर का एक टुकड़ा जिसे डिस्क ड्राइवर कहा जाता है, हार्डवेयर से संबंधित है और डिस्क ब्लॉक को पढ़ने और लिखने के लिए एक इंटरफ़ेस प्रदान करता है,
+विवरण में जाए बिना।
+ऑपरेटिंग सिस्टम में I/O डिवाइस को नियंत्रित करने के लिए कई ड्राइवर होते हैं।
+लेकिन अधिकांश अनुप्रयोगों के लिए यह स्तर भी बहुत कम है। इस कारण से, सभी
+ऑपरेटिंग सिस्टम डिस्क का उपयोग करने के लिए अमूर्तता की एक और परत प्रदान करते हैं: फ़ाइलें।
+इस अमूर्तता का उपयोग करते हुए, प्रोग्राम हार्डवेयर कैसे काम करता है इसके अव्यवस्थित विवरण से निपटे बिना फ़ाइलें बना सकते हैं, लिख सकते हैं और पढ़ सकते हैं।
+यह अमूर्तता इस सारी जटिलता को प्रबंधित करने की कुंजी है। अच्छे सार-संक्षेप
+लगभग असंभव कार्य को दो प्रबंधनीय कार्यों में बदलें। पहला परिभाषित कर रहा है और
+अमूर्तन को कार्यान्वित करना। दूसरा इन अमूर्तनों का उपयोग हल करने के लिए कर रहा है
+समस्या हाथ में है.
 
 ### History of Operating Systems
-- **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognized as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
+- **First Generation (1945-55)**: द्वितीय विश्व युद्ध के युग तक बैबेज के विनाशकारी प्रयासों के बाद डिजिटल कंप्यूटर के निर्माण में बहुत कम प्रगति हासिल हुई थी। आयोवा स्टेट यूनिवर्सिटी में, प्रोफेसर जॉन अटानासॉफ़ और उनके स्नातक छात्र क्लिफ़ोर्ड बेरी ने वह बनाया जिसे आज पहले परिचालन डिजिटल कंप्यूटर के रूप में मान्यता प्राप्त है। लगभग उसी समय बर्लिन में कोनराड ज़ूस ने इलेक्ट्रोमैकेनिकल रिले का उपयोग करके Z3 कंप्यूटर का निर्माण किया। मार्क I को हार्वर्ड में हॉवर्ड एकेन द्वारा बनाया गया था, कोलोसस को इंग्लैंड के बैलेचले पार्क में वैज्ञानिकों की एक टीम द्वारा बनाया गया था, और ENIAC को 1944 में पेंसिल्वेनिया विश्वविद्यालय में विलियम मौचले और उनके डॉक्टरेट छात्र जे. प्रेस्पर एकर्ट द्वारा बनाया गया था।
 
-- **Second Generation (1955-65)**: The transistor's invention in the middle of the 1950s drastically altered the situation. Computers became dependable enough that they could be manufactured and sold to paying customers with the assumption that they would keep working long enough to conduct some meaningful job. Mainframes, as these machines are now known, were kept locked up in huge, particularly air-conditioned computer rooms, with teams of qualified operators to manage them. Only huge businesses, significant government entities, or institutions could afford the price tag of several million dollars.
+- **Second Generation (1955-65)**: 1950 के दशक के मध्य में ट्रांजिस्टर के आविष्कार ने स्थिति को काफी हद तक बदल दिया। कंप्यूटर इतने भरोसेमंद हो गए कि उनका निर्माण किया जा सकता था और भुगतान करने वाले ग्राहकों को इस धारणा के साथ बेचा जा सकता था कि वे कुछ सार्थक काम करने के लिए लंबे समय तक काम करते रहेंगे। मेनफ्रेम, जैसा कि इन मशीनों को अब जाना जाता है, को विशाल, विशेष रूप से वातानुकूलित कंप्यूटर कमरों में बंद रखा जाता था, जहां उन्हें प्रबंधित करने के लिए योग्य ऑपरेटरों की टीमें होती थीं। केवल बड़े व्यवसाय, महत्वपूर्ण सरकारी संस्थाएँ या संस्थान ही कई मिलियन डॉलर का मूल्य वहन कर सकते हैं।
 
-- **Third Generation (1965-80)**: In comparison to second-generation computers, which were constructed from individual transistors, the IBM 360 was the first major computer line to employ (small-scale) ICs (Integrated Circuits). As a result, it offered a significant price/performance benefit. It was an instant hit, and all the other big manufacturers quickly embraced the concept of a family of interoperable computers. All software, including the OS/360 operating system, was supposed to be compatible with all models in the original design. It had to run on massive systems, which frequently replaced 7094s for heavy computation and weather forecasting, and tiny systems, which frequently merely replaced 1401s for transferring cards to tape. Both systems with few peripherals and systems with many peripherals needed to function well with it. It had to function both in professional and academic settings. Above all, it had to be effective for each of these many applications.
+- **Third Generation (1965-80)**: दूसरी पीढ़ी के कंप्यूटरों की तुलना में, जो व्यक्तिगत ट्रांजिस्टर से निर्मित किए गए थे, आईबीएम 360 (छोटे पैमाने पर) आईसी (एकीकृत सर्किट) को नियोजित करने वाली पहली प्रमुख कंप्यूटर लाइन थी। परिणामस्वरूप, इसने महत्वपूर्ण मूल्य/प्रदर्शन लाभ की पेशकश की। यह तुरंत हिट हो गया और अन्य सभी बड़े निर्माताओं ने इंटरऑपरेबल कंप्यूटर के परिवार की अवधारणा को तुरंत अपना लिया। OS/360 ऑपरेटिंग सिस्टम सहित सभी सॉफ़्टवेयर को मूल डिज़ाइन के सभी मॉडलों के साथ संगत माना जाता था। इसे बड़े पैमाने पर सिस्टम पर चलना पड़ता था, जो अक्सर भारी गणना और मौसम पूर्वानुमान के लिए 7094s को प्रतिस्थापित करता था, और छोटे सिस्टम, जो अक्सर कार्ड को टेप में स्थानांतरित करने के लिए केवल 1401 को प्रतिस्थापित करते थे। कुछ बाह्य उपकरणों वाली प्रणालियों और कई बाह्य उपकरणों वाली प्रणालियों दोनों को इसके साथ अच्छी तरह से काम करने की आवश्यकता है। इसे व्यावसायिक और शैक्षणिक दोनों स्थितियों में कार्य करना था। सबसे बढ़कर, इसे इन अनेक अनुप्रयोगों में से प्रत्येक के लिए प्रभावी होना था।
 
-- **Fourth Generation (1980-Present)**: The personal computer era began with the creation of LSI (Large Scale Integration) circuits, processors with thousands of transistors on a square centimeter of silicon. Although personal computers, originally known as microcomputers, did not change significantly in architecture from minicomputers of the PDP-11 class, they did differ significantly in price.
+- **Fourth Generation (1980-Present)**: पर्सनल कंप्यूटर युग की शुरुआत एलएसआई (बड़े पैमाने पर एकीकरण) सर्किट, सिलिकॉन के एक वर्ग सेंटीमीटर पर हजारों ट्रांजिस्टर वाले प्रोसेसर के निर्माण के साथ हुई। हालाँकि पर्सनल कंप्यूटर, जिन्हें मूल रूप से माइक्रो कंप्यूटर के रूप में जाना जाता था, पीडीपी-11 वर्ग के मिनी कंप्यूटर से वास्तुकला में महत्वपूर्ण रूप से नहीं बदले, लेकिन उनकी कीमत में काफी अंतर था।
 
-- **Fifth Generation (1990-Present)**: People have yearned for a portable communication gadget ever since detective Dick Tracy in the 1940s comic strip began conversing with his "two-way radio wristwatch." In 1946, a real mobile phone made its debut, and it weighed about 40 kilograms. The first real portable phone debuted in the 1970s and was incredibly lightweight at about one kilogram. It was jokingly referred to as "the brick." Soon, everyone was clamoring for one.
+- **Fifth Generation (1990-Present)**: जब से 1940 के दशक की कॉमिक स्ट्रिप में जासूस डिक ट्रेसी ने अपनी "टू-वे रेडियो कलाई घड़ी" से बातचीत करना शुरू किया, तब से लोग पोर्टेबल संचार गैजेट के लिए तरस रहे हैं। 1946 में, एक वास्तविक मोबाइल फोन की शुरुआत हुई, और इसका वजन लगभग 40 किलोग्राम था। पहला वास्तविक पोर्टेबल फोन 1970 के दशक में आया और लगभग एक किलोग्राम वजन के साथ अविश्वसनीय रूप से हल्का था। इसे मजाक में "ईंट" कहा जाता था। जल्द ही, हर कोई एक के लिए चिल्ला रहा था।
 
 ### Functions of an OS
-- **Convenience**: An OS makes a computer more convenient to use.
-- **Efficiency**: An OS allows the computer system resources to be used efficiently.
-- **Ability to Evolve**: An OS should be constructed in such a way as to permit the effective development, testing, and introduction of new system functions at the same time without interfering with service.
-- **Throughput**: An OS should be constructed so that It can give maximum throughput(Number of tasks per unit time).
+- **सुविधा**: एक ओएस कंप्यूटर को उपयोग में अधिक सुविधाजनक बनाता है।
+- **दक्षता**: एक ओएस कंप्यूटर सिस्टम संसाधनों को कुशलतापूर्वक उपयोग करने की अनुमति देता है।
+- **विकसित करने की क्षमता**: एक ओएस का निर्माण इस तरह से किया जाना चाहिए कि सेवा में हस्तक्षेप किए बिना एक ही समय में प्रभावी विकास, परीक्षण और नए सिस्टम कार्यों की शुरूआत की अनुमति मिल सके।
+- **थ्रूपुट**: एक ओएस का निर्माण किया जाना चाहिए ताकि यह अधिकतम थ्रूपुट (प्रति यूनिट समय में कार्यों की संख्या) दे सके।
 
 ### Major functionalities of an OS
-- **Resource Management**: When parallel accessing happens in the OS, it means when multiple users are accessing the system, the OS works as a Resource Manager. Its responsibility is to provide hardware to the user. It decreases the load in the system.
-- **Process Management**: It includes various tasks like scheduling and termination of the process. OS manages various tasks at a time. Here CPU Scheduling happens means all the tasks would be done by the many algorithms that use for scheduling.
-- **Storage Management**: The file system mechanism used for the management of the storage. NIFS, CFS, CIFS, NFS, etc. are some file systems. All the data is stored in various tracks of Hard disks that are all managed by the storage manager. It included Hard Disk.
-- **Memory Management**: Refers to the management of primary memory. The operating system has to keep track of how much memory has been used and by whom. It has to decide which process needs memory space and how much. OS also has to allocate and deallocate the memory space.
-- **Security/Privacy Management**: Privacy is also provided by the Operating system utilizing passwords so that unauthorized applications can't access programs or data. For example, Windows uses **_Kerberos_** authentication to prevent unauthorized access to data.
+- **संसाधन प्रबंधन**: जब ओएस में समानांतर एक्सेसिंग होती है, तो इसका मतलब है कि जब कई उपयोगकर्ता सिस्टम तक पहुंच रहे हैं, तो ओएस एक संसाधन प्रबंधक के रूप में काम करता है। इसकी जिम्मेदारी यूजर को हार्डवेयर मुहैया कराना है. इससे सिस्टम में लोड कम हो जाता है.
+- **प्रक्रिया प्रबंधन**: इसमें प्रक्रिया को शेड्यूल करना और समाप्त करना जैसे विभिन्न कार्य शामिल हैं। OS एक समय में विभिन्न कार्यों का प्रबंधन करता है। यहां सीपीयू शेड्यूलिंग होती है इसका मतलब है कि सभी कार्य शेड्यूलिंग के लिए उपयोग किए जाने वाले कई एल्गोरिदम द्वारा किए जाएंगे।
+- **भंडारण प्रबंधन**: भंडारण के प्रबंधन के लिए उपयोग किया जाने वाला फ़ाइल सिस्टम तंत्र। NIFS, CFS, CIFS, NFS आदि कुछ फ़ाइल सिस्टम हैं। सारा डेटा हार्ड डिस्क के विभिन्न ट्रैक में संग्रहीत होता है जिसे स्टोरेज मैनेजर द्वारा प्रबंधित किया जाता है। इसमें हार्ड डिस्क भी शामिल थी.
+- **मेमोरी प्रबंधन**: प्राथमिक मेमोरी के प्रबंधन को संदर्भित करता है। ऑपरेटिंग सिस्टम को यह ट्रैक रखना होता है कि कितनी मेमोरी का उपयोग किया गया है और किसने किया है। इसे यह तय करना होगा कि किस प्रक्रिया को मेमोरी स्पेस की आवश्यकता है और कितनी। ओएस को मेमोरी स्पेस का आवंटन और आवंटन भी करना होता है।
+- **सुरक्षा/गोपनीयता प्रबंधन**: ऑपरेटिंग सिस्टम द्वारा पासवर्ड का उपयोग करके गोपनीयता भी प्रदान की जाती है ताकि अनधिकृत एप्लिकेशन प्रोग्राम या डेटा तक न पहुंच सकें। उदाहरण के लिए, विंडोज़ डेटा तक अनधिकृत पहुंच को रोकने के लिए **_Kerberos_** प्रमाणीकरण का उपयोग करता है।
 
 ### Types of Operating Systems
-- **Mainframe OS**:
-At the high end are the operating systems for mainframes, those room-sized
-computers still found in major corporate data centers. These computers differ from
-personal computers in terms of their I/O capacity. A mainframe with 1000 disks
-and millions of gigabytes of data is not unusual; a personal computer with these
-specifications would be the envy of its friends. Mainframes are also making some-
-a thing of a comeback as high-end Web servers, servers for large-scale electronic
-commerce sites, and servers for business-to-business transactions.
-The operating systems for mainframes are heavily oriented toward processing
-many jobs at once, most of which need prodigious amounts of I/O. They typically
-offer three kinds of services: batch, transaction processing, and timesharing
+- **मेनफ्रेम ओएस**:
+उच्च अंत में मेनफ्रेम के लिए ऑपरेटिंग सिस्टम हैं, जो कमरे के आकार के हैं
+कंप्यूटर अभी भी प्रमुख कॉर्पोरेट डेटा केंद्रों में पाए जाते हैं। ये कंप्यूटर अलग-अलग होते हैं
+पर्सनल कंप्यूटर उनकी I/O क्षमता के संदर्भ में। 1000 डिस्क वाला एक मेनफ्रेम
+और लाखों गीगाबाइट डेटा असामान्य नहीं है; इनके साथ एक पर्सनल कंप्यूटर
+विशिष्टताएँ उसके मित्रों के लिए ईर्ष्या का विषय होंगी। मेनफ्रेम भी कुछ बना रहे हैं-
+हाई-एंड वेब सर्वर, बड़े पैमाने पर इलेक्ट्रॉनिक के लिए सर्वर के रूप में वापसी की बात
+वाणिज्य साइटें, और व्यवसाय-से-व्यवसाय लेनदेन के लिए सर्वर।
+मेनफ्रेम के लिए ऑपरेटिंग सिस्टम काफी हद तक प्रोसेसिंग की ओर उन्मुख हैं
+एक साथ कई नौकरियाँ, जिनमें से अधिकांश के लिए अत्यधिक मात्रा में I/O की आवश्यकता होती है। वे आम तौर पर
+तीन प्रकार की सेवाएँ प्रदान करें: बैच, लेनदेन प्रसंस्करण, और टाइमशेयरिंग
 
-- **Server OS**:
-One level down is the server operating systems. They run on servers, which
-are either very large personal computers, workstations, or even mainframes. They
-serve multiple users at once over a network and allow the users to share hardware
-and software resources. Servers can provide print service, file service, or Web service. 
-Internet providers run many server machines to support their customers
-, and Websites use servers to store Web pages and handle incoming requests.
-Typical server operating systems are Solaris, FreeBSD, Linux, and Windows Server
+- **सर्वर ओएस**:
+एक स्तर नीचे सर्वर ऑपरेटिंग सिस्टम है। वे सर्वर पर चलते हैं, जो
+या तो बहुत बड़े पर्सनल कंप्यूटर, वर्कस्टेशन, या यहां तक कि मेनफ्रेम भी हैं। वे
+एक नेटवर्क पर एक साथ कई उपयोगकर्ताओं को सेवा प्रदान करना और उपयोगकर्ताओं को हार्डवेयर साझा करने की अनुमति देना
+और सॉफ्टवेयर संसाधन। सर्वर प्रिंट सेवा, फ़ाइल सेवा या वेब सेवा प्रदान कर सकते हैं।
+इंटरनेट प्रदाता अपने ग्राहकों को समर्थन देने के लिए कई सर्वर मशीनें चलाते हैं
+, और वेबसाइटें वेब पेजों को संग्रहीत करने और आने वाले अनुरोधों को संभालने के लिए सर्वर का उपयोग करती हैं।
+विशिष्ट सर्वर ऑपरेटिंग सिस्टम सोलारिस, फ्रीबीएसडी, लिनक्स और विंडोज सर्वर हैं
 201x.
 
-- **Multiprocessor OS**:
-An increasingly common way to get major-league computing power is to connect multiple CPUs into a single system. 
-Depending on precisely how they are connected and what is shared, these systems are called parallel computers, multi-computers, or multiprocessors. 
-They need special operating systems, but often these are variations on the server operating systems, 
-with special features for communication, connectivity, and consistency.
+- **मल्टीप्रोसेसर ओएस**:
+मेजर-लीग कंप्यूटिंग शक्ति प्राप्त करने का एक आम तरीका कई सीपीयू को एक ही सिस्टम में जोड़ना है।
+वे कैसे जुड़े हुए हैं और क्या साझा किया गया है, इस पर निर्भर करते हुए, इन प्रणालियों को समानांतर कंप्यूटर, मल्टी-कंप्यूटर या मल्टीप्रोसेसर कहा जाता है।
+उन्हें विशेष ऑपरेटिंग सिस्टम की आवश्यकता होती है, लेकिन अक्सर ये सर्वर ऑपरेटिंग सिस्टम पर भिन्नताएं होती हैं,
+संचार, कनेक्टिविटी और निरंतरता के लिए विशेष सुविधाओं के साथ।
 
-- **Personal Computer OS**:
-The next category is the personal computer operating system. Modern ones all
-support multiprogramming, often with dozens of programs started up at boot time.
-Their job is to provide good support to a single user. They are widely used for
-word processing, spreadsheets, games, and Internet access. Common examples are
-Linux, FreeBSD, Windows 7, Windows 8, and Apple's OS X. Personal computer
-operating systems are so widely known that probably little introduction is needed.
-Many people are not even aware that other kinds exist.
+- **पर्सनल कंप्यूटर ओएस**:
+अगली श्रेणी पर्सनल कंप्यूटर ऑपरेटिंग सिस्टम है। सभी आधुनिक
+मल्टीप्रोग्रामिंग का समर्थन करें, अक्सर दर्जनों प्रोग्राम बूट समय पर शुरू होते हैं।
+इनका काम सिंगल यूजर को अच्छा सपोर्ट प्रदान करना है। इनका व्यापक रूप से उपयोग किया जाता है
+वर्ड प्रोसेसिंग, स्प्रेडशीट, गेम और इंटरनेट का उपयोग। सामान्य उदाहरण हैं
+Linux, FreeBSD, Windows 7, Windows 8, और Apple का OS X. पर्सनल कंप्यूटर
+ऑपरेटिंग सिस्टम इतने व्यापक रूप से ज्ञात हैं कि शायद बहुत कम परिचय की आवश्यकता है।
+बहुत से लोगों को यह भी पता नहीं है कि अन्य प्रकार भी मौजूद हैं।
 
-- **Embedded OS**:
-Embedded systems run on computers that control devices that are not generally considered computers and do not accept user-installed software.
-Typical examples are microwave ovens, TV sets, cars, DVD recorders, traditional
-phones, and MP3 players. The main property distinguishing embedded systems from handhelds is the certainty that no untrusted software will ever run on them.
-You cannot download new applications to your microwave oven—all the software
-is in ROM. This means there is no need for protection between applications,
-simplifying design. Systems such as Embedded Linux, QNX and
-VxWorks is popular in this domain.
+- **एंबेडेड ओएस**:
+एंबेडेड सिस्टम कंप्यूटर पर चलते हैं जो उन उपकरणों को नियंत्रित करते हैं जिन्हें आम तौर पर कंप्यूटर नहीं माना जाता है और उपयोगकर्ता द्वारा इंस्टॉल किए गए सॉफ़्टवेयर को स्वीकार नहीं करते हैं।
+विशिष्ट उदाहरण माइक्रोवेव ओवन, टीवी सेट, कार, डीवीडी रिकॉर्डर, पारंपरिक हैं
+फ़ोन, और एमपी3 प्लेयर। एम्बेडेड सिस्टम को हैंडहेल्ड से अलग करने वाली मुख्य संपत्ति यह निश्चितता है कि कोई भी अविश्वसनीय सॉफ़्टवेयर उन पर कभी नहीं चलेगा।
+आप अपने माइक्रोवेव ओवन में नए एप्लिकेशन-सभी सॉफ़्टवेयर डाउनलोड नहीं कर सकते
+ROM में है. इसका मतलब है कि अनुप्रयोगों के बीच सुरक्षा की कोई आवश्यकता नहीं है,
+डिज़ाइन को सरल बनाना. एंबेडेड लिनक्स, क्यूएनएक्स और जैसे सिस्टम
+VxWorks इस डोमेन में लोकप्रिय है।
 
-- **Smart Card OS**:
-The smallest operating systems run on credit-card-sized smart card
-devices with CPU chips. They have very severe processing power and memory constraints. 
-Some are powered by contacts in the reader into which they are
-inserted, but contactless smart cards are inductively powered, greatly limiting
-what they can do. Some can handle only a single function, such as electronic payments, but others can handle multiple functions. 
-Often these are proprietary systems.
-Some smart cards are Java oriented. This means that the ROM on the smart
-card holds an interpreter for the Java Virtual Machine (JVM). Java applets (small
-programs) are downloaded to the card and are interpreted by the JVM interpreter.
-Some of these cards can handle multiple Java applets at the same time, leading to
-multiprogramming and the need to schedule them. Resource management and protection also become an issue when two or more applets are present simultaneously. 
-These issues must be handled by the (usually extremely primitive) operating system present on the card.
+- **स्मार्ट कार्ड ओएस**:
+सबसे छोटे ऑपरेटिंग सिस्टम क्रेडिट कार्ड के आकार के स्मार्ट कार्ड पर चलते हैं
+सीपीयू चिप्स वाले उपकरण। उनके पास बहुत गंभीर प्रसंस्करण शक्ति और स्मृति बाधाएँ हैं।
+कुछ पाठक के संपर्कों द्वारा संचालित होते हैं जिसमें वे हैं
+डाला गया है, लेकिन संपर्क रहित स्मार्ट कार्ड आगमनात्मक रूप से संचालित होते हैं, जो बहुत सीमित हैं
+वे क्या कर सकते हैं. कुछ केवल एक ही कार्य संभाल सकते हैं, जैसे इलेक्ट्रॉनिक भुगतान, लेकिन अन्य कई कार्य संभाल सकते हैं।
+अक्सर ये मालिकाना प्रणालियाँ होती हैं।
+कुछ स्मार्ट कार्ड जावा उन्मुख हैं। इसका मतलब है कि स्मार्ट पर ROM
+कार्ड में जावा वर्चुअल मशीन (JVM) के लिए एक दुभाषिया होता है। जावा एप्लेट्स (छोटा)
+प्रोग्राम) कार्ड में डाउनलोड किए जाते हैं और जेवीएम दुभाषिया द्वारा व्याख्या किए जाते हैं।
+इनमें से कुछ कार्ड एक ही समय में कई जावा एप्लेट्स को संभाल सकते हैं, जिससे
+मल्टीप्रोग्रामिंग और उन्हें शेड्यूल करने की आवश्यकता। जब दो या दो से अधिक एप्लेट एक साथ मौजूद हों तो संसाधन प्रबंधन और सुरक्षा भी एक मुद्दा बन जाती है।
+इन मुद्दों को कार्ड पर मौजूद (आमतौर पर बेहद आदिम) ऑपरेटिंग सिस्टम द्वारा नियंत्रित किया जाना चाहिए।
 
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
 
-### Memory
-The term _memory_ refers to the component within your computer allowing short-term data access. You may recognize this component as DRAM or dynamic random-access memory. Your computer performs many operations by accessing data stored in its short-term memory. Some examples of such operations include editing a document, loading applications, and browsing the Internet. The speed and performance of your system depend on the amount of memory that is installed on your computer.
+### याद
+_मेमोरी_ शब्द आपके कंप्यूटर के भीतर उस घटक को संदर्भित करता है जो अल्पकालिक डेटा एक्सेस की अनुमति देता है। आप इस घटक को DRAM या डायनेमिक रैंडम-एक्सेस मेमोरी के रूप में पहचान सकते हैं। आपका कंप्यूटर अपनी अल्पकालिक मेमोरी में संग्रहीत डेटा तक पहुंच कर कई कार्य करता है। ऐसे कार्यों के कुछ उदाहरणों में दस्तावेज़ को संपादित करना, एप्लिकेशन लोड करना और इंटरनेट ब्राउज़ करना शामिल है। आपके सिस्टम की गति और प्रदर्शन आपके कंप्यूटर पर स्थापित मेमोरी की मात्रा पर निर्भर करता है।
 
-If you have a desk and a filing cabinet, the desk represents your computer's memory. Items you need to use immediately are kept on your desk for easy access. However, not much can be stored on a desk due to its size limitations.
+यदि आपके पास एक डेस्क और एक फाइलिंग कैबिनेट है, तो डेस्क आपके कंप्यूटर की मेमोरी का प्रतिनिधित्व करता है। जिन वस्तुओं को आपको तुरंत उपयोग करने की आवश्यकता होती है उन्हें आसान पहुंच के लिए आपके डेस्क पर रखा जाता है। हालाँकि, आकार की सीमाओं के कारण डेस्क पर ज़्यादा कुछ संग्रहीत नहीं किया जा सकता है।
 
-### Storage
-Whereas memory refers to the location of short-term data, _storage_ is the component within your computer that allows you to store and access data long-term. Usually, storage comes in the form of a solid-state drive or a hard drive. Storage houses your applications, operating system, and files indefinitely. Computers need to read and write information from the storage system, so the storage speed determines how fast your system can boot up, load, and access what you've saved.
+### भंडारण
+जबकि मेमोरी अल्पकालिक डेटा के स्थान को संदर्भित करती है, _स्टोरेज_ आपके कंप्यूटर के भीतर का घटक है जो आपको डेटा को दीर्घकालिक रूप से संग्रहीत और एक्सेस करने की अनुमति देता है। आमतौर पर, स्टोरेज सॉलिड-स्टेट ड्राइव या हार्ड ड्राइव के रूप में आता है। स्टोरेज में आपके एप्लिकेशन, ऑपरेटिंग सिस्टम और फ़ाइलें अनिश्चित काल तक रहती हैं। कंप्यूटर को स्टोरेज सिस्टम से जानकारी पढ़ने और लिखने की आवश्यकता होती है, इसलिए स्टोरेज की गति यह निर्धारित करती है कि आपका सिस्टम कितनी तेजी से बूट हो सकता है, लोड कर सकता है और जो आपने सहेजा है उसे एक्सेस कर सकता है।
 
-While the desk represents the computer's memory, the filing cabinet represents your computer's storage. It holds items that need to be saved and stored but is not necessarily needed for immediate access. The size of the filing cabinet means that it can hold many things.
+जबकि डेस्क कंप्यूटर की मेमोरी का प्रतिनिधित्व करता है, फाइलिंग कैबिनेट आपके कंप्यूटर के स्टोरेज का प्रतिनिधित्व करता है। इसमें वे वस्तुएं हैं जिन्हें सहेजने और संग्रहीत करने की आवश्यकता है लेकिन तत्काल पहुंच के लिए इसकी आवश्यकता नहीं है। फाइलिंग कैबिनेट के आकार का मतलब है कि इसमें कई चीजें रखी जा सकती हैं।
 
-**An important distinction** between memory and storage is that memory clears when the computer is turned off. On the other hand, storage remains intact no matter how often you shut off your computer. Therefore, in the desk and filing cabinet analogy, any files left on your desk will be thrown away when you leave the office. Everything in your filing cabinet will remain.
+**मेमोरी और स्टोरेज के बीच एक महत्वपूर्ण अंतर** यह है कि कंप्यूटर बंद होने पर मेमोरी साफ़ हो जाती है। दूसरी ओर, चाहे आप कितनी भी बार अपना कंप्यूटर बंद कर दें, स्टोरेज बरकरार रहता है। इसलिए, डेस्क और फाइलिंग कैबिनेट सादृश्य में, जब आप कार्यालय छोड़ेंगे तो आपके डेस्क पर छोड़ी गई कोई भी फाइल फेंक दी जाएगी। आपकी फाइलिंग कैबिनेट में सब कुछ रहेगा।
 
-### Virtual Memory
-At the heart of computer systems lies memory, the space where programs run and data is stored. But what happens when the programs you're running and the data you're working with exceed the physical capacity of your computer's memory? This is where virtual memory steps in, acting as a smart extension to your computer's memory and enhancing its capabilities.
+### आभासी मेमोरी
+कंप्यूटर सिस्टम के केंद्र में मेमोरी होती है, वह स्थान जहां प्रोग्राम चलते हैं और डेटा संग्रहीत होता है। लेकिन क्या होता है जब आप जो प्रोग्राम चला रहे हैं और जिस डेटा के साथ आप काम कर रहे हैं वह आपके कंप्यूटर की मेमोरी की भौतिक क्षमता से अधिक हो जाता है? यहीं पर वर्चुअल मेमोरी कदम रखती है, जो आपके कंप्यूटर की मेमोरी के लिए एक स्मार्ट एक्सटेंशन के रूप में कार्य करती है और इसकी क्षमताओं को बढ़ाती है।
 
 **Definition and Purpose of Virtual Memory:**
 
-Virtual memory is a memory management technique employed by operating systems to overcome the limitations of physical memory (RAM). It creates an illusion for software applications that they have access to a larger amount of memory than what is physically installed on the computer. In essence, it enables programs to utilize memory space beyond the confines of the computer's physical RAM.
+वर्चुअल मेमोरी एक मेमोरी प्रबंधन तकनीक है जिसे ऑपरेटिंग सिस्टम द्वारा भौतिक मेमोरी (रैम) की सीमाओं को दूर करने के लिए नियोजित किया जाता है। यह सॉफ़्टवेयर अनुप्रयोगों के लिए एक भ्रम पैदा करता है कि उनके पास कंप्यूटर पर भौतिक रूप से स्थापित मेमोरी की तुलना में बड़ी मात्रा में मेमोरी तक पहुंच है। संक्षेप में, यह प्रोग्राम को कंप्यूटर की भौतिक रैम की सीमा से परे मेमोरी स्पेस का उपयोग करने में सक्षम बनाता है।
 
-The primary purpose of virtual memory is to enable efficient multitasking and the execution of larger programs, all while maintaining the responsiveness of the system. It achieves this by creating a seamless interaction between the physical RAM and secondary storage devices, like the hard drive or SSD.
+वर्चुअल मेमोरी का प्राथमिक उद्देश्य सिस्टम की प्रतिक्रियाशीलता को बनाए रखते हुए कुशल मल्टीटास्किंग और बड़े कार्यक्रमों के निष्पादन को सक्षम करना है। यह भौतिक रैम और हार्ड ड्राइव या एसएसडी जैसे सेकेंडरी स्टोरेज डिवाइस के बीच एक सहज इंटरैक्शन बनाकर इसे प्राप्त करता है।
 
 **How Virtual Memory Extends Available Physical Memory:**
 
-Think of virtual memory as a bridge that connects your computer's RAM and its secondary storage (disk drives). When you run a program, parts of it are loaded into the faster physical memory (RAM). However, not all parts of the program may be used immediately.
+वर्चुअल मेमोरी को एक पुल के रूप में सोचें जो आपके कंप्यूटर की रैम और उसके सेकेंडरी स्टोरेज (डिस्क ड्राइव) को जोड़ता है। जब आप कोई प्रोग्राम चलाते हैं, तो उसके कुछ हिस्से तेज़ भौतिक मेमोरी (RAM) में लोड हो जाते हैं। हालाँकि, प्रोग्राम के सभी भागों का तुरंत उपयोग नहीं किया जा सकता है।
 
-Virtual memory exploits this situation by moving sections of the program that aren't actively being used from RAM to the secondary storage, creating more room in RAM for the parts that are actively in use. This process is transparent to the user and the running programs. When the moved parts are needed again, they are swapped back into RAM, while other less active parts may be moved to the secondary storage.
+वर्चुअल मेमोरी प्रोग्राम के उन हिस्सों को स्थानांतरित करके इस स्थिति का फायदा उठाती है जिनका सक्रिय रूप से उपयोग नहीं किया जा रहा है, उन्हें रैम से सेकेंडरी स्टोरेज में ले जाया जाता है, जिससे सक्रिय रूप से उपयोग में आने वाले हिस्सों के लिए रैम में अधिक जगह बन जाती है। यह प्रक्रिया उपयोगकर्ता और चल रहे प्रोग्रामों के लिए पारदर्शी है। जब स्थानांतरित हिस्सों की फिर से आवश्यकता होती है, तो उन्हें वापस रैम में बदल दिया जाता है, जबकि अन्य कम सक्रिय हिस्सों को सेकेंडरी स्टोरेज में ले जाया जा सकता है।
 
-This dynamic swapping of data in and out of physical memory is managed by the operating system. It allows programs to run even if they're larger than the available RAM, as the operating system intelligently decides what data needs to be in RAM for optimal performance.
+भौतिक मेमोरी के अंदर और बाहर डेटा की इस गतिशील अदला-बदली को ऑपरेटिंग सिस्टम द्वारा प्रबंधित किया जाता है। यह प्रोग्राम को चलने की अनुमति देता है, भले ही वे उपलब्ध रैम से बड़े हों, क्योंकि ऑपरेटिंग सिस्टम समझदारी से निर्णय लेता है कि इष्टतम प्रदर्शन के लिए रैम में कौन सा डेटा होना चाहिए।
 
-In summary, virtual memory acts as a virtualization layer that extends the available physical memory by temporarily transferring parts of programs and data between the RAM and secondary storage. This process ensures that the computer can handle larger tasks and numerous programs simultaneously, all while maintaining efficient performance and responsiveness.
+संक्षेप में, वर्चुअल मेमोरी एक वर्चुअलाइजेशन परत के रूप में कार्य करती है जो रैम और सेकेंडरी स्टोरेज के बीच प्रोग्राम और डेटा के कुछ हिस्सों को अस्थायी रूप से स्थानांतरित करके उपलब्ध भौतिक मेमोरी का विस्तार करती है। यह प्रक्रिया सुनिश्चित करती है कि कंप्यूटर कुशल प्रदर्शन और प्रतिक्रियाशीलता बनाए रखते हुए बड़े कार्यों और कई कार्यक्रमों को एक साथ संभाल सकता है।
 
 ## [File System](File%20System/readme.md)
-In computing, a file system or filesystem (often abbreviated to fs) is a method and data structure the operating system uses to control how data is stored and retrieved. Without a file system, data placed in a storage medium would be one large body of data with no way to tell where one piece of data stopped and the next began or where any piece of data was located when it was time to retrieve it. By separating the data into pieces and giving each piece a name, the data is easily isolated and identified. Taking its name from how a paper-based data management system is named, each data group is called a "file". The structure and logic rules used to manage the groups of data and their names are called a "file system."
+कंप्यूटिंग में, फ़ाइल सिस्टम या फ़ाइल सिस्टम (अक्सर संक्षेप में एफएस) एक विधि और डेटा संरचना है जिसे ऑपरेटिंग सिस्टम यह नियंत्रित करने के लिए उपयोग करता है कि डेटा कैसे संग्रहीत और पुनर्प्राप्त किया जाता है। फ़ाइल सिस्टम के बिना, भंडारण माध्यम में रखा गया डेटा डेटा का एक बड़ा समूह होगा जिसमें यह बताने का कोई तरीका नहीं होगा कि डेटा का एक टुकड़ा कहाँ रुका और अगला शुरू हुआ या डेटा का कोई भी टुकड़ा कहाँ स्थित था जब इसे पुनः प्राप्त करने का समय था। डेटा को टुकड़ों में अलग करके और प्रत्येक टुकड़े को एक नाम देकर, डेटा को आसानी से अलग किया जा सकता है और पहचाना जा सकता है। कागज़-आधारित डेटा प्रबंधन प्रणाली के नाम से इसका नाम लेते हुए, प्रत्येक डेटा समूह को "फ़ाइल" कहा जाता है। डेटा के समूहों और उनके नामों को प्रबंधित करने के लिए उपयोग की जाने वाली संरचना और तर्क नियमों को "फ़ाइल सिस्टम" कहा जाता है।
 
-There are many kinds of file systems, each with unique structure and logic, properties of speed, flexibility, security, size, and more. Some file systems have been designed to be used for specific applications. For example, the ISO 9660 file system is designed specifically for optical discs.
+कई प्रकार की फ़ाइल प्रणालियाँ हैं, जिनमें से प्रत्येक में अद्वितीय संरचना और तर्क, गति, लचीलेपन, सुरक्षा, आकार और बहुत कुछ के गुण हैं। कुछ फ़ाइल सिस्टम को विशिष्ट अनुप्रयोगों के लिए उपयोग करने के लिए डिज़ाइन किया गया है। उदाहरण के लिए, ISO 9660 फ़ाइल सिस्टम विशेष रूप से ऑप्टिकल डिस्क के लिए डिज़ाइन किया गया है।
 
-File systems can be used on many types of storage devices using various media. As of 2019, hard disk drives have been key storage devices and are projected to remain so for the foreseeable future. Other kinds of media that are used include SSDs, magnetic tapes, and optical discs. In some cases, such as with tmpfs, the computer's main memory (random-access memory, RAM) creates a temporary file system for short-term use.
+फ़ाइल सिस्टम का उपयोग विभिन्न मीडिया का उपयोग करके कई प्रकार के स्टोरेज डिवाइस पर किया जा सकता है। 2019 तक, हार्ड डिस्क ड्राइव प्रमुख स्टोरेज डिवाइस रही हैं और निकट भविष्य में भी ऐसा ही बने रहने का अनुमान है। उपयोग किए जाने वाले अन्य प्रकार के मीडिया में एसएसडी, चुंबकीय टेप और ऑप्टिकल डिस्क शामिल हैं। कुछ मामलों में, जैसे कि tmpfs के साथ, कंप्यूटर की मुख्य मेमोरी (रैंडम-एक्सेस मेमोरी, RAM) अल्पकालिक उपयोग के लिए एक अस्थायी फ़ाइल सिस्टम बनाती है।
 
-Some file systems are used on local data storage devices; others provide file access via a network protocol (for example, NFS, SMB, or 9P clients). Some file systems are "virtual", meaning that the supplied "files" (called virtual files) are computed on request (such as procfs and sysfs) or are merely a mapping into a different file system used as a backing store. The file system manages access to both the content of files and the metadata about those files. It is responsible for arranging storage space; reliability, efficiency, and tuning with regard to the physical storage medium are important design considerations.
+कुछ फ़ाइल सिस्टम का उपयोग स्थानीय डेटा भंडारण उपकरणों पर किया जाता है; अन्य नेटवर्क प्रोटोकॉल के माध्यम से फ़ाइल एक्सेस प्रदान करते हैं (उदाहरण के लिए, एनएफएस, एसएमबी, या 9पी क्लाइंट)। कुछ फ़ाइल सिस्टम "वर्चुअल" हैं, जिसका अर्थ है कि आपूर्ति की गई "फ़ाइलें" (जिन्हें वर्चुअल फ़ाइलें कहा जाता है) की गणना अनुरोध पर की जाती है (जैसे कि procfs और sysfs) या बैकिंग स्टोर के रूप में उपयोग की जाने वाली एक अलग फ़ाइल सिस्टम में मैपिंग मात्र हैं। फ़ाइल सिस्टम फ़ाइलों की सामग्री और उन फ़ाइलों के बारे में मेटाडेटा दोनों तक पहुंच का प्रबंधन करता है। यह भंडारण स्थान की व्यवस्था के लिए जिम्मेदार है; भौतिक भंडारण माध्यम के संबंध में विश्वसनीयता, दक्षता और ट्यूनिंग महत्वपूर्ण डिजाइन विचार हैं।
 
 ### How file systems work
-A file system stores and organizes data and can be thought of as a type of index for all the data contained in a storage device. These devices can include hard drives, optical drives, and flash drives.
+एक फ़ाइल सिस्टम डेटा को संग्रहीत और व्यवस्थित करता है और इसे स्टोरेज डिवाइस में मौजूद सभी डेटा के लिए एक प्रकार के सूचकांक के रूप में सोचा जा सकता है। इन उपकरणों में हार्ड ड्राइव, ऑप्टिकल ड्राइव और फ्लैश ड्राइव शामिल हो सकते हैं।
 
-File systems specify conventions for naming files, including the maximum number of characters in a name, which characters can be used, and, in some systems, how long the file name suffix can be. In many file systems, file names are not case-sensitive.
+फ़ाइल सिस्टम फ़ाइलों के नामकरण के लिए परंपराएँ निर्दिष्ट करते हैं, जिसमें एक नाम में वर्णों की अधिकतम संख्या, किन वर्णों का उपयोग किया जा सकता है, और, कुछ प्रणालियों में, फ़ाइल नाम प्रत्यय कितना लंबा हो सकता है। कई फ़ाइल सिस्टमों में, फ़ाइल नाम केस-संवेदी नहीं होते हैं।
 
-Along with the file itself, file systems contain information such as the file's size and its attributes, location, and hierarchy in the directory in the metadata. Metadata can also identify free blocks of available storage on the drive and how much space is available.
+फ़ाइल के साथ-साथ, फ़ाइल सिस्टम में मेटाडेटा में निर्देशिका में फ़ाइल का आकार और उसकी विशेषताएँ, स्थान और पदानुक्रम जैसी जानकारी होती है। मेटाडेटा ड्राइव पर उपलब्ध स्टोरेज के मुफ्त ब्लॉक और कितनी जगह उपलब्ध है, इसकी भी पहचान कर सकता है।
 
-A file system also includes a format to specify the path to a file through the structure of directories. A file is placed in a directory -- or a folder in Windows OS -- or subdirectory at the desired place in the tree structure. PC and mobile OSes have file systems in which files are placed in a hierarchical tree structure.
+फ़ाइल सिस्टम में निर्देशिकाओं की संरचना के माध्यम से फ़ाइल का पथ निर्दिष्ट करने के लिए एक प्रारूप भी शामिल होता है। एक फ़ाइल को एक निर्देशिका में रखा जाता है - या विंडोज ओएस में एक फ़ोल्डर में - या पेड़ संरचना में वांछित स्थान पर उपनिर्देशिका में रखा जाता है। पीसी और मोबाइल ओएस में फ़ाइल सिस्टम होते हैं जिनमें फ़ाइलें एक पदानुक्रमित वृक्ष संरचना में रखी जाती हैं।
 
-Before files and directories are created on the storage medium, partitions should be put into place. A partition is a region of the hard disk or other storage that the OS manages separately. One file system is contained in the primary partition, and some OSes allow for multiple partitions on one disk. In this situation, if one file system gets corrupted, the data in a different partition will be safe.
+भंडारण माध्यम पर फ़ाइलें और निर्देशिकाएँ बनाने से पहले, विभाजन स्थापित किया जाना चाहिए। पार्टीशन हार्ड डिस्क या अन्य स्टोरेज का एक क्षेत्र है जिसे ओएस अलग से प्रबंधित करता है। एक फ़ाइल सिस्टम प्राथमिक विभाजन में समाहित होता है, और कुछ OSes एक डिस्क पर एकाधिक विभाजन की अनुमति देते हैं। इस स्थिति में, यदि एक फ़ाइल सिस्टम दूषित हो जाता है, तो दूसरे विभाजन में डेटा सुरक्षित रहेगा।
 
 ### Types of file systems
-There are several types of file systems, all with different logical structures and properties, such as speed and size. The type of file system can differ by OS and the needs of that OS. Microsoft Windows, Mac OS X, and Linux are the three most common PC operating systems. Mobile OSes include Apple iOS and Google Android.
+फ़ाइल सिस्टम कई प्रकार के होते हैं, सभी अलग-अलग तार्किक संरचनाओं और गुणों जैसे गति और आकार के साथ होते हैं। फ़ाइल सिस्टम का प्रकार OS और उस OS की आवश्यकताओं के अनुसार भिन्न हो सकता है। माइक्रोसॉफ्ट विंडोज, मैक ओएस एक्स और लिनक्स तीन सबसे आम पीसी ऑपरेटिंग सिस्टम हैं। मोबाइल OSes में Apple iOS और Google Android शामिल हैं।
 
-Major file systems include the following:
+प्रमुख फ़ाइल सिस्टम में निम्नलिखित शामिल हैं:
 
-- File allocation table (FAT) is supported by Microsoft Windows OS. FAT is considered simple and reliable and modeled after legacy file systems. FAT was designed in 1977 for floppy disks but was later adapted for hard disks. While efficient and compatible with most current OSes, FAT cannot match the performance and scalability of more modern file systems.
+- फ़ाइल आवंटन तालिका (एफएटी) माइक्रोसॉफ्ट विंडोज ओएस द्वारा समर्थित है। FAT को सरल और विश्वसनीय माना जाता है और इसे लीगेसी फ़ाइल सिस्टम के अनुरूप बनाया गया है। FAT को 1977 में फ़्लॉपी डिस्क के लिए डिज़ाइन किया गया था लेकिन बाद में इसे हार्ड डिस्क के लिए अनुकूलित किया गया। अधिकांश मौजूदा ओएस के साथ कुशल और संगत होने के बावजूद, FAT अधिक आधुनिक फ़ाइल सिस्टम के प्रदर्शन और स्केलेबिलिटी से मेल नहीं खा सकता है।
 
-- Global file system (GFS) is a file system for the Linux OS, and it is a shared disk file system. GFS offers direct access to shared block storage and can be used as a local file system.
+- ग्लोबल फाइल सिस्टम (जीएफएस) लिनक्स ओएस के लिए एक फाइल सिस्टम है, और यह एक साझा डिस्क फाइल सिस्टम है। जीएफएस साझा ब्लॉक स्टोरेज तक सीधी पहुंच प्रदान करता है और इसे स्थानीय फ़ाइल सिस्टम के रूप में उपयोग किया जा सकता है।
 
-- GFS2 is an updated version with features not included in the original GFS, such as an updated metadata system. Under the GNU General Public License terms, both the GFS and GFS2 file systems are available as free software.
+- GFS2 एक अद्यतन संस्करण है जिसमें मूल GFS में शामिल सुविधाएँ नहीं हैं, जैसे अद्यतन मेटाडेटा प्रणाली। जीएनयू जनरल पब्लिक लाइसेंस शर्तों के तहत, जीएफएस और जीएफएस2 फाइल सिस्टम दोनों मुफ्त सॉफ्टवेयर के रूप में उपलब्ध हैं।
 
-- Hierarchical file system (HFS) was developed for use with Mac operating systems. HFS can also be called Mac OS Standard, succeeded by Mac OS Extended. Originally introduced in 1985 for floppy and hard disks, HFS replaced the original Macintosh file system. It can also be used on CD-ROMs.
+- मैक ऑपरेटिंग सिस्टम के साथ उपयोग के लिए पदानुक्रमित फ़ाइल सिस्टम (HFS) विकसित किया गया था। एचएफएस को मैक ओएस स्टैंडर्ड भी कहा जा सकता है, जो मैक ओएस एक्सटेंडेड द्वारा सफल हुआ। मूल रूप से फ़्लॉपी और हार्ड डिस्क के लिए 1985 में पेश किया गया, HFS ने मूल मैकिंटोश फ़ाइल सिस्टम को प्रतिस्थापित कर दिया। इसका उपयोग CD-ROM पर भी किया जा सकता है।
 
-- The NT file system -- also known as the New Technology File System (NTFS) -- is the default file system for Windows products from Windows NT 3.1 OS onward. Improvements from the previous FAT file system include better metadata support, performance, and use of disk space. NTFS is also supported in the Linux OS through a free, open-source NTFS driver. Mac OSes have read-only support for NTFS.
+- एनटी फाइल सिस्टम - जिसे न्यू टेक्नोलॉजी फाइल सिस्टम (एनटीएफएस) के रूप में भी जाना जाता है - विंडोज एनटी 3.1 ओएस से विंडोज उत्पादों के लिए डिफ़ॉल्ट फाइल सिस्टम है। पिछले FAT फ़ाइल सिस्टम के सुधारों में बेहतर मेटाडेटा समर्थन, प्रदर्शन और डिस्क स्थान का उपयोग शामिल है। एनटीएफएस एक निःशुल्क, ओपन-सोर्स एनटीएफएस ड्राइवर के माध्यम से लिनक्स ओएस में भी समर्थित है। Mac OSes में NTFS के लिए केवल-पढ़ने के लिए समर्थन है।
 
-- Universal Disk Format (UDF) is a vendor-neutral file system for optical media and DVDs. UDF replaces the ISO 9660 file system and is the official file system for DVD video and audio, as chosen by the DVD Forum.
-
+- यूनिवर्सल डिस्क फॉर्मेट (यूडीएफ) ऑप्टिकल मीडिया और डीवीडी के लिए एक विक्रेता-तटस्थ फ़ाइल सिस्टम है। यूडीएफ आईएसओ 9660 फाइल सिस्टम को प्रतिस्थापित करता है और डीवीडी फोरम द्वारा चुने गए डीवीडी वीडियो और ऑडियो के लिए आधिकारिक फाइल सिस्टम है।
 
 ## [Cloud Computing](Cloud%20Computing/Readme.md)
-Cloud computing is the ability to access information and applications over the Internet. Cloud computing allows users to access applications and data from any location with an Internet connection.
+क्लाउड कंप्यूटिंग इंटरनेट पर सूचना और एप्लिकेशन तक पहुंचने की क्षमता है। क्लाउड कंप्यूटिंग उपयोगकर्ताओं को इंटरनेट कनेक्शन के साथ किसी भी स्थान से एप्लिकेशन और डेटा तक पहुंचने की अनुमति देता है।
 
-Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand.
+क्लाउड कंप्यूटिंग एक प्रकार की इंटरनेट-आधारित कंप्यूटिंग है जो मांग पर कंप्यूटर और अन्य उपकरणों को साझा कंप्यूटर प्रोसेसिंग संसाधन और डेटा प्रदान करती है।
 
-It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+यह कॉन्फ़िगर करने योग्य कंप्यूटिंग संसाधनों (जैसे, नेटवर्क, सर्वर, स्टोरेज, एप्लिकेशन और सेवाओं) के साझा पूल तक सर्वव्यापी, सुविधाजनक, ऑन-डिमांड नेटवर्क पहुंच को सक्षम करने के लिए एक मॉडल है जिसे न्यूनतम प्रबंधन प्रयास या सेवा के साथ तेजी से प्रावधानित और जारी किया जा सकता है। प्रदाता सहभागिता.
  
  ## Top benefits of cloud computing
  
-Cloud computing is a big shift from how businesses think about IT resources. Here are seven common reasons organizations are turning to cloud computing services:
+व्यवसायों द्वारा आईटी संसाधनों के बारे में सोचने के तरीके में क्लाउड कंप्यूटिंग एक बड़ा बदलाव है। यहां सात सामान्य कारण बताए गए हैं कि संगठन क्लाउड कंप्यूटिंग सेवाओं की ओर रुख कर रहे हैं:
 
 
-Cost
-Cloud computing eliminates the capital expense of buying hardware and software and setting up and running on-site data centers—the racks of servers, the round-the-clock electricity for power and cooling, and the IT experts for managing the infrastructure. It adds up fast.
+लागत
+क्लाउड कंप्यूटिंग हार्डवेयर और सॉफ्टवेयर खरीदने और ऑन-साइट डेटा सेंटर स्थापित करने और चलाने की पूंजीगत व्यय को समाप्त कर देता है - सर्वर के रैक, बिजली और शीतलन के लिए चौबीसों घंटे बिजली, और बुनियादी ढांचे के प्रबंधन के लिए आईटी विशेषज्ञ। यह तेजी से जुड़ता है।
 
 
-Speed
-Most cloud computing services are provided self-service and on demand, so even vast amounts of computing resources can be provisioned in minutes, typically with just a few mouse clicks, giving businesses a lot of flexibility and taking the pressure off capacity planning.
+रफ़्तार
+अधिकांश क्लाउड कंप्यूटिंग सेवाएं स्वयं-सेवा और मांग पर प्रदान की जाती हैं, इसलिए बड़ी मात्रा में कंप्यूटिंग संसाधनों को मिनटों में प्रावधानित किया जा सकता है, आमतौर पर केवल कुछ माउस क्लिक के साथ, व्यवसायों को बहुत अधिक लचीलापन मिलता है और क्षमता योजना पर दबाव कम होता है।
 
 
-Global scale
-The benefits of cloud computing services include the ability to scale elastically. In cloud speak, that means delivering the right amount of IT resources—for example, more or less computing power, storage, and bandwidth—right when it is needed and from the right geographic location.
+वैश्विक स्तर
+क्लाउड कंप्यूटिंग सेवाओं के लाभों में लचीले ढंग से स्केल करने की क्षमता शामिल है। क्लाउड स्पीक में, इसका मतलब है कि आईटी संसाधनों की सही मात्रा - उदाहरण के लिए, अधिक या कम कंप्यूटिंग शक्ति, भंडारण और बैंडविड्थ - सही समय पर और सही भौगोलिक स्थान से वितरित करना।
 
 
-Productivity
-On-site data centers typically require a lot of "racking and stacking"—hardware setup, software patching, and other time-consuming IT management chores. Cloud computing removes the need for many of these tasks, so IT teams can spend time on achieving more important business goals.
+उत्पादकता
+ऑन-साइट डेटा केंद्रों को आमतौर पर बहुत सारी "रैकिंग और स्टैकिंग" की आवश्यकता होती है - हार्डवेयर सेटअप, सॉफ़्टवेयर पैचिंग, और अन्य समय लेने वाली आईटी प्रबंधन कार्य। क्लाउड कंप्यूटिंग इनमें से कई कार्यों की आवश्यकता को समाप्त कर देती है, इसलिए आईटी टीमें अधिक महत्वपूर्ण व्यावसायिक लक्ष्यों को प्राप्त करने में समय व्यतीत कर सकती हैं।
 
 
-Performance
-The biggest cloud computing services run on a worldwide network of secure data centers, which are regularly upgraded to the latest generation of fast and efficient computing hardware. This offers several benefits over a single corporate data center, including reduced network latency for applications and greater economies of scale.
+प्रदर्शन
+सबसे बड़ी क्लाउड कंप्यूटिंग सेवाएँ सुरक्षित डेटा केंद्रों के विश्वव्यापी नेटवर्क पर चलती हैं, जिन्हें नियमित रूप से नवीनतम पीढ़ी के तेज़ और कुशल कंप्यूटिंग हार्डवेयर में अपग्रेड किया जाता है। यह एकल कॉर्पोरेट डेटा सेंटर पर कई लाभ प्रदान करता है, जिसमें अनुप्रयोगों के लिए कम नेटवर्क विलंबता और पैमाने की अधिक अर्थव्यवस्थाएं शामिल हैं।
 
 
-Reliability
-Cloud computing makes data backup, disaster recovery, and business continuity easier and less expensive because data can be mirrored at multiple redundant sites on the cloud provider's network.
+विश्वसनीयता
+क्लाउड कंप्यूटिंग डेटा बैकअप, डिजास्टर रिकवरी और व्यापार निरंतरता को आसान और कम खर्चीला बनाता है क्योंकि डेटा को क्लाउड प्रदाता के नेटवर्क पर कई अनावश्यक साइटों पर मिरर किया जा सकता है।
 
 
-Security
-Many cloud providers offer a broad set of policies, technologies, and controls that strengthen your security posture overall, helping protect your data, apps, and infrastructure from potential threats.
+सुरक्षा
+कई क्लाउड प्रदाता नीतियों, प्रौद्योगिकियों और नियंत्रणों का एक व्यापक सेट पेश करते हैं जो आपके डेटा, ऐप्स और बुनियादी ढांचे को संभावित खतरों से बचाने में मदद करते हुए आपकी सुरक्षा स्थिति को समग्र रूप से मजबूत करते हैं।
 
 ### Types of Cloud Computing Services
 - [Infrastructure as a Service (IaaS)](Cloud%20Computing/Readme.md#infrastructure-as-a-service-iaas)
@@ -738,261 +737,260 @@ Many cloud providers offer a broad set of policies, technologies, and controls t
 - [Software as a Service (SaaS)](Cloud%20Computing/Readme.md#software-as-a-service-saas)
 
 
-## [Machine Learning]()
-Machine learning is the practice of teaching a computer to learn. The concept uses pattern recognition, as well as other forms of predictive algorithms, to make judgments on incoming data. This field is closely related to artificial intelligence and computational statistics.
+## [यंत्र अधिगम]()
+मशीन लर्निंग कंप्यूटर को सीखना सिखाने का अभ्यास है। यह अवधारणा आने वाले डेटा पर निर्णय लेने के लिए पैटर्न पहचान के साथ-साथ भविष्य कहनेवाला एल्गोरिदम के अन्य रूपों का उपयोग करती है। यह क्षेत्र कृत्रिम बुद्धिमत्ता और कम्प्यूटेशनल सांख्यिकी से निकटता से संबंधित है।
 
-### There are three subcategories of machine learning:
+### मशीन लर्निंग की तीन उपश्रेणियाँ हैं:
 
-### Supervised machine learning 
-In this, machine learning models are trained with labeled data sets, which allow the models to learn and grow more accurately over time. For example, an algorithm would be trained with pictures of dogs and other things, all labeled by humans, and the machine would learn ways to identify pictures of dogs on its own. Supervised machine learning is the most common type used today.
+### पर्यवेक्षित मशीन लर्निंग
+इसमें मशीन लर्निंग मॉडल को लेबल किए गए डेटा सेट के साथ प्रशिक्षित किया जाता है, जो मॉडल को समय के साथ अधिक सटीक रूप से सीखने और बढ़ने की अनुमति देता है। उदाहरण के लिए, एक एल्गोरिदम को कुत्तों और अन्य चीजों की तस्वीरों के साथ प्रशिक्षित किया जाएगा, जो सभी मनुष्यों द्वारा लेबल किए गए हैं, और मशीन कुत्तों की तस्वीरों को पहचानने के तरीके सीखेगी। पर्यवेक्षित मशीन लर्निंग आज सबसे आम प्रकार का उपयोग किया जाता है।
 
-Practical applications of Supervised Learning – 
-1. **Bioinformatics:** Bioinformatics is the study of how individuals retain biological knowledge such as fingerprints, eye texture, earlobes, and so on. Mobile phones are now clever enough to comprehend our biological data and then verify us to increase system security.
-2. **Speech recognition:** It's the type of program where you may convey your voice to the program, and it will identify you. The most well-known real-world gadgets are digital assistants such as Google Assistant or Siri, which respond to the term only with your voice.
-3. **Spam detection:** This tool is used to prevent fictitious or machine-based communications from being sent. Gmail includes an algorithm that learns numerous wrong terms. The Oneplus Messages App asks the user to specify which terms should be prohibited, and the keyword will prevent such texts from the app.
-4. **Object recognition for the vision:** This type of software is utilized when you have to define anything. You have a big dataset that you utilize to train the algorithm, and it can recognize a new object using this.
+पर्यवेक्षित शिक्षण के व्यावहारिक अनुप्रयोग -
+1. **जैवसूचना विज्ञान:** जैवसूचना विज्ञान इस बात का अध्ययन है कि व्यक्ति जैविक ज्ञान जैसे उंगलियों के निशान, आंखों की बनावट, कान की बालियां इत्यादि कैसे बरकरार रखते हैं। मोबाइल फोन अब इतने चतुर हो गए हैं कि वे हमारे जैविक डेटा को समझ सकते हैं और फिर सिस्टम सुरक्षा बढ़ाने के लिए हमें सत्यापित कर सकते हैं।
+2. **वाक् पहचान:** यह उस प्रकार का कार्यक्रम है जहां आप अपनी आवाज कार्यक्रम तक पहुंचा सकते हैं, और यह आपकी पहचान करेगा। वास्तविक दुनिया के सबसे प्रसिद्ध गैजेट Google Assistant या Siri जैसे डिजिटल सहायक हैं, जो केवल आपकी आवाज़ से किसी शब्द का जवाब देते हैं।
+3. **स्पैम का पता लगाना:** इस टूल का उपयोग काल्पनिक या मशीन-आधारित संचार को भेजे जाने से रोकने के लिए किया जाता है। जीमेल में एक एल्गोरिदम शामिल है जो कई गलत शब्दों को सीखता है। वनप्लस मैसेज ऐप उपयोगकर्ता से यह निर्दिष्ट करने के लिए कहता है कि किन शब्दों को प्रतिबंधित किया जाना चाहिए, और कीवर्ड ऐसे टेक्स्ट को ऐप से रोक देगा।
+4. **दृष्टि के लिए वस्तु पहचान:** इस प्रकार के सॉफ़्टवेयर का उपयोग तब किया जाता है जब आपको कुछ भी परिभाषित करना होता है। आपके पास एक बड़ा डेटासेट है जिसका उपयोग आप एल्गोरिदम को प्रशिक्षित करने के लिए करते हैं, और यह इसका उपयोग करके एक नई वस्तु को पहचान सकता है।
 
-### Unsupervised machine learning
-In Unsupervised machine learning, a program looks for patterns in unlabeled data. Unsupervised machine learning can find patterns or trends that people aren't explicitly looking for. For example, an unsupervised machine learning program could look through online sales data and identify different types of clients making purchases.
+### बिना पर्यवेक्षित मशीन लर्निंग
+अनसुपरवाइज्ड मशीन लर्निंग में, एक प्रोग्राम बिना लेबल वाले डेटा में पैटर्न की तलाश करता है। बिना पर्यवेक्षित मशीन लर्निंग ऐसे पैटर्न या रुझान ढूंढ सकती है जिनकी लोग स्पष्ट रूप से तलाश नहीं कर रहे हैं। उदाहरण के लिए, एक अनियंत्रित मशीन लर्निंग प्रोग्राम ऑनलाइन बिक्री डेटा को देख सकता है और खरीदारी करने वाले विभिन्न प्रकार के ग्राहकों की पहचान कर सकता है।
 
-Practical applications of unsupervised Learning
-1. **Clustering:** Clustering is the process of categorizing data into separate groups. When we don't know all of the details about the clusters, we can utilize unsupervised learning to cluster them. Unsupervised learning is used to analyze and organize data that doesn't have pre-labeled classes or class properties. Clustering can help firms handle their data more effectively.
-Suppose you have a YouTube channel. You may have a lot of information on your subscribers. If you want to find similar subscribers, you would need to use a clustering technique.
-2. **Visualization:** The process of making diagrams, photos, graphs, charts, and so on to present information is known as visualization. Unsupervised machine learning can be used to implement this strategy.
-Suppose you are a cricket coach with information regarding your team's performance in a tournament. You might wish to quickly locate all of the match statistics. You can pass the unlabeled and complicated data to a visualization algorithm.
-3. **Anomaly detection:** Anomaly detection is the discovery of unusual things, occurrences, or observations that raise suspicions by deviating greatly from regular data. In this situation, the system is programmed with a large number of typical cases. As a result, when it detects an unexpected occurrence, it can determine if it is an anomaly or not.
-Credit card fraud detection is a good illustration of this. This issue is now being addressed utilizing unsupervised machine learning anomaly detection approaches. To avoid fraud, the system identifies unexpected credit card transactions.
+बिना पर्यवेक्षित शिक्षण के व्यावहारिक अनुप्रयोग
+1. **क्लस्टरिंग:** क्लस्टरिंग डेटा को अलग-अलग समूहों में वर्गीकृत करने की प्रक्रिया है। जब हम समूहों के बारे में सभी विवरण नहीं जानते हैं, तो हम उन्हें क्लस्टर करने के लिए अप्रशिक्षित शिक्षण का उपयोग कर सकते हैं। अनसुपरवाइज्ड लर्निंग का उपयोग उस डेटा का विश्लेषण और व्यवस्थित करने के लिए किया जाता है जिसमें पूर्व-लेबल वाले वर्ग या वर्ग गुण नहीं होते हैं। क्लस्टरिंग से कंपनियों को अपने डेटा को अधिक प्रभावी ढंग से संभालने में मदद मिल सकती है।
+मान लीजिए आपके पास एक यूट्यूब चैनल है. आपके पास अपने ग्राहकों के बारे में बहुत सारी जानकारी हो सकती है। यदि आप समान ग्राहक ढूंढना चाहते हैं, तो आपको क्लस्टरिंग तकनीक का उपयोग करना होगा।
+2. **विज़ुअलाइज़ेशन:** जानकारी प्रस्तुत करने के लिए आरेख, फ़ोटो, ग्राफ़, चार्ट आदि बनाने की प्रक्रिया को विज़ुअलाइज़ेशन के रूप में जाना जाता है। इस रणनीति को लागू करने के लिए अप्रशिक्षित मशीन लर्निंग का उपयोग किया जा सकता है।
+मान लीजिए कि आप एक क्रिकेट कोच हैं और आपको किसी टूर्नामेंट में अपनी टीम के प्रदर्शन के बारे में जानकारी है। हो सकता है कि आप मैच के सभी आँकड़े शीघ्रता से ढूँढ़ना चाहें। आप बिना लेबल वाले और जटिल डेटा को विज़ुअलाइज़ेशन एल्गोरिदम में पास कर सकते हैं।
+3. **विसंगति का पता लगाना:** विसंगति का पता लगाना असामान्य चीजों, घटनाओं या टिप्पणियों की खोज है जो नियमित डेटा से बहुत अधिक विचलन करके संदेह पैदा करते हैं। इस स्थिति में, सिस्टम को बड़ी संख्या में विशिष्ट मामलों के साथ प्रोग्राम किया जाता है। परिणामस्वरूप, जब यह किसी अप्रत्याशित घटना का पता लगाता है, तो यह निर्धारित कर सकता है कि यह एक विसंगति है या नहीं।
+क्रेडिट कार्ड धोखाधड़ी का पता लगाना इसका एक अच्छा उदाहरण है। इस समस्या को अब अप्रशिक्षित मशीन लर्निंग विसंगति का पता लगाने के तरीकों का उपयोग करके संबोधित किया जा रहा है। धोखाधड़ी से बचने के लिए, सिस्टम अप्रत्याशित क्रेडिट कार्ड लेनदेन की पहचान करता है।
 
-### Semi-supervised machine learning
-The disadvantage of supervised learning is that it requires hand-labeling by ML specialists or data scientists and requires a high cost to process. Unsupervised learning also has a limited spectrum for its applications. To overcome these drawbacks of supervised learning and unsupervised learning algorithms, the concept of Semi-supervised learning is introduced. Typically, this combination contains a very small amount of labeled data and a large amount of unlabelled data. The basic procedure involved is that first, the programmer will cluster similar data using an unsupervised learning algorithm and then use the existing labeled data to label the rest of the unlabelled data.
+### अर्ध-पर्यवेक्षित मशीन लर्निंग
+पर्यवेक्षित शिक्षण का नुकसान यह है कि इसमें एमएल विशेषज्ञों या डेटा वैज्ञानिकों द्वारा हाथ से लेबलिंग की आवश्यकता होती है और प्रक्रिया के लिए उच्च लागत की आवश्यकता होती है। बिना पर्यवेक्षित शिक्षण के अनुप्रयोगों का दायरा भी सीमित है। पर्यवेक्षित शिक्षण और अप्रशिक्षित शिक्षण एल्गोरिदम की इन कमियों को दूर करने के लिए, अर्ध-पर्यवेक्षित शिक्षण की अवधारणा पेश की गई है। आमतौर पर, इस संयोजन में बहुत कम मात्रा में लेबल किया गया डेटा और बड़ी मात्रा में बिना लेबल वाला डेटा होता है। इसमें शामिल मूल प्रक्रिया यह है कि सबसे पहले, प्रोग्रामर एक अनसुपरवाइज्ड लर्निंग एल्गोरिदम का उपयोग करके समान डेटा को क्लस्टर करेगा और फिर बाकी अनलेबल किए गए डेटा को लेबल करने के लिए मौजूदा लेबल किए गए डेटा का उपयोग करेगा।
 
-Practical applications of Semi-Supervised Learning – 
-1. **Speech Analysis:** Since labeling audio files is a very intensive task, Semi-Supervised learning is a very natural approach to solve this problem.
-2. **Internet Content:** Classification: Labeling each webpage is an impractical and unfeasible process and thus uses Semi-Supervised learning algorithms. Even the Google search algorithm uses a variant of Semi-Supervised learning to rank the relevance of a webpage for a given query.
-3. **Protein Sequence Classification:** Since DNA strands are typically very large, the rise of Semi-Supervised learning has been imminent in this field.
+अर्ध-पर्यवेक्षित शिक्षण के व्यावहारिक अनुप्रयोग -
+1. **भाषण विश्लेषण:** चूंकि ऑडियो फ़ाइलों को लेबल करना एक बहुत ही गहन कार्य है, इस समस्या को हल करने के लिए अर्ध-पर्यवेक्षित शिक्षण एक बहुत ही स्वाभाविक दृष्टिकोण है।
+2. **इंटरनेट सामग्री:** वर्गीकरण: प्रत्येक वेबपेज को लेबल करना एक अव्यवहारिक और अक्षम्य प्रक्रिया है और इस प्रकार अर्ध-पर्यवेक्षित शिक्षण एल्गोरिदम का उपयोग किया जाता है। यहां तक कि Google खोज एल्गोरिदम किसी दिए गए प्रश्न के लिए वेबपेज की प्रासंगिकता को रैंक करने के लिए अर्ध-पर्यवेक्षित शिक्षण के एक प्रकार का उपयोग करता है।
+3. **प्रोटीन अनुक्रम वर्गीकरण:** चूंकि डीएनए स्ट्रैंड आमतौर पर बहुत बड़े होते हैं, इस क्षेत्र में अर्ध-पर्यवेक्षित शिक्षण का उदय आसन्न रहा है।
 
-### Reinforcement machine learning
-This trains machines through trial and error to take the best action by establishing a reward system. Reinforcement learning can train models to play games or train autonomous vehicles to drive by telling the machine when it made the right decisions, which helps it learn over time what actions it should take.
+### सुदृढीकरण मशीन लर्निंग
+यह पुरस्कार प्रणाली स्थापित करके सर्वोत्तम कार्रवाई करने के लिए परीक्षण और त्रुटि के माध्यम से मशीनों को प्रशिक्षित करता है। सुदृढीकरण सीखने से मॉडलों को गेम खेलने के लिए प्रशिक्षित किया जा सकता है या मशीन को यह बताकर स्वायत्त वाहनों को चलाने के लिए प्रशिक्षित किया जा सकता है कि उसने कब सही निर्णय लिया, जिससे उसे समय के साथ यह सीखने में मदद मिलती है कि उसे क्या कार्रवाई करनी चाहिए।
 
-Practical applications of Reinforcement Learning - 
-1. **Production Systems** 
-   e.g. Google Cloud AutoML, Facebook Horizon, Recommendation, advertisement, search 
-2. **Autonomous Driving**
-3. **Business Management** 
-   e.g. solving the vehicle routing problem, fraudulent behavior in e-commerce, Concurrent reinforcement learning from customer interactions
-4. **Recommender systems**
-   e.g. for search, recommendation, and online advertising
+सुदृढीकरण सीखने के व्यावहारिक अनुप्रयोग -
+1. **उत्पादन प्रणाली**
+    जैसे गूगल क्लाउड ऑटोएमएल, फेसबुक होराइजन, अनुशंसा, विज्ञापन, खोज
+2. **स्वायत्त ड्राइविंग**
+3. **व्यवसाय प्रबंधन**
+    जैसे वाहन रूटिंग समस्या का समाधान, ई-कॉमर्स में कपटपूर्ण व्यवहार, ग्राहक बातचीत से समवर्ती सुदृढीकरण सीखना
+4. **अनुशंसा प्रणाली**
+    जैसे खोज, अनुशंसा और ऑनलाइन विज्ञापन के लिए
    
-### Machine learning is also associated with several other artificial intelligence subfields:
+### मशीन लर्निंग कई अन्य कृत्रिम बुद्धिमत्ता उपक्षेत्रों से भी जुड़ी है:
 
-### Natural language processing
+### प्राकृतिक भाषा प्रसंस्करण
 
-Natural language processing is a field of machine learning in which machines learn to understand natural language as spoken and written by humans instead of the data and numbers normally used to program computers. This allows machines to recognize the language, understand it, and respond to it, as well as create new text and translate between languages. Natural language processing enables familiar technology like chatbots and digital assistants like Siri or Alexa.
+प्राकृतिक भाषा प्रसंस्करण मशीन सीखने का एक क्षेत्र है जिसमें मशीनें कंप्यूटर को प्रोग्राम करने के लिए सामान्य रूप से उपयोग किए जाने वाले डेटा और संख्याओं के बजाय मनुष्यों द्वारा बोली और लिखी गई प्राकृतिक भाषा को समझना सीखती हैं। यह मशीनों को भाषा को पहचानने, समझने और उस पर प्रतिक्रिया देने के साथ-साथ नए पाठ बनाने और भाषाओं के बीच अनुवाद करने की अनुमति देता है। प्राकृतिक भाषा प्रसंस्करण चैटबॉट जैसी परिचित तकनीक और सिरी या एलेक्सा जैसे डिजिटल सहायकों को सक्षम बनाता है।
 
-Practical applications of NLP:
-1. **Question Answering:** Question Answering focuses on building systems that automatically answer the questions asked by humans in a natural language. 
-2. **Spam Detection:** Spam detection is used to detect unwanted e-mails getting to a user's inbox.
-3. **Sentiment Analysis:** Sentiment Analysis is also known as opinion mining. It is used on the web to analyze the attitude, behavior, and emotional state of the sender. This application is implemented through a combination of NLP (Natural Language Processing) and statistics by assigning the values to the text (positive, negative, or natural) and identifying the mood of the context (happy, sad, angry, etc.)
-4. **Machine Translation:** Machine translation is used to translate text or speech from one natural language to another natural language. e.g. Google Translate
-5. **Spelling correction:** Microsoft Corporation provides word processor software like MS-word and PowerPoint for spelling correction.
+एनएलपी के व्यावहारिक अनुप्रयोग:
+1. **प्रश्न उत्तर:** प्रश्न उत्तर उन प्रणालियों के निर्माण पर केंद्रित है जो प्राकृतिक भाषा में मनुष्यों द्वारा पूछे गए प्रश्नों का स्वचालित रूप से उत्तर देती हैं।
+2. **स्पैम डिटेक्शन:** स्पैम डिटेक्शन का उपयोग उपयोगकर्ता के इनबॉक्स में आने वाले अवांछित ई-मेल का पता लगाने के लिए किया जाता है।
+3. **भावना विश्लेषण:** भावना विश्लेषण को ओपिनियन माइनिंग के रूप में भी जाना जाता है। इसका उपयोग वेब पर प्रेषक के दृष्टिकोण, व्यवहार और भावनात्मक स्थिति का विश्लेषण करने के लिए किया जाता है। यह एप्लिकेशन एनएलपी (प्राकृतिक भाषा प्रसंस्करण) और आंकड़ों के संयोजन के माध्यम से पाठ (सकारात्मक, नकारात्मक, या प्राकृतिक) को मान निर्दिष्ट करके और संदर्भ के मूड (खुशी, उदास, गुस्सा, आदि) की पहचान करके कार्यान्वित किया जाता है।
+4. **मशीन अनुवाद:** मशीनी अनुवाद का उपयोग पाठ या भाषण को एक प्राकृतिक भाषा से दूसरी प्राकृतिक भाषा में अनुवाद करने के लिए किया जाता है। जैसे गूगल अनुवाद
+5. **वर्तनी सुधार:** माइक्रोसॉफ्ट कॉर्पोरेशन वर्तनी सुधार के लिए एमएस-वर्ड और पावरपॉइंट जैसे वर्ड प्रोसेसर सॉफ्टवेयर प्रदान करता है।
 
-### Neural networks
+### तंत्रिका - तंत्र
 
-Neural networks are a commonly used, specific class of machine learning algorithms. Artificial neural networks are modeled on the human brain, in which thousands or millions of processing nodes are interconnected and organized into layers.
+तंत्रिका नेटवर्क आमतौर पर इस्तेमाल किया जाने वाला, मशीन लर्निंग एल्गोरिदम का विशिष्ट वर्ग है। कृत्रिम तंत्रिका नेटवर्क मानव मस्तिष्क पर आधारित होते हैं, जिसमें हजारों या लाखों प्रोसेसिंग नोड आपस में जुड़े होते हैं और परतों में व्यवस्थित होते हैं।
 
-In an artificial neural network, cells, or nodes, are connected, with each cell processing inputs and producing an output that is sent to other neurons. Labeled data moves through the nodes or cells, with each cell performing a different function. In a neural network trained to identify whether a picture contains a cat or not, the different nodes would assess the information and arrive at an output that indicates whether a picture features a cat.
+एक कृत्रिम तंत्रिका नेटवर्क में, कोशिकाएं या नोड्स जुड़े होते हैं, प्रत्येक कोशिका इनपुट को संसाधित करती है और एक आउटपुट उत्पन्न करती है जिसे अन्य न्यूरॉन्स को भेजा जाता है। लेबल किया गया डेटा नोड्स या कोशिकाओं के माध्यम से चलता है, प्रत्येक कोशिका एक अलग कार्य करती है। किसी चित्र में बिल्ली है या नहीं, इसकी पहचान करने के लिए प्रशिक्षित तंत्रिका नेटवर्क में, विभिन्न नोड्स जानकारी का आकलन करेंगे और एक आउटपुट पर पहुंचेंगे जो इंगित करेगा कि चित्र में बिल्ली है या नहीं।
 
-Practical applications of Neural Networks:
-1. **Stock Market Prediction:** To make a successful stock prediction in real-time, a Multilayer Perceptron MLP (class of feedforward artificial intelligence algorithm) is employed. MLP comprises multiple layers of nodes, and each of these layers is fully connected to the succeeding nodes. Stock's past performances, annual returns, and non-profit ratios are considered for building the MLP model.
-2. **Social Media:** Multi-layered Perceptrons forecast social media trends. It uses different training methods like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Squared Error (MSE). MLP takes into consideration several factors like the user's favorite Instagram pages, bookmarked choices, etc. Post analysis of individuals' behaviors via social media networks, the data can be linked to people's spending habits. MLP ANN is used to mine data from social media applications.  
-3. **Aerospace:** Aerospace Engineering is an expansive term that covers developments in spacecraft and aircraft. Fault diagnosis, high-performance auto-piloting, securing aircraft control systems, and modeling key dynamic simulations are some of the key areas that neural networks have taken over. Time delay Neural networks can be employed for modeling non-linear time dynamic systems.
+तंत्रिका नेटवर्क के व्यावहारिक अनुप्रयोग:
+1. **स्टॉक मार्केट भविष्यवाणी:** वास्तविक समय में एक सफल स्टॉक भविष्यवाणी करने के लिए, एक मल्टीलेयर परसेप्ट्रॉन एमएलपी (फीडफॉरवर्ड आर्टिफिशियल इंटेलिजेंस एल्गोरिदम का वर्ग) नियोजित किया जाता है। एमएलपी में नोड्स की कई परतें शामिल हैं, और इनमें से प्रत्येक परत अगले नोड्स से पूरी तरह से जुड़ी हुई है। एमएलपी मॉडल के निर्माण के लिए स्टॉक के पिछले प्रदर्शन, वार्षिक रिटर्न और गैर-लाभकारी अनुपात पर विचार किया जाता है।
+2. **सोशल मीडिया:** बहुस्तरीय परसेप्ट्रॉन सोशल मीडिया रुझानों का पूर्वानुमान लगाते हैं। यह विभिन्न प्रशिक्षण विधियों जैसे मीन एब्सोल्यूट एरर (एमएई), रूट मीन स्क्वेयर्ड एरर (आरएमएसई), और मीन स्क्वेयर्ड एरर (एमएसई) का उपयोग करता है। एमएलपी उपयोगकर्ता के पसंदीदा इंस्टाग्राम पेज, बुकमार्क किए गए विकल्प आदि जैसे कई कारकों को ध्यान में रखता है। सोशल मीडिया नेटवर्क के माध्यम से व्यक्तियों के व्यवहार के विश्लेषण के बाद, डेटा को लोगों की खर्च करने की आदतों से जोड़ा जा सकता है। एमएलपी एएनएन का उपयोग सोशल मीडिया अनुप्रयोगों से डेटा निकालने के लिए किया जाता है।
+3. **एयरोस्पेस:** एयरोस्पेस इंजीनियरिंग एक विस्तृत शब्द है जो अंतरिक्ष यान और विमान में विकास को कवर करता है। दोष निदान, उच्च-प्रदर्शन ऑटो-पायलटिंग, विमान नियंत्रण प्रणालियों को सुरक्षित करना, और कुंजी गतिशील सिमुलेशन मॉडलिंग करना कुछ प्रमुख क्षेत्र हैं जिन पर तंत्रिका नेटवर्क ने कब्जा कर लिया है। समय विलंब तंत्रिका नेटवर्क को गैर-रेखीय समय गतिशील प्रणालियों के मॉडलिंग के लिए नियोजित किया जा सकता है।
 
-### Deep learning
+### ध्यान लगा के पढ़ना या सीखना
 
-Deep learning networks are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face.  
+डीप लर्निंग नेटवर्क कई परतों वाले तंत्रिका नेटवर्क हैं। स्तरित नेटवर्क व्यापक मात्रा में डेटा संसाधित कर सकता है और नेटवर्क में प्रत्येक लिंक का "वजन" निर्धारित कर सकता है - उदाहरण के लिए, एक छवि पहचान प्रणाली में, तंत्रिका नेटवर्क की कुछ परतें चेहरे की व्यक्तिगत विशेषताओं, जैसे आंखें, नाक, का पता लगा सकती हैं। या मुंह, जबकि एक अन्य परत यह बताने में सक्षम होगी कि क्या वे विशेषताएं इस तरह से दिखाई देती हैं जो चेहरे को इंगित करती हैं।
 
-Practical applications of Deep Learning:
-1. **Automatic Text Generation –** Corpus of text is learned, and from this model, new text is generated, word-by-word or character-by-character. Then this model is capable of learning how to spell, punctuate, and form sentences, or it may even capture the style.
-2. **Healthcare –** Helps in diagnosing various diseases and treating them.
-3. **Automatic Machine Translation –** Certain words, sentences, or phrases in one language is transformed into another language (Deep Learning is achieving top results in the areas of text and images).
-4. **Image Recognition –** Recognizes and identifies peoples and objects in images as well as understands content and context. This area is already being used in Gaming, Retail, Tourism, etc.
-5. **Predicting Earthquakes –** Teaches a computer to perform viscoelastic computations, which are used in predicting earthquakes.
+गहन शिक्षण के व्यावहारिक अनुप्रयोग:
+1. **स्वचालित पाठ निर्माण -** पाठ का संग्रह सीखा जाता है, और इस मॉडल से, नया पाठ उत्पन्न होता है, शब्द-दर-शब्द या चरित्र-दर-चरित्र। फिर यह मॉडल वर्तनी, विराम चिह्न और वाक्य बनाना सीखने में सक्षम है, या यह शैली को भी पकड़ सकता है।
+2. **स्वास्थ्य देखभाल-** विभिन्न बीमारियों के निदान और उनके इलाज में मदद करता है।
+3. **स्वचालित मशीन अनुवाद -** एक भाषा के कुछ शब्दों, वाक्यों या वाक्यांशों को दूसरी भाषा में बदल दिया जाता है (डीप लर्निंग पाठ और छवियों के क्षेत्र में शीर्ष परिणाम प्राप्त कर रहा है)।
+4. **छवि पहचान -** छवियों में लोगों और वस्तुओं को पहचानता है और साथ ही सामग्री और संदर्भ को समझता है। इस क्षेत्र का उपयोग गेमिंग, रिटेल, पर्यटन आदि में पहले से ही किया जा रहा है।
+5. **भूकंप की भविष्यवाणी करना -** एक कंप्यूटर को विस्कोइलास्टिक गणना करना सिखाता है, जिसका उपयोग भूकंप की भविष्यवाणी करने में किया जाता है।
 
 ## [Web Technology](Web%20Technology/WebTechnology.md#web-tecnology)
-Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the Internet. A web browser is used to access web pages. Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.
-### Web Technology can be classified into the following sections:
-- World Wide Web (WWW)
-The World Wide Web is based on several different technologies: Web browsers, Hypertext Markup Language (HTML), and Hypertext Transfer Protocol (HTTP).
-- Web Browser
-The web browser is an application software to explore www (World Wide Web). It provides an interface between the server and the client and requests to the server for web documents and services.
-- Web Server
-A web server is a program that processes the network requests of the users and serves them with files that create web pages. This exchange takes place using Hypertext Transfer Protocol (HTTP).
-- Web Pages
-A webpage is a digital document that is linked to the World Wide Web and viewable by anyone connected to the Internet who has a web browser.
-- Web Development
-Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the Internet, i.e., websites.
-### Web Development can be classified into two ways:
-### Frontend Development
-The part of a website where the user interacts directly is termed the front end. It is also referred to as the ‘client side’ of the application.
-### Backend Development
-The backend is the server side of a website. It is part of the website that users cannot see and interact with. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
+वेब प्रौद्योगिकी उन विभिन्न उपकरणों और तकनीकों को संदर्भित करती है जिनका उपयोग इंटरनेट पर विभिन्न प्रकार के उपकरणों के बीच संचार की प्रक्रिया में किया जाता है। वेब पेजों तक पहुँचने के लिए वेब ब्राउज़र का उपयोग किया जाता है। वेब ब्राउज़र को ऐसे प्रोग्राम के रूप में परिभाषित किया जा सकता है जो इंटरनेट पर टेक्स्ट, डेटा, चित्र, एनीमेशन और वीडियो प्रदर्शित करते हैं। वर्ल्ड वाइड वेब पर हाइपरलिंक किए गए संसाधनों तक वेब ब्राउज़र द्वारा प्रदान किए गए सॉफ़्टवेयर इंटरफ़ेस का उपयोग करके पहुंचा जा सकता है।
+### वेब प्रौद्योगिकी को निम्नलिखित वर्गों में वर्गीकृत किया जा सकता है:
+- वर्ल्ड वाइड वेब (डब्ल्यूडब्ल्यूडब्ल्यू)
+वर्ल्ड वाइड वेब कई अलग-अलग तकनीकों पर आधारित है: वेब ब्राउज़र, हाइपरटेक्स्ट मार्कअप लैंग्वेज (HTML), और हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल (HTTP)।
+- वेब ब्राउज़र
+वेब ब्राउज़र www (वर्ल्ड वाइड वेब) को एक्सप्लोर करने के लिए एक एप्लिकेशन सॉफ़्टवेयर है। यह सर्वर और क्लाइंट के बीच एक इंटरफ़ेस प्रदान करता है और वेब दस्तावेज़ों और सेवाओं के लिए सर्वर से अनुरोध करता है।
+- वेब सर्वर
+वेब सर्वर एक प्रोग्राम है जो उपयोगकर्ताओं के नेटवर्क अनुरोधों को संसाधित करता है और उन्हें वेब पेज बनाने वाली फ़ाइलों की सेवा प्रदान करता है। यह आदान-प्रदान हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल (HTTP) का उपयोग करके होता है।
+- वेब पृष्ठ
+वेबपेज एक डिजिटल दस्तावेज़ है जो वर्ल्ड वाइड वेब से जुड़ा हुआ है और इंटरनेट से जुड़ा कोई भी व्यक्ति जिसके पास वेब ब्राउज़र है, देख सकता है।
+- वेब विकास
+वेब डेवलपमेंट से तात्पर्य वेबसाइटों के निर्माण, निर्माण और रखरखाव से है। इसमें वेब डिज़ाइन, वेब प्रकाशन, वेब प्रोग्रामिंग और डेटाबेस प्रबंधन जैसे पहलू शामिल हैं। यह एक एप्लिकेशन का निर्माण है जो इंटरनेट यानी वेबसाइटों पर काम करता है।
+### वेब विकास को दो प्रकार से वर्गीकृत किया जा सकता है:
+### फ्रंटएंड डेवलपमेंट
+किसी वेबसाइट का वह भाग जहां उपयोगकर्ता सीधे इंटरैक्ट करता है उसे फ्रंट एंड कहा जाता है। इसे एप्लिकेशन का 'ग्राहक पक्ष' भी कहा जाता है।
+### बैकएंड विकास
+बैकएंड किसी वेबसाइट का सर्वर साइड होता है। यह वेबसाइट का वह हिस्सा है जिसे उपयोगकर्ता देख और इंटरैक्ट नहीं कर सकते। यह सॉफ़्टवेयर का वह भाग है जो उपयोगकर्ताओं के सीधे संपर्क में नहीं आता है। इसका उपयोग डेटा को स्टोर करने और व्यवस्थित करने के लिए किया जाता है।
 
 
 # [Networking](Networking/readme.md#networking)
-A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+कंप्यूटर नेटवर्क नेटवर्क नोड्स पर स्थित या उनके द्वारा प्रदान किए गए संसाधनों को साझा करने वाले कंप्यूटरों का एक समूह है। कंप्यूटर एक दूसरे के साथ संचार करने के लिए डिजिटल इंटरकनेक्शन पर सामान्य संचार प्रोटोकॉल का उपयोग करते हैं। ये इंटरकनेक्शन भौतिक रूप से वायर्ड, ऑप्टिकल और वायरलेस रेडियो-फ़्रीक्वेंसी विधियों पर आधारित दूरसंचार नेटवर्क प्रौद्योगिकियों से बने होते हैं जिन्हें विभिन्न नेटवर्क टोपोलॉजी में व्यवस्थित किया जा सकता है।
 
-The nodes of a computer network can include personal computers, servers, networking hardware, or other specialized or general-purpose hosts. They are identified by network addresses and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after the initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
+कंप्यूटर नेटवर्क के नोड्स में पर्सनल कंप्यूटर, सर्वर, नेटवर्किंग हार्डवेयर, या अन्य विशिष्ट या सामान्य-उद्देश्य वाले होस्ट शामिल हो सकते हैं। वे नेटवर्क पते से पहचाने जाते हैं और उनके होस्टनाम हो सकते हैं। होस्टनाम नोड्स के लिए यादगार लेबल के रूप में काम करते हैं, प्रारंभिक असाइनमेंट के बाद शायद ही कभी बदले जाते हैं। नेटवर्क पते इंटरनेट प्रोटोकॉल जैसे संचार प्रोटोकॉल द्वारा नोड्स का पता लगाने और पहचानने का काम करते हैं।
 
-Computer networks may be classified by many criteria, including the transmission medium used to carry signals, bandwidth, communications protocols to organize network traffic, the network size, the topology, traffic control mechanism, and organizational intent.
+कंप्यूटर नेटवर्क को कई मानदंडों के आधार पर वर्गीकृत किया जा सकता है, जिसमें सिग्नल, बैंडविड्थ, नेटवर्क ट्रैफ़िक को व्यवस्थित करने के लिए संचार प्रोटोकॉल, नेटवर्क आकार, टोपोलॉजी, ट्रैफ़िक नियंत्रण तंत्र और संगठनात्मक इरादे को ले जाने के लिए उपयोग किया जाने वाला ट्रांसमिशन माध्यम शामिल है।
 
-## Types of networking
-There are two primary types of computer networking:
-- Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
-- Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular, and Bluetooth, among others.
-## OSI MODEL
-OSI stands for **Open Systems Interconnection**. It was developed by ISO – ‘**International Organization for Standardization**‘in the year 1984. It is a 7-layer architecture with each layer having specific functionality to perform. All these seven layers work collaboratively to transmit the data from one person to another across the globe. 
+## नेटवर्किंग के प्रकार
+कंप्यूटर नेटवर्किंग के दो प्राथमिक प्रकार हैं:
+- वायर्ड नेटवर्किंग: वायर्ड नेटवर्किंग के लिए नोड्स के बीच परिवहन के लिए भौतिक माध्यम के उपयोग की आवश्यकता होती है। कॉपर-आधारित ईथरनेट केबलिंग, जो अपनी कम लागत और स्थायित्व के कारण लोकप्रिय है, आमतौर पर व्यवसायों और घरों में डिजिटल संचार के लिए उपयोग की जाती है। वैकल्पिक रूप से, ऑप्टिकल फाइबर का उपयोग डेटा को अधिक दूरी पर और तेज गति से ले जाने के लिए किया जाता है, लेकिन इसमें कई समस्याएं हैं, जिनमें उच्च लागत और अधिक नाजुक घटक शामिल हैं।
+- वायरलेस नेटवर्किंग: वायरलेस नेटवर्किंग हवा में डेटा परिवहन के लिए रेडियो तरंगों का उपयोग करती है, जिससे उपकरणों को बिना किसी केबल के नेटवर्क से जोड़ा जा सकता है। वायरलेस LAN वायरलेस नेटवर्किंग का सबसे प्रसिद्ध और व्यापक रूप से तैनात रूप है। विकल्पों में माइक्रोवेव, सैटेलाइट, सेल्यूलर और ब्लूटूथ आदि शामिल हैं।
+## ओ एस आई मॉडल
+OSI का मतलब **ओपन सिस्टम इंटरकनेक्शन** है। इसे वर्ष 1984 में ISO - '**अंतर्राष्ट्रीय मानकीकरण संगठन**' द्वारा विकसित किया गया था। यह एक 7-परत वास्तुकला है जिसमें प्रत्येक परत में प्रदर्शन करने के लिए विशिष्ट कार्यक्षमता होती है। ये सभी सात परतें दुनिया भर में डेटा को एक व्यक्ति से दूसरे व्यक्ति तक पहुंचाने के लिए सहयोगात्मक रूप से काम करती हैं।
 
-### **1\. Physical Layer (Layer 1):**
+### **1\. भौतिक परत (परत 1):**
 
-The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
+OSI संदर्भ मॉडल की सबसे निचली परत भौतिक परत है। यह उपकरणों के बीच वास्तविक भौतिक कनेक्शन के लिए जिम्मेदार है। भौतिक परत में **बिट्स के रूप में जानकारी होती है।** यह व्यक्तिगत बिट्स को एक नोड से दूसरे नोड तक प्रसारित करने के लिए जिम्मेदार है। डेटा प्राप्त करते समय, यह परत प्राप्त सिग्नल को प्राप्त करेगी और इसे 0s और 1s में परिवर्तित करेगी और उन्हें डेटा लिंक परत पर भेजेगी, जो फ्रेम को वापस एक साथ रख देगी।
 
 ![](Networking/OSI%20Model/img/computer-network-osi-model-layers-bits.png)
 
-The functions of the physical layer are as follows:  
+भौतिक परत के कार्य इस प्रकार हैं:
 
-1.  **Bit synchronization:** The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at the bit level.
-2.  **Bit rate control:** The Physical layer also defines the transmission rate, i.e., the number of bits sent per second.
-3.  **Physical topologies:** Physical layer specifies how the different devices/nodes are arranged in a network, i.e., bus, star, or mesh topology.
-4.  **Transmission mode:** Physical layer also defines how the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full-duplex.
+1. **बिट सिंक्रोनाइजेशन:** भौतिक परत एक घड़ी प्रदान करके बिट्स का सिंक्रोनाइजेशन प्रदान करती है। यह घड़ी प्रेषक और रिसीवर दोनों को नियंत्रित करती है और इस प्रकार बिट स्तर पर सिंक्रनाइज़ेशन प्रदान करती है।
+2. **बिट दर नियंत्रण:** भौतिक परत ट्रांसमिशन दर को भी परिभाषित करती है, यानी, प्रति सेकंड भेजे गए बिट्स की संख्या।
+3. **भौतिक टोपोलॉजी:** भौतिक परत निर्दिष्ट करती है कि नेटवर्क में विभिन्न डिवाइस/नोड्स को कैसे व्यवस्थित किया जाता है, यानी, बस, स्टार, या जाल टोपोलॉजी।
+4. **ट्रांसमिशन मोड:** भौतिक परत यह भी परिभाषित करती है कि दो कनेक्टेड डिवाइसों के बीच डेटा कैसे प्रवाहित होता है। संभावित विभिन्न ट्रांसमिशन मोड सिंप्लेक्स, हाफ-डुप्लेक्स और फुल-डुप्लेक्स हैं।
 
-### **2\. Data Link Layer (DLL) (Layer 2):**
+### **2\. डेटा लिंक परत (डीएलएल) (परत 2):**
 
-The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another over the physical layer. When a packet arrives in a network, it is the responsibility of the DLL to transmit it to the host using its MAC address.   
-The Data Link Layer is divided into two sublayers:  
+डेटा लिंक परत संदेश की नोड-टू-नोड डिलीवरी के लिए जिम्मेदार है। इस परत का मुख्य कार्य यह सुनिश्चित करना है कि भौतिक परत पर एक नोड से दूसरे नोड तक डेटा स्थानांतरण त्रुटि मुक्त हो। जब कोई पैकेट नेटवर्क में आता है, तो यह डीएलएल की जिम्मेदारी है कि वह इसे अपने मैक पते का उपयोग करके होस्ट तक पहुंचाए।
+डेटा लिंक परत को दो उप-परतों में विभाजित किया गया है:
 
-1. Logical Link Control (LLC)
-2. Media Access Control (MAC)
+1. लॉजिकल लिंक कंट्रोल (एलएलसी)
+2. मीडिया एक्सेस कंट्रोल (मैक)
 
-The packet received from the Network layer is further divided into frames depending on the frame size of the NIC(Network Interface Card). DLL also encapsulates Sender and Receiver’s MAC address in the header. 
+नेटवर्क परत से प्राप्त पैकेट को एनआईसी (नेटवर्क इंटरफेस कार्ड) के फ्रेम आकार के आधार पर फ्रेम में विभाजित किया गया है। डीएलएल हेडर में प्रेषक और रिसीवर के मैक पते को भी समाहित करता है।
 
-The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking, “Who has that IP address?” and the destination host will reply with its MAC address.  
+रिसीवर का मैक पता तार पर एआरपी (एड्रेस रेजोल्यूशन प्रोटोकॉल) अनुरोध डालकर प्राप्त किया जाता है, जिसमें पूछा जाता है, "वह आईपी पता किसके पास है?" और गंतव्य होस्ट अपने मैक पते के साथ उत्तर देगा।  
 
 ![](Networking/OSI%20Model/img/computer-network-osi-model-layers-framing.png)
 
-The functions of the Data Link layer are :  
+डेटा लिंक परत के कार्य हैं:
 
-1.  **Framing:** Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. This can be accomplished by attaching special bit patterns to the beginning and end of the frame.
-2.  **Physical Addressing:** After creating frames, the Data link layer adds physical addresses (MAC addresses) of the sender and/or receiver in the header of each frame.
-3.  **Error control:** Data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
-4.  **Flow Control:** The data rate must be constant on both sides, or else the data may get corrupted; thus, flow control coordinates the amount of data that can be sent before receiving an acknowledgment.
-5.  **Access control:** When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
+1. **फ़्रेमिंग:** फ़्रेमिंग डेटा लिंक परत का एक कार्य है। यह प्रेषक को बिट्स के एक सेट को प्रसारित करने का एक तरीका प्रदान करता है जो रिसीवर के लिए सार्थक है। इसे फ़्रेम के आरंभ और अंत में विशेष बिट पैटर्न संलग्न करके पूरा किया जा सकता है।
+2. **भौतिक पता:** फ्रेम बनाने के बाद, डेटा लिंक परत प्रत्येक फ्रेम के हेडर में प्रेषक और/या रिसीवर के भौतिक पते (मैक पते) जोड़ती है।
+3. **त्रुटि नियंत्रण:** डेटा लिंक परत त्रुटि नियंत्रण का तंत्र प्रदान करती है जिसमें यह क्षतिग्रस्त या खोए हुए फ़्रेमों का पता लगाता है और उन्हें पुनः प्रसारित करता है।
+4. **प्रवाह नियंत्रण:** डेटा दर दोनों तरफ स्थिर होनी चाहिए, अन्यथा डेटा दूषित हो सकता है; इस प्रकार, प्रवाह नियंत्रण पावती प्राप्त करने से पहले भेजे जा सकने वाले डेटा की मात्रा का समन्वय करता है।
+5. **पहुँच नियंत्रण:** जब एक एकल संचार चैनल को कई उपकरणों द्वारा साझा किया जाता है, तो डेटा लिंक परत की मैक उप-परत यह निर्धारित करने में मदद करती है कि किसी दिए गए समय में किस उपकरण का चैनल पर नियंत्रण है।
 
-### **3\. Network Layer (Layer 3):**
+### **3\. नेटवर्क परत (परत 3):**
 
-The network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing, i.e., the selection of the shortest path to transmit the packet from the number of routes available. The sender & receiver’s IP addresses are placed in the header by the network layer. 
+नेटवर्क लेयर विभिन्न नेटवर्क में स्थित एक होस्ट से दूसरे होस्ट तक डेटा के प्रसारण के लिए काम करती है। यह पैकेट रूटिंग का भी ध्यान रखता है, यानी, उपलब्ध मार्गों की संख्या से पैकेट को प्रसारित करने के लिए सबसे छोटे रास्ते का चयन। प्रेषक और प्राप्तकर्ता के आईपी पते को नेटवर्क परत द्वारा हेडर में रखा जाता है।
 
-The functions of the Network layer are :  
+नेटवर्क परत के कार्य हैं:
 
-1.  **Routing:** The network layer protocols determine which route is suitable from source to destination. This function of the network layer is known as routing.
-2.  **Logical Addressing:** To identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.
-
+1. **रूटिंग:** नेटवर्क लेयर प्रोटोकॉल यह निर्धारित करते हैं कि स्रोत से गंतव्य तक कौन सा मार्ग उपयुक्त है। नेटवर्क लेयर के इस कार्य को रूटिंग के रूप में जाना जाता है।
+2. **लॉजिकल एड्रेसिंग:** इंटरनेटवर्क पर प्रत्येक डिवाइस को विशिष्ट रूप से पहचानने के लिए, नेटवर्क लेयर एक एड्रेसिंग स्कीम को परिभाषित करता है। प्रेषक और प्राप्तकर्ता के आईपी पते को नेटवर्क परत द्वारा हेडर में रखा जाता है। ऐसा पता प्रत्येक डिवाइस को विशिष्ट और सार्वभौमिक रूप से अलग करता है।
 
 # [Internet](Internet/readme.md#internet)
-The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks of local to global scope that is linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries an extensive range of information resources and services, such as the interlinked hypertext documents and applications of the World Wide Web ([WWW](Internet/readme.md#world-wide-web-www)) and the infrastructure to support email.
+इंटरनेट इंटरकनेक्टेड कंप्यूटर नेटवर्क की एक वैश्विक प्रणाली है जो मानक इंटरनेट प्रोटोकॉल सूट का उपयोग करती है ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) दुनिया भर में अरबों उपयोगकर्ताओं को सेवा प्रदान करने के लिए। यह नेटवर्कों का एक नेटवर्क है जिसमें स्थानीय से वैश्विक दायरे के लाखों निजी, सार्वजनिक, शैक्षणिक, व्यावसायिक और सरकारी नेटवर्क शामिल हैं जो इलेक्ट्रॉनिक, वायरलेस और ऑप्टिकल नेटवर्किंग प्रौद्योगिकियों की एक विस्तृत श्रृंखला से जुड़े हुए हैं। इंटरनेट सूचना संसाधनों और सेवाओं की एक विस्तृत श्रृंखला प्रदान करता है, जैसे कि इंटरलिंक्ड हाइपरटेक्स्ट दस्तावेज़ और वर्ल्ड वाइड वेब के एप्लिकेशन। ([WWW](Internet/readme.md#world-wide-web-www)) और ईमेल का समर्थन करने के लिए बुनियादी ढाँचा।
 
 ## [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)
-The World Wide Web (WWW) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet. English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland. The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
+वर्ल्ड वाइड वेब (डब्ल्यूडब्ल्यूडब्ल्यू) एक सूचना स्थान है जहां दस्तावेजों और अन्य वेब संसाधनों को यूनिफ़ॉर्म रिसोर्स लोकेटर (यूआरएल) द्वारा पहचाना जाता है, हाइपरटेक्स्ट लिंक द्वारा इंटरलिंक किया जाता है और इंटरनेट के माध्यम से पहुंच योग्य होता है। अंग्रेजी वैज्ञानिक टिम बर्नर्स-ली ने 1989 में वर्ल्ड वाइड वेब का आविष्कार किया था। उन्होंने स्विट्जरलैंड में CERN में कार्यरत रहते हुए 1990 में पहला वेब ब्राउज़र लिखा था। ब्राउज़र को 1991 में CERN के बाहर, पहले जनवरी 1991 में अन्य अनुसंधान संस्थानों के लिए और अगस्त 1991 में इंटरनेट पर आम जनता के लिए जारी किया गया था।
 
 ## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
-The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces called packets.
+इंटरनेट प्रोटोकॉल (आईपी) डेटा के पैकेटों को रूट करने और संबोधित करने के लिए एक प्रोटोकॉल या नियमों का सेट है, ताकि वे पूरे नेटवर्क में यात्रा कर सकें और सही गंतव्य पर पहुंच सकें। इंटरनेट पर मौजूद डेटा को छोटे-छोटे टुकड़ों में विभाजित किया जाता है जिन्हें पैकेट कहा जाता है।
 
-## [DBMS]()
+## [डीबीएमएस]()
 
-What is a Database?
+डेटाबेस क्या है?
 -------------------
 
-A database is a collection of related data that represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
+डेटाबेस संबंधित डेटा का एक संग्रह है जो वास्तविक दुनिया के कुछ पहलुओं का प्रतिनिधित्व करता है। एक डेटाबेस सिस्टम को एक निश्चित कार्य के लिए डेटा के निर्माण और पॉप्युलेट करने के लिए डिज़ाइन किया गया है।
 
-What is DBMS?
--------------
-
-**Database Management System (DBMS)** is software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs that manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software store and retrieve data.
-
-DBMS allows users to create their databases as per their requirements. The term "DBMS" includes the use of a database and other application programs. It provides an interface between the data and the software application.
-
-Example of a DBMS
+डीबीएमएस क्या है?
 -----------------
 
-Let us see a simple example of a university database. This database maintains information concerning students, courses, and grades in a university environment. The database is organized into five files:
+**डेटाबेस प्रबंधन प्रणाली (डीबीएमएस)** उचित सुरक्षा उपायों पर विचार करते हुए उपयोगकर्ताओं के डेटा को संग्रहीत और पुनर्प्राप्त करने के लिए सॉफ्टवेयर है। इसमें प्रोग्रामों का एक समूह होता है जो डेटाबेस में हेरफेर करता है। DBMS किसी एप्लिकेशन से डेटा के अनुरोध को स्वीकार करता है और ऑपरेटिंग सिस्टम को विशिष्ट डेटा प्रदान करने का निर्देश देता है। बड़े सिस्टम में, DBMS उपयोगकर्ताओं और अन्य तृतीय-पक्ष सॉफ़्टवेयर को डेटा संग्रहीत करने और पुनर्प्राप्त करने में सहायता करता है।
 
-*   The STUDENT file stores the data of each student
-*   The COURSE file stores contain data on each course.
-*   The SECTION stores the information about sections in a particular course.
-*   The GRADE file stores the grades which students receive in the various sections
-*   The TUTOR file contains information about each professor.
+DBMS उपयोगकर्ताओं को उनकी आवश्यकताओं के अनुसार अपना डेटाबेस बनाने की अनुमति देता है। "डीबीएमएस" शब्द में डेटाबेस और अन्य एप्लिकेशन प्रोग्राम का उपयोग शामिल है। यह डेटा और सॉफ़्टवेयर एप्लिकेशन के बीच एक इंटरफ़ेस प्रदान करता है।
 
-To define DBMS:
+डीबीएमएस का उदाहरण
+-----------------
 
-*   We need to specify the structure of the records of each file by defining the different types of data elements to be stored in each record.
-*   We can also use a coding scheme to represent the values of a data item.
-*   Basically, your database will have five tables with a foreign key defined amongst the various tables.
+आइए विश्वविद्यालय डेटाबेस का एक सरल उदाहरण देखें। यह डेटाबेस विश्वविद्यालय परिवेश में छात्रों, पाठ्यक्रमों और ग्रेड से संबंधित जानकारी रखता है। डेटाबेस को पाँच फ़ाइलों में व्यवस्थित किया गया है:
 
-History of DBMS
+* छात्र फ़ाइल प्रत्येक छात्र का डेटा संग्रहीत करती है
+* COURSE फ़ाइल भंडार में प्रत्येक पाठ्यक्रम का डेटा होता है।
+* अनुभाग किसी विशेष पाठ्यक्रम के अनुभागों के बारे में जानकारी संग्रहीत करता है।
+* GRADE फ़ाइल उन ग्रेडों को संग्रहीत करती है जो छात्रों को विभिन्न अनुभागों में प्राप्त होते हैं
+* ट्यूटर फ़ाइल में प्रत्येक प्रोफेसर के बारे में जानकारी होती है।
+
+डीबीएमएस को परिभाषित करने के लिए:
+
+* हमें प्रत्येक रिकॉर्ड में संग्रहीत किए जाने वाले विभिन्न प्रकार के डेटा तत्वों को परिभाषित करके प्रत्येक फ़ाइल के रिकॉर्ड की संरचना को निर्दिष्ट करने की आवश्यकता है।
+* हम डेटा आइटम के मूल्यों को दर्शाने के लिए कोडिंग योजना का भी उपयोग कर सकते हैं।
+* मूलतः, आपके डेटाबेस में पाँच तालिकाएँ होंगी जिनमें विभिन्न तालिकाओं के बीच एक विदेशी कुंजी परिभाषित होगी।
+
+डीबीएमएस का इतिहास
 ---------------
 
-Here are the important landmarks from history:
+यहां इतिहास के महत्वपूर्ण स्थल हैं:
 
-*   1960 – Charles Bachman designed the first DBMS system
-*   1970 – Codd introduced IBM'S Information Management System (IMS)
-*   1976- Peter Chen coined and defined the Entity-relationship model, also known as the ER model
-*   1980 – Relational Model becomes a widely accepted database component
-*   1985- Object-oriented DBMS develops.
-*   1990s- Incorporation of object orientation in relational DBMS.
-*   1991- Microsoft ships MS access, a personal DBMS that displaces all other personal DBMS products.
-*   1995: First Internet database applications
-*   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
+* 1960 - चार्ल्स बैचमैन ने पहला DBMS सिस्टम डिज़ाइन किया
+* 1970 - कॉड ने आईबीएम की सूचना प्रबंधन प्रणाली (आईएमएस) की शुरुआत की।
+* 1976- पीटर चेन ने इकाई-संबंध मॉडल को गढ़ा और परिभाषित किया, जिसे ईआर मॉडल के रूप में भी जाना जाता है।
+* 1980 - रिलेशनल मॉडल एक व्यापक रूप से स्वीकृत डेटाबेस घटक बन गया
+* 1985- ऑब्जेक्ट-ओरिएंटेड DBMS विकसित हुआ।
+* 1990 का दशक- रिलेशनल डीबीएमएस में ऑब्जेक्ट ओरिएंटेशन का समावेश।
+* 1991- माइक्रोसॉफ्ट ने एमएस एक्सेस, एक व्यक्तिगत डीबीएमएस शिप किया जो अन्य सभी व्यक्तिगत डीबीएमएस उत्पादों को विस्थापित करता है।
+* 1995: पहला इंटरनेट डेटाबेस एप्लिकेशन
+* 1997: XML को डेटाबेस प्रोसेसिंग के लिए लागू किया गया। कई विक्रेता XML को DBMS उत्पादों में एकीकृत करना शुरू करते हैं।
 
-Characteristics of DBMS
------------------------
+डीबीएमएस के लक्षण
+----------------------
 
-Here are the characteristics and properties of a Database Management System:
+यहां डेटाबेस प्रबंधन प्रणाली की विशेषताएं और गुण दिए गए हैं:
 
-*   Provides security and removes redundancy
-*   Self-describing the nature of a database system
-*   Insulation between programs and data abstraction
-*   Support of multiple views of the data
-*   Sharing of data and multi-user transaction processing
-*   Database Management Software allows entities and relations among them to form tables.
-*   It follows the ACID concept ( Atomicity, Consistency, Isolation, and Durability).
-*   DBMS supports a multi-user environment that allows users to access and manipulate data in parallel.
+* सुरक्षा प्रदान करता है और अतिरेक को दूर करता है
+* डेटाबेस प्रणाली की प्रकृति का स्व-वर्णन करना
+* प्रोग्राम और डेटा एब्स्ट्रैक्शन के बीच इन्सुलेशन
+* डेटा के एकाधिक दृश्यों का समर्थन
+* डेटा साझा करना और बहु-उपयोगकर्ता लेनदेन प्रसंस्करण
+* डेटाबेस प्रबंधन सॉफ्टवेयर संस्थाओं और उनके बीच संबंधों को तालिकाएँ बनाने की अनुमति देता है।
+* यह ACID अवधारणा (परमाणुता, संगति, अलगाव और स्थायित्व) का पालन करता है।
+* DBMS एक बहु-उपयोगकर्ता वातावरण का समर्थन करता है जो उपयोगकर्ताओं को समानांतर में डेटा तक पहुंचने और हेरफेर करने की अनुमति देता है।
 
-Popular DBMS Software
----------------------
+लोकप्रिय डीबीएमएस सॉफ्टवेयर
+----------------------
 
-Here is the list of some popular DBMS systems:
+यहां कुछ लोकप्रिय DBMS सिस्टम की सूची दी गई है:
 
-*   MySQL
-*   Microsoft Access
-*   Oracle
-*   PostgreSQL
-*   dBASE
-*   FoxPro
-*   SQLite
-*   IBM DB2
-*   LibreOffice Base
-*   MariaDB
-*   Microsoft SQL Server etc.
+*   माई एसक्यूएल
+*   माइक्रोसॉफ्ट पहुंच
+*   आकाशवाणी
+* पोस्टग्रेएसक्यूएल
+* डीबेस
+* फॉक्सप्रो
+* SQLite
+*आईबीएम डीबी2
+* लिब्रे ऑफिस बेस
+* मारियाडीबी
+* माइक्रोसॉफ्ट एसक्यूएल सर्वर आदि।
 
 ## [Cryptography](Cryptography/readme.md#cryptography)
-Cryptography is a technique to secure data and communication. It is a method of protecting information and communications through the use of codes so that only those for whom the information is intended can read and process it. Cryptography is used to protect data in transit, at rest, and in use. The prefix _crypt_ means "hidden" or "secret", and the suffix _graphy_ means "writing".
+क्रिप्टोग्राफी डेटा और संचार को सुरक्षित करने की एक तकनीक है। यह कोड के उपयोग के माध्यम से सूचना और संचार को सुरक्षित रखने की एक विधि है ताकि केवल वे लोग ही इसे पढ़ और संसाधित कर सकें जिनके लिए जानकारी का इरादा है। क्रिप्टोग्राफी का उपयोग पारगमन, आराम और उपयोग में डेटा की सुरक्षा के लिए किया जाता है। उपसर्ग _क्रिप्ट_ का अर्थ है "छिपा हुआ" या "गुप्त", और प्रत्यय _ग्राफी_ का अर्थ है "लिखना"।
 
-### Types of Cryptography
-There are two types of cryptography:
+### क्रिप्टोग्राफी के प्रकार
+क्रिप्टोग्राफी दो प्रकार की होती है:
 1. [Symmetric Cryptography](Cryptography/readme.md#symmetric-cryptography)
 2. [Asymmetric Cryptography](Cryptography/readme.md#asymmetric-cryptography)
 
 ### [Crypto Currency](Cryptography/CryptoCurrency/readme.md#crypto-currency)
-Cryptocurrency is a digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds, operating independently of a central bank. Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems. The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database. A defining feature of a cryptocurrency, and arguably its most endearing allure, is its organic nature; it is not issued by any central authority, rendering it theoretically immune to government interference or manipulation.
+क्रिप्टोकरेंसी एक डिजिटल मुद्रा है जिसमें एन्क्रिप्शन तकनीकों का उपयोग मुद्रा की इकाइयों की पीढ़ी को विनियमित करने और केंद्रीय बैंक से स्वतंत्र रूप से संचालित होने वाले धन के हस्तांतरण को सत्यापित करने के लिए किया जाता है। केंद्रीकृत डिजिटल मुद्रा और केंद्रीय बैंकिंग प्रणालियों के विपरीत क्रिप्टोकरेंसी विकेंद्रीकृत नियंत्रण का उपयोग करती है। प्रत्येक क्रिप्टोकरेंसी का विकेंद्रीकृत नियंत्रण वितरित बहीखाता तकनीक के माध्यम से काम करता है, आमतौर पर एक ब्लॉकचेन, जो सार्वजनिक वित्तीय लेनदेन डेटाबेस के रूप में कार्य करता है। क्रिप्टोकरेंसी की एक परिभाषित विशेषता, और यकीनन इसका सबसे आकर्षक आकर्षण, इसकी जैविक प्रकृति है; यह किसी केंद्रीय प्राधिकरण द्वारा जारी नहीं किया जाता है, जो इसे सैद्धांतिक रूप से सरकारी हस्तक्षेप या हेरफेर से प्रतिरक्षित करता है।
 
 ## Types of Crypto Currency are as follows:
 1. [Proof of Work](Cryptography/CryptoCurrency/ProofOfWork/readme.md#proof-of-work)
@@ -1009,29 +1007,29 @@ Cryptocurrency is a digital currency in which encryption techniques are used to 
 
 
 
-## Theory of Computation
-In theoretical computer science and mathematics, the theory of computation is the branch that deals with what problems can be solved on a model of computation using an algorithm, how efficiently they can be solved, or to what degree (e.g., approximate solutions versus precise ones). The field is divided into three major branches: automata theory and formal languages, computability theory, and computational complexity theory, which are linked by the question: "What are the fundamental capabilities and limitations of computers?".
+## संगणना का सिद्धांत
+सैद्धांतिक कंप्यूटर विज्ञान और गणित में, गणना का सिद्धांत वह शाखा है जो इस बात से संबंधित है कि एल्गोरिदम का उपयोग करके गणना के मॉडल पर किन समस्याओं को हल किया जा सकता है, उन्हें कितनी कुशलता से हल किया जा सकता है, या किस हद तक (उदाहरण के लिए, अनुमानित समाधान बनाम सटीक समाधान) ). क्षेत्र को तीन प्रमुख शाखाओं में विभाजित किया गया है: ऑटोमेटा सिद्धांत और औपचारिक भाषाएं, कम्प्यूटेबिलिटी सिद्धांत, और कम्प्यूटेशनल जटिलता सिद्धांत, जो इस प्रश्न से जुड़े हुए हैं: "कंप्यूटर की मूलभूत क्षमताएं और सीमाएं क्या हैं?"
 
-### Automata Theory
-Automata theory is the study of abstract machines and automata, as well as the computational problems that can be solved using them. It is a theory in theoretical computer science. The word automata comes from the Greek word αὐτόματος, which means "self-acting, self-willed, self-moving". An automaton (automata in plural) is an abstract self-propelled computing device that follows a predetermined sequence of operations automatically. An automaton with a finite number of states is called a Finite Automaton (FA) or Finite-State Machine (FSM). The figure on the right illustrates a finite-state machine, which is a well-known type of automaton. This automaton consists of states (represented in the figure by circles) and transitions (represented by arrows). As the automaton sees a symbol of input, it makes a transition (or jump) to another state, according to its transition function, which takes the previous state and current input symbol as its arguments. 
+### ऑटोमेटा सिद्धांत
+ऑटोमेटा सिद्धांत अमूर्त मशीनों और ऑटोमेटा के साथ-साथ कम्प्यूटेशनल समस्याओं का अध्ययन है जिन्हें उनका उपयोग करके हल किया जा सकता है। यह सैद्धांतिक कंप्यूटर विज्ञान में एक सिद्धांत है। ऑटोमेटा शब्द ग्रीक शब्द αὐτόματος से आया है, जिसका अर्थ है "स्व-अभिनय, स्व-इच्छाधारी, स्व-चालित"। एक ऑटोमेटन (बहुवचन में ऑटोमेटा) एक अमूर्त स्व-चालित कंप्यूटिंग डिवाइस है जो स्वचालित रूप से संचालन के पूर्व निर्धारित अनुक्रम का पालन करता है। राज्यों की एक सीमित संख्या वाले एक ऑटोमेटन को परिमित ऑटोमेटन (एफए) या परिमित-राज्य मशीन (एफएसएम) कहा जाता है। दाईं ओर का चित्र एक परिमित-राज्य मशीन को दर्शाता है, जो एक प्रसिद्ध प्रकार का ऑटोमेटन है। इस ऑटोमेटन में स्थितियाँ (वृत्तों द्वारा चित्र में दर्शाई गई) और संक्रमण (तीरों द्वारा दर्शाई गई) शामिल हैं। जैसे ही ऑटोमेटन इनपुट का एक प्रतीक देखता है, यह अपने संक्रमण फ़ंक्शन के अनुसार, किसी अन्य राज्य में संक्रमण (या छलांग) करता है, जो पिछले राज्य और वर्तमान इनपुट प्रतीक को अपने तर्क के रूप में लेता है।
 
 
-### Formal Languages
-In logic, mathematics, computer science, and linguistics, a formal language consists of words whose letters are taken from an alphabet and are well-formed according to a specific set of rules.
+### औपचारिक भाषाएँ
+तर्क, गणित, कंप्यूटर विज्ञान और भाषा विज्ञान में, एक औपचारिक भाषा में ऐसे शब्द होते हैं जिनके अक्षर वर्णमाला से लिए जाते हैं और नियमों के एक विशिष्ट सेट के अनुसार अच्छी तरह से बनाए जाते हैं।
 
-The alphabet of a formal language consists of symbols, letters, or tokens that concatenate into strings of the language.[1] Each string concatenated from symbols of this alphabet is called a word, and the words that belong to a particular formal language are sometimes called well-formed words or well-formed formulas. A formal language is often defined using formal grammar, such as regular grammar or context-free grammar, which consists of its formation rules.
+औपचारिक भाषा की वर्णमाला में प्रतीक, अक्षर या चिह्न होते हैं जो भाषा के तारों में जुड़ते हैं।[1] इस वर्णमाला के प्रतीकों से जुड़ी प्रत्येक स्ट्रिंग को एक शब्द कहा जाता है, और जो शब्द किसी विशेष औपचारिक भाषा से संबंधित होते हैं उन्हें कभी-कभी सुगठित शब्द या सुगठित सूत्र कहा जाता है। एक औपचारिक भाषा को अक्सर औपचारिक व्याकरण का उपयोग करके परिभाषित किया जाता है, जैसे कि नियमित व्याकरण या संदर्भ-मुक्त व्याकरण, जिसमें इसके गठन के नियम शामिल होते हैं।
 
-In computer science, formal languages are used, among others, as the basis for defining the grammar of programming languages and formalized versions of subsets of natural languages in which the words of the language represent concepts that are associated with particular meanings or semantics. In computational complexity theory, decision problems are typically defined as formal languages and complexity classes are defined as the sets of formal languages that can be parsed by machines with limited computational power. In logic and the foundations of mathematics, formal languages are used to represent the syntax of axiomatic systems, and mathematical formalism is the philosophy that all mathematics can be reduced to the syntactic manipulation of formal languages in this way. 
+कंप्यूटर विज्ञान में, औपचारिक भाषाओं का उपयोग, अन्य बातों के अलावा, प्रोग्रामिंग भाषाओं के व्याकरण और प्राकृतिक भाषाओं के सबसेट के औपचारिक संस्करणों को परिभाषित करने के आधार के रूप में किया जाता है, जिसमें भाषा के शब्द उन अवधारणाओं का प्रतिनिधित्व करते हैं जो विशेष अर्थ या शब्दार्थ से जुड़े होते हैं। कम्प्यूटेशनल जटिलता सिद्धांत में, निर्णय समस्याओं को आम तौर पर औपचारिक भाषाओं के रूप में परिभाषित किया जाता है और जटिलता वर्गों को औपचारिक भाषाओं के सेट के रूप में परिभाषित किया जाता है जिन्हें सीमित कम्प्यूटेशनल शक्ति वाली मशीनों द्वारा पार्स किया जा सकता है। तर्क और गणित की नींव में, औपचारिक भाषाओं का उपयोग स्वयंसिद्ध प्रणालियों के वाक्यविन्यास का प्रतिनिधित्व करने के लिए किया जाता है, और गणितीय औपचारिकतावाद वह दर्शन है कि सभी गणित को इस तरह से औपचारिक भाषाओं के वाक्यविन्यास हेरफेर में कम किया जा सकता है।
 
-### Computability Theory
-Computability theory, also known as recursion theory, is a branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees. The field has since expanded to include the study of generalized computability and definability. In these areas, computability theory overlaps with the proof theory and effective descriptive set theory. 
+### संगणना सिद्धांत
+कम्प्यूटेबिलिटी सिद्धांत, जिसे रिकर्सन सिद्धांत के रूप में भी जाना जाता है, गणितीय तर्क, कंप्यूटर विज्ञान और गणना के सिद्धांत की एक शाखा है जिसकी उत्पत्ति 1930 के दशक में गणना योग्य कार्यों और ट्यूरिंग डिग्री के अध्ययन के साथ हुई थी। तब से इस क्षेत्र का विस्तार सामान्यीकृत कम्प्यूटेबिलिटी और निश्चितता के अध्ययन को शामिल करने के लिए किया गया है। इन क्षेत्रों में, संगणनीयता सिद्धांत प्रमाण सिद्धांत और प्रभावी वर्णनात्मक सेट सिद्धांत के साथ ओवरलैप होता है।
 
-### Computational complexity theory
-In theoretical computer science and mathematics, computational complexity theory focuses on classifying computational problems according to their resource usage and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by a mechanical application of mathematical steps, such as an algorithm.
+### कम्प्यूटेशनल जटिलता सिद्धांत
+सैद्धांतिक कंप्यूटर विज्ञान और गणित में, कम्प्यूटेशनल जटिलता सिद्धांत उनके संसाधन उपयोग के अनुसार कम्प्यूटेशनल समस्याओं को वर्गीकृत करने और इन वर्गों को एक दूसरे से संबंधित करने पर केंद्रित है। कम्प्यूटेशनल समस्या कंप्यूटर द्वारा हल किया जाने वाला कार्य है। एक गणना समस्या को एल्गोरिदम जैसे गणितीय चरणों के यांत्रिक अनुप्रयोग द्वारा हल किया जा सकता है।
 
-A problem is regarded as inherently difficult if its solution requires significant resources, whatever the algorithm used. The theory formalizes this intuition by introducing mathematical models of computation to study these problems and quantifying their computational complexity, i.e., the number of resources needed to solve them, such as time and storage. Other measures of complexity are also used, such as the amount of communication (used in communication complexity), the number of gates in a circuit (used in circuit complexity), and the number of processors (used in parallel computing). One of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do. The P versus NP problem, one of the seven Millennium Prize Problems, is dedicated to the field of computational complexity.[1]
+किसी समस्या को स्वाभाविक रूप से कठिन माना जाता है यदि उसके समाधान के लिए महत्वपूर्ण संसाधनों की आवश्यकता होती है, भले ही एल्गोरिदम का उपयोग कुछ भी हो। सिद्धांत इन समस्याओं का अध्ययन करने और उनकी कम्प्यूटेशनल जटिलता की मात्रा निर्धारित करने के लिए गणना के गणितीय मॉडल पेश करके इस अंतर्ज्ञान को औपचारिक बनाता है, यानी, उन्हें हल करने के लिए आवश्यक संसाधनों की संख्या, जैसे समय और भंडारण। जटिलता के अन्य उपायों का भी उपयोग किया जाता है, जैसे संचार की मात्रा (संचार जटिलता में प्रयुक्त), सर्किट में गेटों की संख्या (सर्किट जटिलता में प्रयुक्त), और प्रोसेसर की संख्या (समानांतर कंप्यूटिंग में प्रयुक्त)। कम्प्यूटेशनल जटिलता सिद्धांत की भूमिकाओं में से एक कंप्यूटर क्या कर सकता है और क्या नहीं, इसकी व्यावहारिक सीमाएं निर्धारित करना है। पी बनाम एनपी समस्या, सात सहस्राब्दी पुरस्कार समस्याओं में से एक, कम्प्यूटेशनल जटिलता के क्षेत्र के लिए समर्पित है।[1]
 
-Closely related fields in theoretical computer science are the analysis of algorithms and computability theory. A key distinction between the analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the number of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, computational complexity theory tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kinds of problems can, in principle, be solved algorithmically. 
+सैद्धांतिक कंप्यूटर विज्ञान में निकटतम संबंधित क्षेत्र एल्गोरिदम और कम्प्यूटेबिलिटी सिद्धांत का विश्लेषण हैं। एल्गोरिदम के विश्लेषण और कम्प्यूटेशनल जटिलता सिद्धांत के बीच एक महत्वपूर्ण अंतर यह है कि पूर्व एल्गोरिदम के लिए आवश्यक संसाधनों की संख्या का विश्लेषण करने के लिए समर्पित है।
 
 
  
