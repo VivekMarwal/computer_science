@@ -52,13 +52,13 @@
 | \|\| | तार्किक या |
 | ! | तार्किक नहीं |
 
-### Truth Table
+### ट्रुथ टेबल
 
-Truth tables are used to represent the logical relationships between Boolean variables. A truth table is a table that shows the logical relationships between the input variables and the output variables. The input variables are the variables that are used to calculate the output variables. The output variables are the variables that are calculated from the input variables.
+सत्य तालिकाओं का उपयोग बूलियन चर के बीच तार्किक संबंधों को दर्शाने के लिए किया जाता है। सत्य तालिका एक तालिका है जो इनपुट चर और आउटपुट चर के बीच तार्किक संबंध दिखाती है। इनपुट वेरिएबल वे वेरिएबल हैं जिनका उपयोग आउटपुट वेरिएबल की गणना करने के लिए किया जाता है। आउटपुट वेरिएबल वे वेरिएबल हैं जिनकी गणना इनपुट वेरिएबल से की जाती है।
 
-### AND Truth Table
+### और सत्य तालिका
 
-The AND truth table is shown below.
+AND सत्य तालिका नीचे दिखाई गई है।
 | A | B | A && B |
 |---|---|--------|
 | 0 | 0 | 0 |
@@ -66,9 +66,9 @@ The AND truth table is shown below.
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-### OR Truth Table
+### या सत्य तालिका
 
-The OR truth table is shown below.
+OR सत्य तालिका नीचे दिखाई गई है।
 | A | B | A \|\| B |
 |---|---|----------|
 | 0 | 0 | 0 |
@@ -76,67 +76,67 @@ The OR truth table is shown below.
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-### NOT Truth Table
+### सत्य तालिका नहीं
 
-The NOT truth table is shown below.
+NOT सत्य तालिका नीचे दिखाई गई है।
 | A | !A |
 |---|----|
 | 0 | 1 |
 | 1 | 0 |
 
-### Boolean Expressions
+### बूलियन अभिव्यक्तियाँ
 
-A boolean expression is combination of boolean operators,constants and variables combined together to evalute to boolean value.Basically they help in mathematically representing the various boolean circuits thereby allowing the designer to analyse them easily.
-Example: f(A,B)=AB'+A'B
+एक बूलियन अभिव्यक्ति बूलियन ऑपरेटरों, स्थिरांक और चर का संयोजन है जो बूलियन मान का मूल्यांकन करने के लिए एक साथ संयुक्त होते हैं। मूल रूप से वे गणितीय रूप से विभिन्न बूलियन सर्किट का प्रतिनिधित्व करने में मदद करते हैं जिससे डिजाइनर को उनका आसानी से विश्लेषण करने की अनुमति मिलती है।
+उदाहरण: f(A,B)=AB'+A'B
 
-### Canonical and Standard forms of Boolean Expressions
+### बूलियन अभिव्यक्तियों के विहित और मानक रूप
 
-Suppose there are two input variables (x,y) in the system .
-We can get four Boolean product terms by combining two variables x and y with logical AND operation. These Boolean product terms are called as **min terms** or **standard product terms**. The min terms are x’y’, x’y, xy’ and xy.
+मान लीजिए कि सिस्टम में दो इनपुट वेरिएबल (x,y) हैं।
+हम दो चर x और y को तार्किक AND ऑपरेशन के साथ जोड़कर चार बूलियन उत्पाद शब्द प्राप्त कर सकते हैं। इन बूलियन उत्पाद शर्तों को **न्यूनतम शर्तें** या **मानक उत्पाद शर्तें** कहा जाता है। न्यूनतम पद x'y', x'y, xy' और xy हैं।
 
-A min term always evaluates to one.
+एक न्यूनतम शब्द हमेशा एक का मूल्यांकन करता है।
 
-So suppose x=0 and y=1 .So the corresponding minterm will be x'y.
+तो मान लीजिए x=0 और y=1 .तो संगत न्यूनतम पद x'y होगा।
 
-Similarly, we can get four Boolean sum terms by combining two variables x and y with logical OR operation. These Boolean sum terms are called as **max terms** or **standard sum terms**. The Max terms are x + y, x + y’, x’ + y and x’ + y’.
+इसी प्रकार, हम दो चर x और y को तार्किक OR ऑपरेशन के साथ जोड़कर चार बूलियन योग पद प्राप्त कर सकते हैं। इन बूलियन योग पदों को **अधिकतम पद** या **मानक योग पद** कहा जाता है। अधिकतम पद x + y, x + y', x' + y और x' + y' हैं।
 
-A max term always evaluates to zero .
+एक अधिकतम पद का मूल्यांकन हमेशा शून्य होता है।
 
-So suppose x=0 and y=1 .So the corresponding minterm will be x+y'.
+तो मान लीजिए x=0 और y=1 .तो संबंधित न्यूनतम पद x+y' होगा।
 
-#### Representation of possibilities:
+#### संभावनाओं का प्रतिनिधित्व:
 
-| x   | y   | Min Term | Max Term |
+| एक्स | य | न्यूनतम अवधि | अधिकतम अवधि |
 | --- | --- | -------- | -------- |
-| 0   | 0   | x'y'     | x+y      |
-| 0   | 1   | x'y      | x+y'     |
-| 1   | 0   | xy'      | x'+y     |
-| 1   | 1   | xy       | x'+y'    |
+| 0 | 0 | x'y' | x+y |
+| 0 | 1 | x'y | x+y' |
+| 1 | 0 | xy' | x'+y |
+| 1 | 1 | xy | x'+y' |
 
-### Canonical Expressions
+### विहित अभिव्यक्तियाँ
 
-There are either sum of product(SOP) of minterms or product of sums(POS) of all maxterms in the boolean system which help in giving the boolean result of the system.
+बूलियन सिस्टम में या तो मिनिटर्म्स के उत्पाद का योग (एसओपी) या सभी मैक्सटर्म्स के योगों का उत्पाद (पीओएस) होते हैं जो सिस्टम के बूलियन परिणाम देने में मदद करते हैं।
 
-**Example:** Suppose a two variable system(x,y) has the following output combination.
+**उदाहरण:** मान लीजिए कि दो चर प्रणाली (x,y) में निम्नलिखित आउटपुट संयोजन है।
 
-| x   | y   | Output | Minterms | Maxterms |
+| एक्स | य | आउटपुट | मिन्टर्म्स | मैक्सटर्म्स |
 | --- | --- | ------ | -------- | -------- |
-| 0   | 0   | 0      | ---      | x+y      |
-| 0   | 1   | 1      | x'y      | ---      |
-| 1   | 0   | 1      | xy'      | ---      |
-| 1   | 1   | 0      | ---      | x'+y'    |
+| 0 | 0 | 0 | --- | x+y |
+| 0 | 1 | 1 | x'y | --- |
+| 1 | 0 | 1 | xy' | --- |
+| 1 | 1 | 0 | --- | x'+y' |
 
-Canonical SOP expression:- x'y+xy'.
+विहित एसओपी अभिव्यक्ति:- x'y+xy'।
 
-Canonical SOP expression:- (x+y)(x'+y').
+विहित एसओपी अभिव्यक्ति:- (x+y)(x'+y').
 
-### Basic Operations
+### बुनियादी संचालन
 
-The basic operations of Boolean algebra are conjunction, disjunction, and negation. These Boolean operations are expressed with the corresponding binary operators AND, and OR and the unary operator NOT, collectively referred to as Boolean operators.
+बूलियन बीजगणित की मूल संक्रियाएँ संयोजन, वियोजन और निषेध हैं। इन बूलियन परिचालनों को संबंधित बाइनरी ऑपरेटरों AND, और OR और यूनरी ऑपरेटर NOT के साथ व्यक्त किया जाता है, जिन्हें सामूहिक रूप से बूलियन ऑपरेटरों के रूप में जाना जाता है।
 
-The basic Boolean operations on variables x and y are defined as follows:
+वेरिएबल x और y पर बुनियादी बूलियन ऑपरेशन्स को इस प्रकार परिभाषित किया गया है:
 
-| Logical operation | Operator | Notation | Alternative notations | Definition                              |
+| तार्किक संचालन | ऑपरेटर | संकेतन | वैकल्पिक संकेतन | परिभाषा                              |
 | ----------------- | -------- | -------- | --------------------- | --------------------------------------- |
 | Conjunction       | AND      | x∧y      | x AND y, Kxy          | x∧y = 1 if x = y = 1, x∧y = 0 otherwise |
 | Disjunction       | OR       | x∨y      | x OR y, Axy           | x∨y = 0 if x = y = 0, x∨y = 1 otherwise |
